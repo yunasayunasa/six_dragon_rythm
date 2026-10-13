@@ -29,8 +29,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet" />
+    <style>
+      #rhythm-link {
+        position: fixed;
+        top: max(8px, env(safe-area-inset-top));
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 3000;
+        padding: 8px 20px;
+        border-radius: 999px;
+        background: #c4301f;
+        color: #f7efdc;
+        font: 700 16px/1.2 'Zen Maru Gothic', sans-serif;
+        letter-spacing: 0.08em;
+        text-decoration: none;
+        white-space: nowrap;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+      }
+    </style>
   </head>
   <body>
+    <!-- 漢字リズムへの入口（相対リンクなので Pages のベースパスでも動く） -->
+    <a id="rhythm-link" href="rhythm.html">漢字リズムで遊ぶ ▶</a>
     <div id="app"></div>
     <div id="hud"></div>
     <div class="rotate enabled"><div><b>横向きにしてください</b>スマホを横にすると遊べます</div></div>
