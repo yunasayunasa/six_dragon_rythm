@@ -20,9 +20,16 @@
   </header>
   <div id="field">
     <div id="writerHost"></div>
-    <div id="wrap"><canvas id="board"></canvas></div>
+    <div id="wrap">
+      <canvas id="board"></canvas>
+      <!-- 最初の小節に入るまでの待ち表示 -->
+      <div id="waiting" hidden><div class="w-title">まもなく始まります</div><div class="w-count"><b id="waitSec">0</b><span>秒</span></div></div>
+    </div>
   </div>
 </div>
+
+<!-- 墨しぶき（盤面より手前） -->
+<canvas id="splash"></canvas>
 
 <!-- 終幕: 暗転と落款 -->
 <div id="fade"></div>
@@ -33,7 +40,11 @@
   <h1>漢字リズム</h1>
   <p class="sub">筆の拍に乗って、書き返せ</p>
   <p class="tap">タップでスタート</p>
-  <p class="credit">字の画データ: KanjiVG (CC BY-SA 3.0) をもとに改変</p>
+  <button id="openSettings" class="menu-btn" type="button">設定</button>
+  <p class="credit">
+    字の画データ: <a href="https://kanjivg.tagaini.net/" target="_blank" rel="noopener">KanjiVG</a> (CC BY-SA 3.0, Ulrich Apel) をもとに改変<br />
+    グランブルーファンタジーの非公式二次創作です
+  </p>
 </section>
 
 <!-- 遊び方（1画面） -->
@@ -62,8 +73,54 @@
   <div id="thumbs"></div>
   <div class="buttons">
     <button id="again" type="button">もう一度</button>
+    <button id="resultSettings" type="button" class="quiet">設定</button>
     <button id="toTitle" type="button" class="quiet">タイトルへ</button>
   </div>
+</section>
+
+<!-- 設定（タイトル・リザルトから） -->
+<section id="settings" class="screen">
+  <h2>設定</h2>
+  <div class="set-body">
+    <div class="set-row">
+      <div class="set-label">音ズレ補正</div>
+      <div class="stepper">
+        <button type="button" data-lat="-10">-10</button>
+        <button type="button" data-lat="-1">-1</button>
+        <output id="latVal">0 ms</output>
+        <button type="button" data-lat="1">+1</button>
+        <button type="button" data-lat="10">+10</button>
+      </div>
+      <p class="note">音が遅れて聞こえる（Bluetooth など）ときは大きく。初回は端末の出力遅延から自動で決めます。</p>
+      <button id="tapTest" type="button" class="quiet-btn">タップで測る</button>
+      <div id="tapBox" hidden>
+        <button id="tapPad" type="button">クリック音に合わせて、ここをタップ</button>
+        <div id="tapStatus"></div>
+      </div>
+    </div>
+    <div class="set-row">
+      <label class="check"><input id="shiftBeat" type="checkbox" /> 小節の頭を1拍ずらす</label>
+      <p class="note">譜面が曲の拍とずれて感じるときに。譜面全体を1拍あとへ送ります。</p>
+    </div>
+    <div class="set-row">
+      <div class="set-label">音楽の音量 <output id="volVal">100</output></div>
+      <input id="volume" type="range" min="0" max="100" step="1" />
+    </div>
+    <div class="set-row">
+      <div class="set-label">始点・終点の許容 <output id="tolVal">0.25</output></div>
+      <input id="endpointTol" type="range" min="10" max="50" step="1" />
+      <div class="set-label">向きの許容 <output id="angVal">60°</output></div>
+      <input id="angleTol" type="range" min="20" max="90" step="1" />
+      <p class="note">大きいほど、形が多少ずれても Miss になりにくくなります。</p>
+    </div>
+    <button id="resetSettings" type="button" class="quiet-btn">初期値に戻す</button>
+    <div class="set-row credits">
+      <div class="set-label">クレジット</div>
+      <p>字の画データ: <a href="https://kanjivg.tagaini.net/" target="_blank" rel="noopener">KanjiVG</a> (CC BY-SA 3.0, Ulrich Apel) をもとに改変</p>
+      <p>グランブルーファンタジーの非公式二次創作です</p>
+    </div>
+  </div>
+  <div class="buttons"><button id="closeSettings" type="button">戻る</button></div>
 </section>
 
 <script type="module" src="/src/rhythm/main.ts"></script>

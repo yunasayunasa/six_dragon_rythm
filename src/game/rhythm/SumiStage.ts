@@ -96,11 +96,12 @@ export class SumiStage {
     const at = this.worldAt(clientX, clientY);
     const spray = this.stage.spray;
     if (hit === 'perfect') {
-      spray.emit(at, { count: 26, color: '#14100c', spread: 1.7, up: 2.4, gravity: 3.5, size: 0.55, life: 0.9 });
-      spray.emit(at, { count: 8, color: '#4b453b', spread: 0.9, up: 1.2, gravity: 1.5, size: 1.0, life: 0.7 });
+      spray.emit(at, { count: 40, color: '#080604', spread: 2.2, up: 2.8, gravity: 3.5, size: 0.9, life: 1.1 });
+      spray.emit(at, { count: 14, color: '#c4301f', spread: 1.8, up: 2.4, gravity: 3, size: 0.7, life: 0.9 });
+      spray.emit(at, { count: 6, color: '#14100c', spread: 0.9, up: 1.2, gravity: 1.5, size: 1.6, life: 0.8 });
       this.shake(6, 0.2);
     } else {
-      spray.emit(at, { count: 6, color: '#4d473d', spread: 0.7, up: 1.0, gravity: 3, size: 0.32, life: 0.5 });
+      spray.emit(at, { count: 10, color: '#1c1813', spread: 0.9, up: 1.2, gravity: 3, size: 0.5, life: 0.6 });
     }
   }
 

@@ -62,8 +62,19 @@ describe('screens', () => {
     expect(nextScreen('howto', { type: 'sealDone' })).toBe('howto');
     expect(nextScreen('play', { type: 'tap' })).toBe('play');
   });
+  it('title / result から設定を開き、閉じると開いた元の画面へ戻る', () => {
+    expect(run('title', [{ type: 'settings' }])).toBe('settings');
+    expect(run('title', [{ type: 'settings' }, { type: 'back', to: 'title' }])).toBe('title');
+    expect(run('result', [{ type: 'settings' }, { type: 'back', to: 'result' }])).toBe('result');
+  });
+  it('設定中は他の出来事を無視し、プレイ中や遊び方からは設定を開けない', () => {
+    expect(nextScreen('settings', { type: 'tap' })).toBe('settings');
+    expect(nextScreen('settings', { type: 'again' })).toBe('settings');
+    expect(nextScreen('settings', { type: 'phase', phase: 'done' })).toBe('settings');
+    for (const s of ['howto', 'play', 'finale'] as const) expect(nextScreen(s, { type: 'settings' })).toBe(s);
+  });
   it('曲が動いているのは play と finale だけ', () => {
-    const all: Screen[] = ['title', 'howto', 'play', 'finale', 'result'];
+    const all: Screen[] = ['title', 'howto', 'play', 'finale', 'result', 'settings'];
     expect(all.filter(isRunning)).toEqual(['play', 'finale']);
   });
 });
