@@ -54,6 +54,15 @@ flowchart TB
 
 新しい事件は `CaseData` を1つ書くだけで作れます（`src/game/case01/case.ts` が見本）。
 
+## 漢字リズムジャンル（`src/genres/rhythm` と `src/game/rhythm`、ページは `src/rhythm/main.ts`）
+
+- `engine/audio/beatMath.ts` の `SongClock`（`startCtx` と `offsetSec`）… 曲を途中（頭出し）から鳴らしたときの「曲の秒 ⇔ AudioContext の秒」の対応。`Conductor.start(lead, fromSec, loop?)` が設定し、`conductor.clock` で取れる。音ズレ補正は表示側の遅れなので、曲も効果音も補正なしの時刻で予約する
+- `engine/audio/synthSfx.ts` … `playSynth(ctx, out, kind, when)`。「トン」・カウント・Perfect / Good / Miss の合成音を `when` ちょうどに鳴らす
+- `genres/rhythm/SfxScheduler.ts` … 譜面から「お手本の各画の拍頭に トン」「書き返しの前の小節の 2・3・4 拍目に 3・2・1」を計画し（`planSfx`）、先読み 0.2 秒で一度ずつ返す（`SfxScheduler.due`）。画面の数字は `countdownAt`
+- `genres/rhythm/approach.ts` … 書き出しの輪（1 拍前に最大、書き出しにちょうど最小）
+- `RhythmMode.touchDown(t)` … ペンを下ろした瞬間の時刻判定。点数は離したとき（`submitStroke`）に 1 回だけ数える
+- `game/rhythm/chart.ts` … 譜面。曲の頭出し（`GAME_START_BAR` = 17 小節目）と、練習用の譜面（`buildPracticeChart`）
+
 ## スマホ向けの負荷対策
 
 - 紙の白フチは素材の準備段階で焼き込み、毎フレームの輪郭シェーダーを使わない

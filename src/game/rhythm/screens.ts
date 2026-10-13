@@ -6,6 +6,7 @@ import type { RhythmPhase } from '../../genres/rhythm/RhythmMode';
  *   result → (again) → play / (title) → title
  *   title / result → (settings) → settings → (back) → 開いた元の画面（title か result）
  * 大書きを通らずに曲が終わった（途中から始めた）ときは play → result へ直接進む。
+ * 練習: title → (practice) → play（遊び方は飛ばす）、play / finale → (quit) → title。練習は結果画面を通らない。
  */
 export type Screen = 'title' | 'howto' | 'play' | 'finale' | 'result' | 'settings';
 
@@ -17,6 +18,10 @@ export type ScreenEvent =
   | { type: 'sealDone' }
   | { type: 'again' }
   | { type: 'title' }
+  /** 練習を始める（title から、遊び方を飛ばして play へ） */
+  | { type: 'practice' }
+  /** 練習をやめて title へ（play / finale から） */
+  | { type: 'quit' }
   /** 設定を開く（title / result から） */
   | { type: 'settings' }
   /** 設定を閉じて、開いた元の画面へ戻る */
@@ -26,15 +31,18 @@ export function nextScreen(screen: Screen, ev: ScreenEvent): Screen {
   switch (screen) {
     case 'title':
       if (ev.type === 'settings') return 'settings';
+      if (ev.type === 'practice') return 'play';
       return ev.type === 'tap' ? 'howto' : screen;
     case 'howto':
       return ev.type === 'tap' ? 'play' : screen;
     case 'play':
+      if (ev.type === 'quit') return 'title';
       if (ev.type === 'phase' && ev.phase === 'finale') return 'finale';
       // 大書きを経ずに終わった
       if (ev.type === 'phase' && ev.phase === 'done') return 'result';
       return screen;
     case 'finale':
+      if (ev.type === 'quit') return 'title';
       // 段階が done になっても、落款が押されるまでは終幕のまま
       return ev.type === 'sealDone' ? 'result' : screen;
     case 'result':

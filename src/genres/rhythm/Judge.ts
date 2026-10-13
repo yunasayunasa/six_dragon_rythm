@@ -119,6 +119,11 @@ export class StrokeJudge {
     return this.next;
   }
 
+  /** 次に期待している画（全部終わったら null） */
+  get nextExpected(): ExpectedStroke | null {
+    return this.expected[this.next] ?? null;
+  }
+
   get finished(): boolean {
     return this.next >= this.expected.length;
   }
