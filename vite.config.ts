@@ -9,7 +9,7 @@ export default defineConfig(({ command, isPreview }) => ({
   build: {
     target: 'es2022',
     chunkSizeWarningLimit: 1200,
-    rollupOptions: { input: { main: page('index.html'), rhythm: page('rhythm.html') } },
+    rollupOptions: { input: { main: page('index.html'), gyakuten: page('gyakuten.html'), rhythm: page('rhythm.html') } },
   },
   test: { environment: 'node', include: ['tests/**/*.test.ts'] },
 }));

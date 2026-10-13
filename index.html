@@ -1,60 +1,133 @@
 <!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no" />
-    <meta name="theme-color" content="#1a1220" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Ccircle cx=%2232%22 cy=%2232%22 r=%2228%22 fill=%22%23f7efdc%22 stroke=%22%23b8322a%22 stroke-width=%226%22/%3E%3C/svg%3E" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="逆転六竜" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="/icon-180.png" />
-    <title>〜活劇奇譚〜 逆転六竜</title>
-    <meta name="description" content="証拠を集め、証言の矛盾をつきつけろ。六竜が織りなす事件に挑む、捜査と尋問の推理アドベンチャー。紙の切り抜きで描かれた世界を、ブラウザで楽しもう。" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="ja_JP" />
-    <meta property="og:site_name" content="逆転六竜" />
-    <meta property="og:title" content="〜活劇奇譚〜 逆転六竜｜ブラウザで遊べる推理アドベンチャー" />
-    <meta property="og:description" content="証拠を集め、証言の矛盾をつきつけろ。六竜が織りなす事件に挑む、捜査と尋問の推理アドベンチャー。紙の切り抜きで描かれた世界を、ブラウザで楽しもう。" />
-    <meta property="og:url" content="https://yunasayunasa.github.io/Six_dragon_gyakuten/" />
-    <meta property="og:image" content="https://yunasayunasa.github.io/Six_dragon_gyakuten/ogp.png" />
-    <meta property="og:image:alt" content="和紙と墨の円弧を背景にした、〜活劇奇譚〜 逆転六竜のタイトルロゴ" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="〜活劇奇譚〜 逆転六竜｜ブラウザで遊べる推理アドベンチャー" />
-    <meta name="twitter:description" content="証拠を集め、証言の矛盾をつきつけろ。六竜が織りなす事件に挑む、捜査と尋問の推理アドベンチャー。紙の切り抜きで描かれた世界を、ブラウザで楽しもう。" />
-    <meta name="twitter:image" content="https://yunasayunasa.github.io/Six_dragon_gyakuten/ogp.png" />
-    <meta name="twitter:image:alt" content="和紙と墨の円弧を背景にした、〜活劇奇譚〜 逆転六竜のタイトルロゴ" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet" />
-    <style>
-      #rhythm-link {
-        position: fixed;
-        top: max(8px, env(safe-area-inset-top));
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 3000;
-        padding: 8px 20px;
-        border-radius: 999px;
-        background: #c4301f;
-        color: #f7efdc;
-        font: 700 16px/1.2 'Zen Maru Gothic', sans-serif;
-        letter-spacing: 0.08em;
-        text-decoration: none;
-        white-space: nowrap;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 漢字リズムへの入口（相対リンクなので Pages のベースパスでも動く） -->
-    <a id="rhythm-link" href="rhythm.html">漢字リズムで遊ぶ ▶</a>
-    <div id="app"></div>
-    <div id="hud"></div>
-    <div class="rotate enabled"><div><b>横向きにしてください</b>スマホを横にすると遊べます</div></div>
-    <div class="loading" id="loading"><div>紙の舞台を組み立てています…<div class="bar"><i></i></div></div></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#e9e4d6" />
+<title>漢字リズム</title>
+<meta property="og:title" content="漢字リズム" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yunasayunasa.github.io/six_dragon_rythm/" />
+<meta property="og:image" content="https://yunasayunasa.github.io/six_dragon_rythm/ogp.png" />
+<meta name="twitter:card" content="summary_large_image" />
+</head>
+<body data-screen="title">
+<!-- 墨絵の背景（three.js の舞台） -->
+<div id="stage3d"></div>
+
+<!-- プレイ画面 -->
+<div id="ui">
+  <header id="hud">
+    <div id="char">　</div>
+    <div id="mid"><div id="phase">　</div><div id="judge">　</div></div>
+    <div id="stats"><div id="combo">COMBO 0</div><div id="score">0</div></div>
+    <div id="gauge"><div id="gaugeFill"></div></div>
+  </header>
+  <div id="field">
+    <div id="writerHost"></div>
+    <div id="wrap">
+      <canvas id="board"></canvas>
+      <!-- 最初の小節に入るまでの待ち表示 -->
+      <div id="waiting" hidden><div class="w-title">まもなく始まります</div><div class="w-count"><b id="waitSec">0</b><span>秒</span></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- 墨しぶき（盤面より手前） -->
+<canvas id="splash"></canvas>
+
+<!-- 終幕: 暗転と落款 -->
+<div id="fade"></div>
+<div id="seal" aria-hidden="true">六竜</div>
+
+<!-- タイトル -->
+<section id="title" class="screen">
+  <h1>漢字リズム</h1>
+  <p class="sub">筆の拍に乗って、書き返せ</p>
+  <p class="tap">タップでスタート</p>
+  <button id="openSettings" class="menu-btn" type="button">設定</button>
+  <p class="credit">
+    字の画データ: <a href="https://kanjivg.tagaini.net/" target="_blank" rel="noopener">KanjiVG</a> (CC BY-SA 3.0, Ulrich Apel) をもとに改変<br />
+    グランブルーファンタジーの非公式二次創作です
+  </p>
+</section>
+
+<!-- 遊び方（1画面） -->
+<section id="howto" class="screen">
+  <h2>遊び方</h2>
+  <ol>
+    <li><b>お手本を見る</b><span>筆の動きと画の順番を覚えます。</span></li>
+    <li><b>拍に合わせてなぞる</b><span>赤い輪が縮んで小さくなる瞬間に、同じ順番・同じ向きで書き出します。</span></li>
+    <li><b>最後は大書き</b><span>「天」を一画ずつ大きく。Miss しても曲は止まりません。</span></li>
+  </ol>
+  <p class="tap">タップではじめる</p>
+</section>
+
+<!-- リザルト -->
+<section id="result" class="screen">
+  <div class="rank-row">
+    <div id="rank">S</div>
+    <div class="rank-side"><div id="resScore">0</div><div id="resAcc">精度 0%</div></div>
+  </div>
+  <dl class="counts">
+    <div class="perfect"><dt>PERFECT</dt><dd id="resPerfect">0</dd></div>
+    <div class="good"><dt>GOOD</dt><dd id="resGood">0</dd></div>
+    <div class="miss"><dt>MISS</dt><dd id="resMiss">0</dd></div>
+    <div><dt>最大コンボ</dt><dd id="resCombo">0</dd></div>
+  </dl>
+  <div id="thumbs"></div>
+  <div class="buttons">
+    <button id="again" type="button">もう一度</button>
+    <button id="resultSettings" type="button" class="quiet">設定</button>
+    <button id="toTitle" type="button" class="quiet">タイトルへ</button>
+  </div>
+</section>
+
+<!-- 設定（タイトル・リザルトから） -->
+<section id="settings" class="screen">
+  <h2>設定</h2>
+  <div class="set-body">
+    <div class="set-row">
+      <div class="set-label">音ズレ補正</div>
+      <div class="stepper">
+        <button type="button" data-lat="-10">-10</button>
+        <button type="button" data-lat="-1">-1</button>
+        <output id="latVal">0 ms</output>
+        <button type="button" data-lat="1">+1</button>
+        <button type="button" data-lat="10">+10</button>
+      </div>
+      <p class="note">音が遅れて聞こえる（Bluetooth など）ときは大きく。初回は端末の出力遅延から自動で決めます。</p>
+      <button id="tapTest" type="button" class="quiet-btn">タップで測る</button>
+      <div id="tapBox" hidden>
+        <button id="tapPad" type="button">クリック音に合わせて、ここをタップ</button>
+        <div id="tapStatus"></div>
+      </div>
+    </div>
+    <div class="set-row">
+      <label class="check"><input id="shiftBeat" type="checkbox" /> 小節の頭を1拍ずらす</label>
+      <p class="note">譜面が曲の拍とずれて感じるときに。譜面全体を1拍あとへ送ります。</p>
+    </div>
+    <div class="set-row">
+      <div class="set-label">音楽の音量 <output id="volVal">100</output></div>
+      <input id="volume" type="range" min="0" max="100" step="1" />
+    </div>
+    <div class="set-row">
+      <div class="set-label">始点・終点の許容 <output id="tolVal">0.25</output></div>
+      <input id="endpointTol" type="range" min="10" max="50" step="1" />
+      <div class="set-label">向きの許容 <output id="angVal">60°</output></div>
+      <input id="angleTol" type="range" min="20" max="90" step="1" />
+      <p class="note">大きいほど、形が多少ずれても Miss になりにくくなります。</p>
+    </div>
+    <button id="resetSettings" type="button" class="quiet-btn">初期値に戻す</button>
+    <div class="set-row credits">
+      <div class="set-label">クレジット</div>
+      <p>字の画データ: <a href="https://kanjivg.tagaini.net/" target="_blank" rel="noopener">KanjiVG</a> (CC BY-SA 3.0, Ulrich Apel) をもとに改変</p>
+      <p>グランブルーファンタジーの非公式二次創作です</p>
+    </div>
+  </div>
+  <div class="buttons"><button id="closeSettings" type="button">戻る</button></div>
+</section>
+
+<script type="module" src="/src/rhythm/main.ts"></script>
+</body>
 </html>
