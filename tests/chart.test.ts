@@ -18,10 +18,20 @@ describe('chart', () => {
     expect([find('山', 'example').startBar, find('山', 'write').startBar]).toEqual([22, 24]);
     expect([find('光', 'write').startBar, find('光', 'write').endBar]).toEqual([48, 49]);
   });
-  it('終幕の天は 67〜74 小節（書き返しのみ）', () => {
+  it('終幕の天は 67〜74 小節（お手本なし）で、1画 = 2小節', () => {
     const f = chart.filter((s) => s.char === '天');
     expect(f).toHaveLength(1);
-    expect([f[0].phase, f[0].startBar, f[0].endBar]).toEqual(['write', 67, 74]);
+    expect([f[0].phase, f[0].startBar, f[0].endBar, f[0].finale]).toEqual(['write', 67, 74, true]);
+    expect(f[0].strokes.map((s) => s.beat)).toEqual([264, 272, 280, 288]);
+    f[0].strokes.forEach((s, i) => expect(s.sec).toBeCloseTo(barToSec(67 + 2 * i)));
+    expect(f[0].strokes[0].durSec).toBeCloseTo((8 * 60) / 98);
+    expect(f[0].overflow).toBe(false);
+    expect(chart.filter((s) => s.finale)).toHaveLength(1);
+  });
+  it('区間の秒は小節の頭から次の小節の頭まで', () => {
+    const w = find('大', 'write');
+    expect(w.startSec).toBeCloseTo(barToSec(20));
+    expect(w.endSec).toBeCloseTo(barToSec(22));
   });
   it('1画 = 1拍で、区間の最初の拍から始まる', () => {
     const w = find('大', 'write');
