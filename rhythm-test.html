@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>リズム確認ページ</title>
+<style>
+  body { margin: 0; font: 16px/1.6 sans-serif; background: #111; color: #eee; padding: 16px; }
+  #flash { position: fixed; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+  label { display: inline-block; margin: 4px 12px 4px 0; }
+  input[type=number] { width: 6em; }
+  #info { font-size: 28px; margin-top: 12px; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<div id="flash"></div>
+<h1>リズム確認ページ</h1>
+<p><input type="file" id="file" accept="audio/*" /></p>
+<p>
+  <label>BPM <input type="number" id="bpm" value="98" step="0.01" /></label>
+  <label>offset(秒) <input type="number" id="offset" value="0.20" step="0.005" /></label>
+  <label>音ズレ補正(ms) <input type="number" id="calib" value="0" step="5" /></label>
+  <label>小節頭ずらし(拍) <input type="number" id="shift" value="0" step="1" /></label>
+  <label>拍子 <input type="number" id="bpb" value="4" step="1" min="1" /></label>
+</p>
+<p><button id="play" disabled>再生</button> <button id="stop" disabled>停止</button></p>
+<div id="info">曲を選んでください</div>
+<script type="module" src="/src/rhythm-test.ts"></script>
+</body>
+</html>
