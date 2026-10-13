@@ -126,3 +126,22 @@ export function buildChart(
 export function expectedStrokes(section: ChartSection, strokePoints: readonly (readonly Pt[])[]): ExpectedStroke[] {
   return section.strokes.map((s) => ({ points: strokePoints[s.index] ?? [], startTime: s.sec }));
 }
+
+/**
+ * 譜面を beats 拍ぶん後ろへずらす（曲の小節の頭が譜面より1拍あとにある、という補正）。
+ * 時刻（startSec / endSec / 各画の sec・beat）だけをずらし、小節番号や画の並びはそのまま。元の譜面は変えない。
+ */
+export function shiftChart(chart: readonly ChartSection[], beats: number, cfg: Pick<BeatConfig, 'bpm'> = RHYTHM_BEAT_CONFIG): ChartSection[] {
+  const d = (beats * 60) / cfg.bpm;
+  return chart.map((s) => ({
+    ...s,
+    startSec: s.startSec + d,
+    endSec: s.endSec + d,
+    strokes: s.strokes.map((st) => ({ ...st, beat: st.beat + beats, sec: st.sec + d })),
+  }));
+}
+
+/** 拍をずらした譜面に合う拍の設定（クリック音など、拍から時刻を出す所用） */
+export function shiftedBeatConfig(beats: number, cfg: Pick<BeatConfig, 'bpm' | 'offset' | 'beatsPerBar'> = RHYTHM_BEAT_CONFIG): Pick<BeatConfig, 'bpm' | 'offset' | 'beatsPerBar'> {
+  return { ...cfg, offset: cfg.offset + (beats * 60) / cfg.bpm };
+}
