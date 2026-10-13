@@ -45,16 +45,18 @@ export class Conductor {
     this.buffer = await this.ctx.decodeAudioData(data.slice(0));
   }
 
-  /** 少し先（lead 秒後）に頭から予約再生する */
-  async start(lead = 0.1): Promise<void> {
+  /** 少し先（lead 秒後）に予約再生する。fromSec を渡すと曲のその位置から（開発用の途中開始） */
+  async start(lead = 0.1, fromSec = 0): Promise<void> {
     if (!this.buffer) return;
     this.stop();
     if (this.ctx.state === 'suspended') await this.ctx.resume();
     const src = this.ctx.createBufferSource();
     src.buffer = this.buffer;
     src.connect(this.out);
-    this.startAt = this.ctx.currentTime + lead;
-    src.start(this.startAt);
+    const when = this.ctx.currentTime + lead;
+    // songTime は when の瞬間にちょうど fromSec になる
+    this.startAt = when - fromSec;
+    src.start(when, fromSec);
     src.onended = () => {
       if (this.source === src) this.playing = false;
     };

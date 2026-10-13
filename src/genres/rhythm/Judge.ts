@@ -17,11 +17,8 @@ export interface ExpectedStroke {
 }
 export type Grade = 'perfect' | 'good' | 'miss';
 
-export interface JudgeConfig {
-  /** Perfect の許容（秒） */
-  perfectSec: number;
-  /** Good の許容（秒） */
-  goodSec: number;
+/** 形の許容。後から設定で調整できるよう、時刻の許容とは分けてある */
+export interface ShapeOptions {
   /** 始点・終点が手本からずれてよい距離 */
   endpointTol: number;
   /** 始点→終点の向きがずれてよい角度（度） */
@@ -30,12 +27,23 @@ export interface JudgeConfig {
   minDirLength: number;
 }
 
-export const DEFAULT_JUDGE_CONFIG: JudgeConfig = {
-  perfectSec: 0.06,
-  goodSec: 0.12,
+export const DEFAULT_SHAPE_OPTIONS: Readonly<ShapeOptions> = {
   endpointTol: 0.25,
   angleTolDeg: 60,
   minDirLength: 0.06,
+};
+
+export interface JudgeConfig extends ShapeOptions {
+  /** Perfect の許容（秒） */
+  perfectSec: number;
+  /** Good の許容（秒） */
+  goodSec: number;
+}
+
+export const DEFAULT_JUDGE_CONFIG: Readonly<JudgeConfig> = {
+  perfectSec: 0.06,
+  goodSec: 0.12,
+  ...DEFAULT_SHAPE_OPTIONS,
 };
 
 export interface StrokeResult {
