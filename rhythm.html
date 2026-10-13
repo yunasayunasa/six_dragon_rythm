@@ -3,49 +3,69 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
-<title>漢字リズム（M3 プレイ確認）</title>
-<style>
-  :root { --hud: 140px; }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; height: 100%; overflow: hidden; background: #1b1713; color: #f4ecd8; font-family: sans-serif; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
-  #root { height: 100vh; height: 100dvh; display: flex; flex-direction: column; align-items: center; overflow: hidden; }
-  #hud { width: 100%; height: var(--hud); padding: 8px 12px; display: grid; grid-template-columns: auto 1fr auto; grid-template-rows: auto auto auto; column-gap: 12px; align-items: center; }
-  #char { grid-row: 1 / 3; font-size: 56px; line-height: 1; font-family: serif; min-width: 1.1em; text-align: center; }
-  #phase { font-size: 14px; opacity: 0.8; }
-  #judge { font-size: 26px; font-weight: bold; height: 32px; transition: opacity 0.4s; }
-  #judge.perfect { color: #ffd34d; } #judge.good { color: #8fd18f; } #judge.miss { color: #e07a6a; }
-  #stats { grid-column: 3; grid-row: 1 / 3; text-align: right; font-size: 15px; font-variant-numeric: tabular-nums; line-height: 1.5; }
-  #gauge { grid-column: 1 / 4; height: 10px; border-radius: 5px; background: #3a322a; overflow: hidden; }
-  #gaugeFill { height: 100%; width: 50%; background: linear-gradient(90deg, #c4452f, #e8b04a); transition: width 0.2s; }
-  #wrap { position: relative; flex: none; width: min(100vw, calc(100vh - var(--hud))); width: min(100vw, calc(100dvh - var(--hud))); aspect-ratio: 1; }
-  #board { display: block; width: 100%; height: 100%; touch-action: none; }
-  #overlay { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 20px; text-align: center; background: rgba(27, 23, 19, 0.88); }
-  #overlay h1 { margin: 0; font-size: 28px; }
-  #overlay p { margin: 0; font-size: 14px; line-height: 1.6; max-width: 28em; }
-  #overlay button { font-size: 20px; padding: 12px 32px; border-radius: 8px; border: 0; background: #e8b04a; color: #1b1713; }
-  #overlay input { max-width: 100%; font-size: 13px; }
-  [hidden] { display: none !important; }
-</style>
+<meta name="theme-color" content="#e9e4d6" />
+<title>漢字リズム</title>
 </head>
-<body>
-<div id="root">
-  <div id="hud">
+<body data-screen="title">
+<!-- 墨絵の背景（three.js の舞台） -->
+<div id="stage3d"></div>
+
+<!-- プレイ画面 -->
+<div id="ui">
+  <header id="hud">
     <div id="char">　</div>
-    <div><div id="phase">　</div><div id="judge">　</div></div>
+    <div id="mid"><div id="phase">　</div><div id="judge">　</div></div>
     <div id="stats"><div id="combo">COMBO 0</div><div id="score">0</div></div>
     <div id="gauge"><div id="gaugeFill"></div></div>
-  </div>
-  <div id="wrap">
-    <canvas id="board"></canvas>
-    <div id="overlay">
-      <h1>漢字リズム</h1>
-      <p id="intro">お手本の筆の動きを見て、拍に合わせて同じ順番・向きでなぞり書きします。タップしてスタート。</p>
-      <label id="songLabel"><span>曲ファイル（任意）: </span><input type="file" id="song" accept="audio/*" /></label>
-      <button id="start">タップでスタート</button>
-      <p id="status"></p>
-    </div>
+  </header>
+  <div id="field">
+    <div id="writerHost"></div>
+    <div id="wrap"><canvas id="board"></canvas></div>
   </div>
 </div>
+
+<!-- 終幕: 暗転と落款 -->
+<div id="fade"></div>
+<div id="seal" aria-hidden="true">六竜</div>
+
+<!-- タイトル -->
+<section id="title" class="screen">
+  <h1>漢字リズム</h1>
+  <p class="sub">筆の拍に乗って、書き返せ</p>
+  <p class="tap">タップでスタート</p>
+  <p class="credit">字の画データ: KanjiVG (CC BY-SA 3.0) をもとに改変</p>
+</section>
+
+<!-- 遊び方（1画面） -->
+<section id="howto" class="screen">
+  <h2>遊び方</h2>
+  <ol>
+    <li><b>お手本を見る</b><span>筆の動きと画の順番を覚えます。</span></li>
+    <li><b>拍に合わせてなぞる</b><span>赤い輪が縮んで小さくなる瞬間に、同じ順番・同じ向きで書き出します。</span></li>
+    <li><b>最後は大書き</b><span>「天」を一画ずつ大きく。Miss しても曲は止まりません。</span></li>
+  </ol>
+  <p class="tap">タップではじめる</p>
+</section>
+
+<!-- リザルト -->
+<section id="result" class="screen">
+  <div class="rank-row">
+    <div id="rank">S</div>
+    <div class="rank-side"><div id="resScore">0</div><div id="resAcc">精度 0%</div></div>
+  </div>
+  <dl class="counts">
+    <div class="perfect"><dt>PERFECT</dt><dd id="resPerfect">0</dd></div>
+    <div class="good"><dt>GOOD</dt><dd id="resGood">0</dd></div>
+    <div class="miss"><dt>MISS</dt><dd id="resMiss">0</dd></div>
+    <div><dt>最大コンボ</dt><dd id="resCombo">0</dd></div>
+  </dl>
+  <div id="thumbs"></div>
+  <div class="buttons">
+    <button id="again" type="button">もう一度</button>
+    <button id="toTitle" type="button" class="quiet">タイトルへ</button>
+  </div>
+</section>
+
 <script type="module" src="/src/rhythm/main.ts"></script>
 </body>
 </html>
