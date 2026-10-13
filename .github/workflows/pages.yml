@@ -1,7 +1,7 @@
 name: PaperStage Pages
 on:
   push:
-    branches: [paper-stage]
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
