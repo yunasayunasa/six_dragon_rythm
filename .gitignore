@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+test-results/
+*.log
+# APIキーなどの秘密（コミットしない）
+.env
+.env.*
+# 声の試聴用（tools/voices.mjs design が書き出す）
+voice-samples/

@@ -1,0 +1,80 @@
+/* PV の撮影用（1920×1080 固定） */
+html, body { margin: 0; background: #000; overflow: hidden; }
+#pv { position: fixed; left: 0; top: 0; width: 1920px; height: 1080px; pointer-events: none; z-index: 50; overflow: hidden; }
+#pv > * { position: absolute; }
+.pv-fx { left: 0; top: 0; z-index: 1; }
+.pv-front { left: 0; top: 0; z-index: 40; }
+/* ゲームの操作部品は映さない */
+/* ゲームの画面部品は PC だと小さめに作ってあるので、PV では大きく映す */
+#hud { --u: 15px; }
+#app canvas { filter: contrast(1.07) saturate(1.1); }
+#hud .topbar, #hud .dlg .tools, #hud .touch, #hud .prompt, #hud .testimony .actions, #hud .vs-side ~ .hint, #hud .versus .hint { display: none !important; }
+
+.pv-box { left: 0; width: 1920px; height: 0; background: #07040a; z-index: 30; }
+.pv-box.top { top: 0; }
+.pv-box.bottom { bottom: 0; }
+
+.pv-sub {
+  left: 0; width: 1920px; top: 920px; z-index: 32; text-align: center;
+  font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 54px; letter-spacing: 0.08em; color: #fff9ef;
+  text-shadow: 0 0 18px rgba(0,0,0,.85), 0 3px 4px rgba(0,0,0,.9);
+}
+.pv-sub span { display: inline-block; }
+
+.pv-slam {
+  z-index: 20; font-family: 'Yuji Syuku', serif; white-space: nowrap; color: #fffaf0; line-height: 1;
+  -webkit-text-stroke: 14px #120c10; paint-order: stroke fill;
+  text-shadow: 10px 10px 0 #b8322a;
+  transform-origin: 50% 50%;
+}
+
+.pv-place { right: 170px; top: 160px; z-index: 22; writing-mode: vertical-rl; font-family: 'Yuji Syuku', serif; font-size: 150px; color: #fff8ec; letter-spacing: 0.1em;
+  -webkit-text-stroke: 10px rgba(18,12,16,.85); paint-order: stroke fill; }
+.pv-place small { font-family: 'Shippori Mincho B1', serif; font-size: 40px; -webkit-text-stroke: 0; letter-spacing: 0.3em; margin-top: 30px; color: #ffe6b8; text-shadow: 0 2px 8px #000; }
+.pv-seal { z-index: 23; width: 92px; height: 92px; border-radius: 10px; background: #b8322a; color: #fff3e6; font-family: 'Yuji Syuku', serif; font-size: 34px;
+  display: flex; align-items: center; justify-content: center; text-align: center; line-height: 1.05; box-shadow: 0 0 0 4px #fff3e6 inset, 0 6px 16px rgba(0,0,0,.45); }
+
+.pv-tag { z-index: 21; transform: translate(-50%, -100%); font-family: 'Yuji Syuku', serif; font-size: 44px; color: #fff; padding: 6px 18px 10px; border-radius: 6px;
+  white-space: nowrap; box-shadow: 0 6px 18px rgba(0,0,0,.45); border: 3px solid #fff5e6; }
+.pv-tag::after { content: ''; position: absolute; left: 50%; bottom: -16px; transform: translateX(-50%); border: 10px solid transparent; border-top-color: #fff5e6; }
+
+/* キャラ紹介 */
+.pv-cc { left: 0; top: 0; width: 1920px; height: 1080px; z-index: 15; }
+.pv-cc > * { position: absolute; }
+.pv-cc .band { left: 0; top: 0; width: 1920px; height: 1080px; clip-path: polygon(52% 0, 100% 0, 100% 100%, 40% 100%);
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.18) 0 1.5px, transparent 2px) 0 0 / 14px 14px, linear-gradient(115deg, var(--c), var(--c2)); }
+.pv-cc .edge { left: 0; top: 0; width: 1920px; height: 1080px; clip-path: polygon(50.6% 0, 52% 0, 40% 100%, 38.6% 100%); background: #fff6e8; }
+.pv-cc .edge2 { left: 0; top: 0; width: 1920px; height: 1080px; clip-path: polygon(49.4% 0, 49.9% 0, 37.9% 100%, 37.4% 100%); background: var(--c); }
+.pv-cc .fig { height: 1040px; bottom: -40px; left: 1180px; filter: drop-shadow(18px 22px 0 rgba(10,5,10,.45)); }
+.pv-cc .fig img { position: absolute; }
+.pv-cc .fig img.base { position: relative; height: 100%; width: 100%; display: block; }
+.pv-cc .name { writing-mode: vertical-rl; font-family: 'Yuji Syuku', serif; font-size: 170px; color: #fffaf0; line-height: 1; top: 60px; left: 1700px;
+  -webkit-text-stroke: 12px #120c10; paint-order: stroke fill; text-shadow: 10px 10px 0 var(--c); }
+.pv-cc .name span { display: inline-block; }
+.pv-cc .role { writing-mode: vertical-rl; font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 44px; letter-spacing: 0.25em; color: #fff;
+  background: #120c10; padding: 26px 12px; top: 80px; left: 1610px; border-left: 6px solid var(--c); }
+.pv-cc .quote { left: 110px; top: 790px; min-width: 560px; max-width: 900px; padding: 26px 46px 30px; font-family: 'Zen Maru Gothic', sans-serif; font-weight: 700; font-size: 46px; color: #2a1c1a; line-height: 1.4;
+  background: #fbf3e2; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.45), 0 0 0 5px var(--c) inset; }
+.pv-cc .quote b { white-space: nowrap; position: absolute; left: 30px; top: -34px; font-family: 'Yuji Syuku', serif; font-weight: 400; font-size: 40px; color: #fff; background: var(--c); padding: 2px 20px 6px; border-radius: 6px; }
+
+/* 証拠品・推理メモ */
+.pv-card { z-index: 24; width: 520px; padding: 26px 26px 30px; background: #fbf3e2; border-radius: 12px; box-shadow: 0 18px 40px rgba(0,0,0,.5), 0 0 0 6px #120c10 inset;
+  font-family: 'Zen Maru Gothic', sans-serif; color: #2a1c1a; text-align: center; transform-style: preserve-3d; }
+.pv-card img { width: 300px; height: 300px; object-fit: contain; display: block; margin: 6px auto 10px; filter: drop-shadow(0 6px 8px rgba(0,0,0,.35)); }
+.pv-card .k { font-family: 'Yuji Syuku', serif; font-size: 34px; color: #fff; background: #b8322a; display: inline-block; padding: 2px 22px 6px; border-radius: 6px; }
+.pv-card .n { font-family: 'Yuji Syuku', serif; font-size: 52px; margin-top: 8px; }
+.pv-slip { z-index: 24; width: 560px; padding: 30px 34px; background: #fbf3e2; border-radius: 10px; box-shadow: 0 14px 30px rgba(0,0,0,.5), 0 0 0 5px #2f5c8a inset;
+  font-family: 'Yuji Syuku', serif; font-size: 50px; color: #2a1c1a; text-align: center; }
+.pv-slip small { display: block; font-family: 'Zen Maru Gothic', sans-serif; font-weight: 700; font-size: 26px; color: #2f5c8a; margin-bottom: 6px; letter-spacing: 0.2em; }
+.pv-slip.hit { box-shadow: 0 14px 30px rgba(0,0,0,.5), 0 0 0 6px #b8322a inset; font-size: 74px; color: #b8322a; }
+
+/* タイトル・終わり */
+.pv-logo { z-index: 26; left: 960px; top: 470px; width: 1500px; transform-origin: 50% 50%; filter: drop-shadow(0 0 2px #fff) drop-shadow(0 10px 30px rgba(0,0,0,.55)); }
+.pv-shade { left: 0; top: 0; width: 1920px; height: 1080px; z-index: 12; }
+.pv-cover { left: 0; top: 0; width: 1920px; height: 1080px; z-index: 13; object-fit: cover; }
+.pv-end { z-index: 27; left: 0; width: 1920px; text-align: center; color: #fff9ee; text-shadow: 0 2px 10px rgba(0,0,0,.9); }
+.pv-end.ep { top: 640px; font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 58px; letter-spacing: 0.08em; }
+.pv-end.ep small { display: block; font-size: 34px; color: #ffd98f; letter-spacing: 0.5em; margin-bottom: 14px; }
+.pv-end.info { top: 820px; font-family: 'Zen Maru Gothic', sans-serif; font-weight: 700; font-size: 38px; letter-spacing: 0.12em; }
+.pv-end.info .pill { display: inline-block; background: #b8322a; padding: 8px 30px 12px; border-radius: 40px; margin: 0 12px; box-shadow: 0 6px 16px rgba(0,0,0,.4); }
+.pv-end.url { top: 940px; font-family: 'Zen Maru Gothic', sans-serif; font-weight: 500; font-size: 28px; letter-spacing: 0.06em; color: #f3e6cf; }

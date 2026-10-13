@@ -1,0 +1,4867 @@
+{
+ "415532": {
+  "speaker": "院の番兵",
+  "text": "帰れ帰れ。院の仕事の邪魔だ",
+  "dir": "dismissive, shooing growl"
+ },
+ "1350498": {
+  "speaker": "ガレヲン",
+  "text": "決意（私は霧の工房へまいります。ゲン爺さまの伝言の、読めなかった続きを……私なら、読めるかもしれません）",
+  "dir_was": "soft, motherly inner resolve"
+ },
+ "1i7x5k6": {
+  "speaker": "ルオー",
+  "text": "偽物の芯は、職人の型でしか作れない。型のことを一番よく知るのは、この町のゲン爺という老職人だそうだ",
+  "dir": "intellectual, calm explanation"
+ },
+ "1wzof13": {
+  "speaker": "ウィルナス",
+  "text": "うむ。トマの口を封じた者に、少しでも近づかねばならん",
+  "dir": "solemn, deep determination"
+ },
+ "rtu7sl": {
+  "speaker": "ワムデュス",
+  "text": "霧、まっしろ。前がぜんぜん見えないので",
+  "dir": "sleepy, cute whining"
+ },
+ "17u431q": {
+  "speaker": "ガレヲン",
+  "text": "案内（フェディエルさまは、ひと足先にこの町へ来ているはずです。宿で落ち合うお約束でした）",
+  "dir": "whispering to herself, gentle"
+ },
+ "1f1l0vm": {
+  "speaker": "夜警",
+  "text": "道を空けてください！　通るであります！",
+  "dir": "urgent, rigid soldier shouting"
+ },
+ "190nn30": {
+  "speaker": "夜警",
+  "text": "工房のゲン爺が、今朝、冷たくなって見つかったであります！",
+  "dir": "flustered, panicked report"
+ },
+ "1vlp39n": {
+  "speaker": "ウィルナス",
+  "text": "なんと！？　ゲン爺が……！",
+  "dir": "booming shock, sheer disbelief"
+ },
+ "j87ssv": {
+  "speaker": "ルオー",
+  "text": "……会いに来た相手が、またしても、か",
+  "dir": "cold, grim deduction"
+ },
+ "7ra7si": {
+  "speaker": "夜警",
+  "text": "それに自分は見たであります！　ゆうべ、夜の鐘が鳴ってすぐ、工房から出てきた女を！",
+  "dir": "agitated, accusing outcry"
+ },
+ "1krgrcr": {
+  "speaker": "夜警",
+  "text": "あの方であります！",
+  "dir": "sharp, resolute accusation"
+ },
+ "1c6gtm7": {
+  "speaker": "フェディエル",
+  "text": "……此方かえ？",
+  "dir": "calm, elegant curiosity"
+ },
+ "vg1jw9": {
+  "speaker": "ウィルナス",
+  "text": "フェディエル！？",
+  "dir": "stunned, bewildered shout"
+ },
+ "gaj532": {
+  "speaker": "夜警",
+  "text": "ゆうべ宵のうちに、工房を訪ねていったのを見ております。間違いないであります！",
+  "dir": "stiff, firm testimony"
+ },
+ "1a3ia76": {
+  "speaker": "フェディエル",
+  "text": "此方は頼みに行っただけぞよ。……其方らまで疑うのかえ",
+  "dir": "composed, gentle reproach"
+ },
+ "1s6imc8": {
+  "speaker": "サンダルフォン",
+  "text": "……話は聞かせてもらった",
+  "dir": "low, cool interruption"
+ },
+ "of630g": {
+  "speaker": "ウィルナス",
+  "text": "サンダルフォン！　お主も来ておったか",
+  "dir": "startled, vigilant greeting"
+ },
+ "hxf5m3": {
+  "speaker": "サンダルフォン",
+  "text": "偽物の芯の型を調べに来た。お前たちと同じだ",
+  "dir": "blunt, quiet indifference"
+ },
+ "m75a05": {
+  "speaker": "サンダルフォン",
+  "text": "ゆうべ工房を訪ねた女がいて、鐘のあと工房から女が出てきた。……筋は通っている",
+  "dir": "sharp, logical reasoning"
+ },
+ "u51pci": {
+  "speaker": "サンダルフォン",
+  "text": "フェディエル。議会の詰め所まで来てもらう",
+  "dir": "stern, authoritative demand"
+ },
+ "1rgmpku": {
+  "speaker": "ウィルナス",
+  "text": "待てい！　鼎の仲間を、そう簡単に連れていかせはせん！",
+  "dir": "fierce, protective defiance"
+ },
+ "44zihl": {
+  "speaker": "サンダルフォン",
+  "text": "……いいだろう。霧が晴れるまでは待つ。それまでに覆してみろ",
+  "dir": "unmoved, cool ultimatum"
+ },
+ "1tly1ar": {
+  "speaker": "夜警",
+  "text": "朝の見回りで、窓から倒れているのが見えたであります。戸には錠が掛かっていたので、自分が蝶番を外して入りました",
+  "dir": "formal, methodical military report"
+ },
+ "zz2wvt": {
+  "speaker": "ルオー",
+  "text": "……作業台の角で、頭を打ったように見える。倒れたのは、ゆうべのうちだな",
+  "dir": "focused, analytical murmur"
+ },
+ "wo3g4g": {
+  "speaker": "ルオー",
+  "text": "戸の錠は、灯晶院の錠だ。外から鍵で掛ける作りで、内からは開け閉めできないのだよ",
+  "dir": "articulate, pedantic lecture"
+ },
+ "18r6gjj": {
+  "speaker": "ルオー",
+  "text": "ゲン爺の鍵は、帯に紐で結ばれたままだ。……では、誰が外から錠を掛けたのだね",
+  "dir": "inquiring, piercing question"
+ },
+ "1xv1rb7": {
+  "speaker": "サンダルフォン",
+  "text": "窓が細く開いている。錠を掛けたあと、鍵を窓から投げ込めば済む",
+  "dir": "curt, dismissive counter"
+ },
+ "1e7u4o2": {
+  "speaker": "ウィルナス",
+  "text": "（投げ込んだ鍵が、帯に結ばれておる……？　妙であるな）",
+  "dir": "whispering thoughtfully, perplexed"
+ },
+ "d2z31l": {
+  "speaker": "サンダルフォン",
+  "text": "細かいことは、あとでいくらでも説明がつく。……霧が晴れるまでだ、ウィルナス",
+  "dir": "cold, steady warning"
+ },
+ "gr5rxt": {
+  "speaker": "ウィルナス",
+  "text": "望むところである！　霧が晴れる前に、フェディエルの疑いを晴らしてみせる！",
+  "dir": "roaring, fiery confidence"
+ },
+ "1p80mfe": {
+  "speaker": "ウィルナス",
+  "text": "霧の町の捜査、開始である！",
+  "dir": "heroic, spirited command"
+ },
+ "40yhz5": {
+  "speaker": "ウィルナス",
+  "text": "最期まで、仕事の手を止めなかったのか……",
+  "dir": "somber, reverent grief"
+ },
+ "qo4til": {
+  "speaker": "ルオー",
+  "text": "抵抗した跡はない。不意をつかれたのだろう",
+  "dir": "quiet, observant deduction"
+ },
+ "1mmtehj": {
+  "speaker": "ルオー",
+  "text": "外から鍵で掛けて、外から鍵で開ける。内側には、つまみ一つ付いていないのだよ",
+  "dir": "precise, intellectual explanation"
+ },
+ "17uj2ae": {
+  "speaker": "ウィルナス",
+  "text": "そしてゲン爺の鍵は、帯に結ばれたまま……か",
+  "dir": "deep, brooding contemplation"
+ },
+ "causms": {
+  "speaker": "ルオー",
+  "text": "試し鐘だ。職人は灯晶の仕上げに、この鐘を鳴らして響きを確かめるそうだ",
+  "dir": "intrigued, informative delivery"
+ },
+ "rcvz2k": {
+  "speaker": "ウィルナス",
+  "text": "工房じゅうに霜が降りておるな……。窓が開いておったせいか",
+  "dir": "observant, searching rumble"
+ },
+ "1vl029u": {
+  "speaker": "ウィルナス",
+  "text": "む？　この鐘だけ霜が落ちて、真下に霜のかけらが散っておる！",
+  "dir": "sharp, sudden realization"
+ },
+ "1g83b97": {
+  "speaker": "ルオー",
+  "text": "ゆうべ霜が降りたあとに、誰かがこの鐘を鳴らしたということだな",
+  "dir": "triumphant, deductive clarity"
+ },
+ "12jxyy": {
+  "speaker": "ウィルナス",
+  "text": "いちばん新しい控えは……『恋の守り灯　一つ　フェディエル殿』",
+  "dir": "tense, reading with surprise"
+ },
+ "1frsk75": {
+  "speaker": "ウィルナス",
+  "text": "『宵の鐘のあと　渡し済み』……！　ゲン爺は、守り灯を渡しておったのか",
+  "dir": "excited, decisive revelation"
+ },
+ "dwlov8": {
+  "speaker": "ルオー",
+  "text": "灯晶院の記録の写しだな。……院ができたばかりのころの物だ",
+  "dir": "analytical, inspecting document calmly"
+ },
+ "16biejz": {
+  "speaker": "ウィルナス",
+  "text": "『大罪人オロロジャイア。師を殺め、灯晶の作り方を盗まんとして逃げる』……",
+  "dir": "grave tone, reading aloud"
+ },
+ "1ofcqvo": {
+  "speaker": "ウィルナス",
+  "text": "オロロジャイア……ロジャーの本名ではないか！",
+  "dir": "shocked realization, wide-eyed"
+ },
+ "rbth4b": {
+  "speaker": "ルオー",
+  "text": "院の記録では、ロジャーは師殺しの大罪人。噂には聞いていたが、記録で見るのは初めてなのだよ",
+  "dir": "composed, intellectual reflection"
+ },
+ "1rgu0da": {
+  "speaker": "ルオー",
+  "text": "……欄の外に、別の字で書き込みがある。『違う』と、ひと言だけ",
+  "dir": "noticing detail, quiet curiosity"
+ },
+ "5amdca": {
+  "speaker": "ガレヲン",
+  "text": "否定（……ロジャーは、そのようなことをする方ではありません）",
+  "dir": "soft, poignant yet steadfast whisper"
+ },
+ "1g633th": {
+  "speaker": "ウィルナス",
+  "text": "うむ……。鼎も、そう思う",
+  "dir": "firm nod, deep agreement"
+ },
+ "1eretal": {
+  "speaker": "ガレヲン",
+  "text": "謝意（……失礼いたしました。今は、ゲン爺さまのことを）",
+  "dir": "gentle whisper, regaining composure"
+ },
+ "11aetq3": {
+  "speaker": "クラリス",
+  "text": "ゲン爺、いつもこの壁の前で考えごとしてたじゃん。書くなら、ぜったいここっしょ",
+  "dir": "bright, casually pointing out"
+ },
+ "l8kkta": {
+  "speaker": "フェディエル",
+  "text": "……ゲン爺。其方の灯り、借りるぞえ",
+  "dir": "composed, reverent low voice"
+ },
+ "12ey9du": {
+  "speaker": "ウィルナス",
+  "text": "『カガチ　偽の灯晶を求む　星祭り』……！",
+  "dir": "tense, reading with intensity"
+ },
+ "1krqmv5": {
+  "speaker": "カリオストロ",
+  "text": "……ゲン爺、やっぱり断ってたんだね。そういうとこだけは、昔から頑固だったから",
+  "dir": "softly nostalgic, affectionate sigh"
+ },
+ "15rwras": {
+  "speaker": "ウィルナス",
+  "text": "だが、なぜ見えぬ墨で……？　ゲン爺は、倒れてすぐ息を引き取ったはずであろう",
+  "dir": "puzzled frown, deep rumble"
+ },
+ "uklfqq": {
+  "speaker": "カリオストロ",
+  "text": "これは死ぬ間際に書いたんじゃないよ。墨が乾いて、板の奥までしみ込んでる。何日も前に書いたものだね",
+  "dir": "clever analysis, sharp confidence"
+ },
+ "1t6fqmx": {
+  "speaker": "クラリス",
+  "text": "最初に偽物を頼まれた日に書いといたんじゃない？　自分に何かあったときのためにさ",
+  "dir": "cheerful deduction, snapping fingers"
+ },
+ "p0pcf8": {
+  "speaker": "カリオストロ",
+  "text": "ふつうの墨で書いたら、あの女に見つかって消されちゃう。だから、本物の灯晶を持つ者にしか読めない墨で残したんだよ",
+  "dir": "smug explanation, playful intelligence"
+ },
+ "7vv5rv": {
+  "speaker": "カリオストロ",
+  "text": "……灯りを大事にする人なら、きっと読んでくれるって。ゲン爺らしいや",
+  "dir": "gentle smile, genuinely touched"
+ },
+ "1ttjxst": {
+  "speaker": "ルオー",
+  "text": "遺言ではなく、用心の書き置きか。……偽物を作らない職人らしいやり方なのだよ",
+  "dir": "nodding thoughtfully, respectful calm"
+ },
+ "15jzkvv": {
+  "speaker": "ウィルナス",
+  "text": "何日も前に断られたカガチが、ゆうべ、もう一度ゲン爺のもとへ来た……ということか",
+  "dir": "gravely piecing together clues"
+ },
+ "1ifuv4h": {
+  "speaker": "クラリス",
+  "text": "待って。その下にも、なんか続きがあるっぽい。……薄すぎて読めないじゃん",
+  "dir": "surprised squint, leaning closer"
+ },
+ "x9unfv": {
+  "speaker": "カリオストロ",
+  "text": "続きは、もっとずっと昔に書かれた古い墨だね。院ができるより前の灯晶の光じゃないと、浮かばないよっ",
+  "dir": "theatrical tease, perking up"
+ },
+ "1w1ep61": {
+  "speaker": "ルオー",
+  "text": "院より前の灯晶……。凪ノ桟橋の灯晶が、ちょうどそういう古い物だが",
+  "dir": "pondering quietly, stroking chin"
+ },
+ "dr58hj": {
+  "speaker": "ルオー",
+  "text": "あれは灯台柱から外して持ち出せる物ではないのだよ",
+  "dir": "matter-of-fact, dismissing rationally"
+ },
+ "5ngywl": {
+  "speaker": "ガレヲン",
+  "text": "想起（……古い、灯り）",
+  "dir": "soft inward murmur, contemplative"
+ },
+ "3543o5": {
+  "speaker": "ウィルナス",
+  "text": "読めた半分で十分である！　カガチを、問いただしに行くぞ！",
+  "dir": "booming resolve, ready for action"
+ },
+ "19lrt67": {
+  "speaker": "ガレヲン",
+  "text": "識別（……ウィルナス。この工房には、香りが二つ残っています）",
+  "dir": "whispered alert, calmly observant"
+ },
+ "gverec": {
+  "speaker": "ガレヲン",
+  "text": "識別（ひとつは、古くてかすかな甘い香り。フェディエルさまの香りです）",
+  "dir": "gentle deduction, soft murmur"
+ },
+ "1b7vstr": {
+  "speaker": "ガレヲン",
+  "text": "違和（もうひとつは、戸口と試し鐘の紐に、新しく残っています。甘くない、苦い花の香り）",
+  "dir": "hushed wariness, detecting anomaly"
+ },
+ "krvzkj": {
+  "speaker": "ガレヲン",
+  "text": "断定（トマさまの手紙と、同じ香りです）",
+  "dir": "quiet revelation, chilling precision"
+ },
+ "10wxzjo": {
+  "speaker": "ウィルナス",
+  "text": "なんと……！　あの手紙の主が、ゆうべここにおったというのか！",
+  "dir": "booming astonishment, eyes wide"
+ },
+ "zg5xm5": {
+  "speaker": "ガレヲン",
+  "text": "想起（甘い香りは古く、苦い花の香りは新しい。……戸口と、試し鐘の紐に）",
+  "dir": "pensive whisper, connecting dots"
+ },
+ "oyz676": {
+  "speaker": "ルオー",
+  "text": "芯の型のことを聞きに来た日に、その職人が死んでいる。トマと同じだ",
+  "dir": "cold realization, sharp intellect"
+ },
+ "ejf6no": {
+  "speaker": "ルオー",
+  "text": "誰かが、私たちより先回りしている。……そう考えるべきなのだよ",
+  "dir": "stern warning, calculating tension"
+ },
+ "idiv01": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべの夜の鐘の欄は……『霧深し。十歩先も見えず。工房より物音、戸の音』",
+  "dir": "solemnly reading, deep resonance"
+ },
+ "tb31ts": {
+  "speaker": "ウィルナス",
+  "text": "（十歩先も見えぬ霧……か）",
+  "dir": "grumbled to himself, thoughtful"
+ },
+ "3b8xl3": {
+  "speaker": "ウィルナス",
+  "text": "この町の灯りも、院の灯晶か……。偽物が混じっておらねばよいが",
+  "dir": "concerned sigh, looking outward"
+ },
+ "rw8e44": {
+  "speaker": "夜警",
+  "text": "自分は、見たものを見たと申し上げているだけであります！",
+  "dir": "stiff military bark, defensive"
+ },
+ "cvdq3a": {
+  "speaker": "ウィルナス",
+  "text": "（ゆうべの夜回りのことを、もっと知りたい。詰め所に記録が残っておらんか）",
+  "dir": "whispering internally, scheming"
+ },
+ "yscopx": {
+  "speaker": "夜警",
+  "text": "顔は見えておりませんでした……。申し訳ないであります",
+  "dir": "regretful salute, rigid apology"
+ },
+ "yt7j1l": {
+  "speaker": "夜警",
+  "text": "ですが花の香りは、確かにしたであります",
+  "dir": "firm testimony, crisp salute"
+ },
+ "1egyk2t": {
+  "speaker": "ウィルナス",
+  "text": "夜警殿。ゆうべ見たことを、順を追って話してもらおう",
+  "dir": "commanding, calm authority"
+ },
+ "59f1vd": {
+  "speaker": "夜警",
+  "text": "望むところであります！　自分の目に、狂いはありません！",
+  "dir": "stiff, resolute salute"
+ },
+ "jjf6q2": {
+  "speaker": "ニオ",
+  "text": "……あなたの音、大きい。太鼓みたい",
+  "dir": "quietly, serene observation"
+ },
+ "q3fe7l": {
+  "speaker": "ウィルナス",
+  "text": "た、太鼓……？　鼎の、どこがだ",
+  "dir": "taken aback, bewildered"
+ },
+ "csz39": {
+  "speaker": "ニオ",
+  "text": "心の音。……わたし、人の心が音で聞こえるの",
+  "dir": "soft, mysterious whisper"
+ },
+ "13lubuc": {
+  "speaker": "ウィルナス",
+  "text": "ふむ……。ではニオ、ゆうべの夜の鐘は聞いたか？",
+  "dir": "pondering, earnest inquiry"
+ },
+ "1c9rkvy": {
+  "speaker": "ニオ",
+  "text": "聞いた。……でも、変だった",
+  "dir": "calm, slightly puzzled"
+ },
+ "3lwap9": {
+  "speaker": "ニオ",
+  "text": "いつもの夜の鐘は、低くて、お腹に響く音。ゆうべのは、高くて、小さかった",
+  "dir": "gentle, precise testimony"
+ },
+ "1lxfa40": {
+  "speaker": "ニオ",
+  "text": "それに、いつもより少し早かった。……曲の数で分かる。毎晩、同じ数だけ弾いてるから",
+  "dir": "quietly certain, rhythmic delivery"
+ },
+ "191oh7k": {
+  "speaker": "ニオ",
+  "text": "ゆうべの夜の鐘は、高くて小さかった。……いつもより、少し早く",
+  "dir": "reflective, soft murmur"
+ },
+ "181q4ca": {
+  "speaker": "ニオ",
+  "text": "……あの人の音、覚えてる。宵の鐘のあと、弾んだ音で宿の方へ行った",
+  "dir": "pensively recalling, soft focus"
+ },
+ "1pykep0": {
+  "speaker": "ニオ",
+  "text": "夜の鐘より、ずっと前。曲を三つ弾くあいだ、ずっと鼻歌が聞こえてた",
+  "dir": "gentle, melodic recollection"
+ },
+ "25r2eb": {
+  "speaker": "サンダルフォン",
+  "text": "霧が晴れるまで、まだ時間はある。……だが、そう長くはないぞ",
+  "dir": "cool, grave warning"
+ },
+ "1yb0a4u": {
+  "speaker": "サンダルフォン",
+  "text": "宵に工房を訪ねた女は、フェディエルひとり。俺はそこから考えている",
+  "dir": "detached, analytical deduction"
+ },
+ "hrr0gi": {
+  "speaker": "サンダルフォン",
+  "text": "検品官のカガチは、鐘楼の先の検品所にいる。……気をつけろ",
+  "dir": "low, cautious intensity"
+ },
+ "nx987": {
+  "speaker": "フェディエル",
+  "text": "此方は頼みに行っただけぞよ。……其方まで、そのような目で見るでない",
+  "dir": "composed, slightly haughty sigh"
+ },
+ "1m1ytvi": {
+  "speaker": "ウィルナス",
+  "text": "疑ってなどおらん。だが、お主の口から、ゆうべのことを聞かせてくれ",
+  "dir": "sincere, earnest persuasion"
+ },
+ "wxud0u": {
+  "speaker": "フェディエル",
+  "text": "……もう少し、此方を信じてからにするがよい",
+  "dir": "dignified, playful dismissal"
+ },
+ "ln8rk7": {
+  "speaker": "ウィルナス",
+  "text": "（夜警の話を崩してからでなければ、フェディエルも口を開かんか……）",
+  "dir": "whispering inwardly, grim contemplation"
+ },
+ "efs339": {
+  "speaker": "フェディエル",
+  "text": "ゲン爺の守り灯……。此方の宝物ぞえ。大事に扱うがよい",
+  "dir": "fond, regal warmth"
+ },
+ "uoxemu": {
+  "speaker": "ウィルナス",
+  "text": "フェディエル。夜警の見間違いは晴れた。……今度こそ、ゆうべのことを聞かせてくれ",
+  "dir": "confident, resonant appeal"
+ },
+ "lboxya": {
+  "speaker": "フェディエル",
+  "text": "……よかろう。其方らに隠すことなど、何もないぞえ",
+  "dir": "gracious chuckle, magnanimous"
+ },
+ "mugagv": {
+  "speaker": "フェディエル",
+  "text": "……夜警の見間違いは晴れたかえ。ならば、それでよいではないか",
+  "dir": "coolly evasive, knowing smile"
+ },
+ "g1iict": {
+  "speaker": "ウィルナス",
+  "text": "（何かを隠しておる……。ゲン爺の工房に、手がかりが残っておらんか）",
+  "dir": "muted realization, sharp suspicion"
+ },
+ "sdhr0": {
+  "speaker": "ワムデュス",
+  "text": "霧、つめたい。宿の窓に、白い霜の花が咲いてた",
+  "dir": "sleepy, innocently wondering"
+ },
+ "248wwj": {
+  "speaker": "ワムデュス",
+  "text": "ゆうべ、急に冷えたので。ワムは、毛布にくるまってぐっすり",
+  "dir": "cheerful, cozy purr"
+ },
+ "1klgbo5": {
+  "speaker": "ウィルナス",
+  "text": "ぬはは、それは何よりである！",
+  "dir_was": "hearty, booming laughter"
+ },
+ "1gmrt2w": {
+  "speaker": "ワムデュス",
+  "text": "ゆうべ、急に冷えた。窓に霜の花が咲いてたので",
+  "dir": "languid, absent-minded mumble"
+ },
+ "1t3i8kf": {
+  "speaker": "ワムデュス",
+  "text": "フェディエル、よかった。ワム、はじめから信じてたので",
+  "dir": "sweet, relieved affection"
+ },
+ "1q0xyl": {
+  "speaker": "マキラ",
+  "text": "……ゆうべ、宵の鐘を打ったあと、霧が凍って……",
+  "dir": "hesitant, timid confession"
+ },
+ "1a2o1nn": {
+  "speaker": "マキラ",
+  "text": "綱も、打ち子も、霧氷で固まった。……引いても、びくともしなかった",
+  "dir": "shaky breath, troubled recollection"
+ },
+ "88s98m": {
+  "speaker": "ウィルナス",
+  "text": "では、ゆうべの夜の鐘は……！",
+  "dir": "shocked, sharp realization"
+ },
+ "1xx961w": {
+  "speaker": "マキラ",
+  "text": "……鳴らせなかった。一度も",
+  "dir": "faint, guilt-ridden whisper"
+ },
+ "1ryz707": {
+  "speaker": "ウィルナス",
+  "text": "この大鐘が鳴れば、町じゅうに響くであろうな……",
+  "dir": "solemn, deep admiration"
+ },
+ "o7hymf": {
+  "speaker": "マキラ",
+  "text": "……鐘、鳴らせなくて、ごめんなさい",
+  "dir": "meek, apologetic whimper"
+ },
+ "1d20gf8": {
+  "speaker": "ウィルナス",
+  "text": "お主のせいではない。マキラ、鐘が鳴らせぬことは、誰かに伝えたのか？",
+  "dir": "gentle, reassuring inquiry"
+ },
+ "1oq5j5c": {
+  "speaker": "マキラ",
+  "text": "……検品所に、届けた。鐘楼は、灯晶院の持ち物だから",
+  "dir": "soft, halting explanation"
+ },
+ "1e4vy5v": {
+  "speaker": "マキラ",
+  "text": "……これ、届け出の控え。受け取りの印、もらってある",
+  "dir": "timid, offering evidence"
+ },
+ "k7vxh6": {
+  "speaker": "ウィルナス",
+  "text": "『宵　今夜の鐘は鳴らせません』……。受け取りの欄に、検品所の印と署名があるな",
+  "dir": "firm, analytical scrutiny"
+ },
+ "m57s21": {
+  "speaker": "マキラ",
+  "text": "……直すのは、霧が晴れて、氷が溶けてから。……仕掛けは悪くない。氷だけ",
+  "dir": "quietly defensive, meek craftsman"
+ },
+ "12sjqx": {
+  "speaker": "マキラ",
+  "text": "……鐘が鳴らせないって、宵のうちに検品所へ届けた",
+  "dir": "timid, hesitant explanation"
+ },
+ "1dj5j6q": {
+  "speaker": "ウィルナス",
+  "text": "（この中に、偽物が混じっておるのか……？）",
+  "dir": "whispering pensively, furrowed brow"
+ },
+ "13jhfyk": {
+  "speaker": "ウィルナス",
+  "text": "トマの手紙の封蝋と同じ紋……。だが、こちらの紋は欠けておらんな",
+  "dir": "observant, discovering subtle detail"
+ },
+ "a8p1v2": {
+  "speaker": "ウィルナス",
+  "text": "（欠けておったのは紋ではなく、封蝋を押した印そのもの、ということか）",
+  "dir": "whispering with quiet realization"
+ },
+ "nde5ux": {
+  "speaker": "カガチ",
+  "text": "まあ、ウィルナス様。灯晶院の検品官、カガチと申します",
+  "dir": "elegant, polite greeting with poise"
+ },
+ "vzlxt5": {
+  "speaker": "カガチ",
+  "text": "ゲン爺さんのこと、本当に残念ですわ。院にとって、かけがえのない職人でしたのに",
+  "dir": "feigned sympathy, softly theatrical"
+ },
+ "1jn45ey": {
+  "speaker": "ウィルナス",
+  "text": "カガチ殿。ゆうべ、夜の鐘のころはどこにおられた？",
+  "dir": "stern, inquiring with steady dignity"
+ },
+ "4hn18d": {
+  "speaker": "カガチ",
+  "text": "ここで検品をしておりました。検品所では水時計で刻を計って、検品帳に名を記しますの",
+  "dir": "composed, smooth and matter-of-fact"
+ },
+ "62bs2u": {
+  "speaker": "カガチ",
+  "text": "ほら、夜の鐘の刻に、わたくしの署名が。……これでよろしくて？",
+  "dir": "smugly polite, lightly challenging"
+ },
+ "yrjbro": {
+  "speaker": "ウィルナス",
+  "text": "うむ……。（流れるような、見事な筆であるな）",
+  "dir_was": "murmured admiration, secretly skeptical"
+ },
+ "k097rz": {
+  "speaker": "カガチ",
+  "text": "霧が晴れたら、星祭りの灯晶を運び出しますの。それまでは、少し忙しくて",
+  "dir": "gracefully dismissive, courteous brush-off"
+ },
+ "acl0so": {
+  "speaker": "カガチ",
+  "text": "あら、まだいらしたの。霧はもうすぐ晴れましてよ",
+  "dir": "faintly irritated, condescending smile"
+ },
+ "eq9yk1": {
+  "speaker": "カガチ",
+  "text": "それで？　わたくしがあの職人と会っていた証拠は、見つかりまして？",
+  "dir": "provocative, confident and taunting"
+ },
+ "m138cg": {
+  "speaker": "カガチ",
+  "text": "わたくしがあの職人と会っていた証拠は、見つかりまして？",
+  "dir": "cold, sharp and pressing demand"
+ },
+ "15s0x37": {
+  "speaker": "ウィルナス",
+  "text": "（ゲン爺が、何か残しておらんか……。ゲン爺をよく知る者に聞くのである）",
+  "dir": "whispering intently, plotting next move"
+ },
+ "1ocvall": {
+  "speaker": "ウィルナス",
+  "text": "カガチ殿。ゆうべのことを、もう一度聞かせてもらおう",
+  "dir": "resolute, commanding and unyielding"
+ },
+ "ydbzon": {
+  "speaker": "ガレヲン",
+  "text": "識別（……ウィルナス。この方から、苦い花の香りがいたします）",
+  "dir": "soft whisper, serene observation"
+ },
+ "1u3ijiu": {
+  "speaker": "ガレヲン",
+  "text": "断定（工房の戸口と試し鐘の紐に残っていた香り。トマさまの手紙と、同じ香りです）",
+  "dir": "quiet whisper, calm absolute conviction"
+ },
+ "np8ni1": {
+  "speaker": "カガチ",
+  "text": "まあ。香水の香りなど、誰がまとっていても不思議ではございませんわ",
+  "dir": "smooth deflection, light dismissive chuckle"
+ },
+ "jvhfld": {
+  "speaker": "カガチ",
+  "text": "わたくしの香水は、これ。院の御用達の品ですの。お疑いなら、どうぞお持ちになって",
+  "dir": "haughty, daring them to inspect"
+ },
+ "hqp7mj": {
+  "speaker": "ガレヲン",
+  "text": "断定（……やはり、同じ香りです）",
+  "dir": "serene whisper, firm internal confirmation"
+ },
+ "zox3zc": {
+  "speaker": "カガチ",
+  "text": "それでも疑うとおっしゃるなら……どうぞ、お聞きになって",
+  "dir": "icy smile, confident formal invitation"
+ },
+ "14sj5r": {
+  "speaker": "カガチ",
+  "text": "あら、またいらしたの。わたくしは夜の鐘のころ、ここにおりましたわ",
+  "dir": "deliberate, measured testimony with disdain"
+ },
+ "17egfm3": {
+  "speaker": "ウィルナス",
+  "text": "（この者は、ゆうべ鐘楼の鐘が鳴らぬと知っておったのか……？）",
+  "dir": "muttering thoughtfully, piecing clues together"
+ },
+ "1uhuxy5": {
+  "speaker": "ウィルナス",
+  "text": "（鐘楼のマキラに、もう一度話を聞くのである）",
+  "dir": "determined whisper, setting new course"
+ },
+ "14733gu": {
+  "speaker": "カリオストロ",
+  "text": "あれれ〜？　お客さん？　カリオストロ、いま、ちょっとご機嫌ななめなんだよっ",
+  "dir": "theatrical pout, sugary yet annoyed"
+ },
+ "139cp32": {
+  "speaker": "クラリス",
+  "text": "師匠、ゲン爺のこと聞いてから、ずっとこうなんだよね……。ウチもだけど",
+  "dir": "casual, slightly glum and sympathetic"
+ },
+ "19dyldj": {
+  "speaker": "ウィルナス",
+  "text": "お主ら、ゲン爺と知り合いであったか",
+  "dir": "surprised, earnest and curious"
+ },
+ "190ufeq": {
+  "speaker": "クラリス",
+  "text": "うん。ウチら、灯晶の芯に使う砂を院に卸してんの。ゲン爺は、いちばんのお得意さん",
+  "dir": "friendly, breezy explanation"
+ },
+ "z7zx75": {
+  "speaker": "カリオストロ",
+  "text": "……ゲン爺はね、最初の灯晶を作った職人の弟子だったんだ。腕も頑固さも、師匠ゆずりでな",
+  "dir": "softened tone, wistful nostalgic respect"
+ },
+ "1ddh0cs": {
+  "speaker": "カリオストロ",
+  "text": "この前も、院から来た仕事を突っぱねたって、ぷんぷんしてたっけ",
+  "dir": "playful recollection, light mocking pout"
+ },
+ "1g3z6td": {
+  "speaker": "ウィルナス",
+  "text": "院の仕事を、断った……？",
+  "dir": "sharp intrigue, surprised and focused"
+ },
+ "4wp8f0": {
+  "speaker": "カリオストロ",
+  "text": "中身は言わなかったよ。『灯りを汚す仕事だ』って、それだけ",
+  "dir": "serious undertone, echoing grim words"
+ },
+ "n487id": {
+  "speaker": "クラリス",
+  "text": "ゲン爺、院の仕事を断ったんだって。『灯りを汚す仕事だ』って",
+  "dir": "earnest, emphasizing the quote straightforwardly"
+ },
+ "1uwz3vi": {
+  "speaker": "ウィルナス",
+  "text": "カリオストロ、クラリス。ゲン爺が何か書き残しておらんか、心当たりはないか",
+  "dir": "urgent, pressing for vital clues"
+ },
+ "8xmkbm": {
+  "speaker": "クラリス",
+  "text": "書き残し……あっ！　ゲン爺、だいじなことは『光で読む墨』で書くクセあったじゃん！",
+  "dir": "sudden epiphany, bright excited gasp"
+ },
+ "1jqz7a6": {
+  "speaker": "カリオストロ",
+  "text": "職人の墨だね。ふだんは見えなくて、本物の灯晶の光を当てたときだけ浮かぶんだよっ",
+  "dir": "smug explanation, proud and cheerful"
+ },
+ "1g3m69d": {
+  "speaker": "ウィルナス",
+  "text": "本物の灯晶の光……！　ならば、この棚の――",
+  "dir": "hopeful gasp, rushing with excitement"
+ },
+ "134f877": {
+  "speaker": "カガチ",
+  "text": "院の灯晶は、星祭りのための大切な品。検品官として、一つたりともお貸しできませんわ",
+  "dir": "icy interruption, sharp haughty refusal"
+ },
+ "1tj0fv2": {
+  "speaker": "ウィルナス",
+  "text": "ぐぬぬ……",
+  "dir_was": "frustrated growl, clenched teeth"
+ },
+ "z5u036": {
+  "speaker": "ウィルナス",
+  "text": "……いや、待て！　本物の灯りなら、棚の外にも一つある！",
+  "dir": "sudden realization, commanding shout"
+ },
+ "1g3eqwr": {
+  "speaker": "ウィルナス",
+  "text": "ゲン爺がフェディエルのために作った、恋の守り灯である！",
+  "dir": "proud, resonant proclamation"
+ },
+ "u3blda": {
+  "speaker": "クラリス",
+  "text": "それ！　ゲン爺の手作りなら、ぜったい本物じゃん！",
+  "dir": "excited, joyful realization"
+ },
+ "wholiu": {
+  "speaker": "カリオストロ",
+  "text": "じゃあ、工房に行こっか。カリオストロも、ゲン爺の最後の仕事、見届けたいし",
+  "dir": "playfully sweet, gently resolute"
+ },
+ "1upot0": {
+  "speaker": "クラリス",
+  "text": "ゲン爺の工房の壁、守り灯で照らしてみよ！　ウチらも行くから！",
+  "dir": "eager, high-energy cheer"
+ },
+ "1uej6fl": {
+  "speaker": "ウィルナス",
+  "text": "鐘楼の綱は、宵のうちに凍って動かなかった。ゆうべ、大鐘は一度も鳴っておらん！",
+  "dir": "stern, analytical declaration"
+ },
+ "19hrydu": {
+  "speaker": "ウィルナス",
+  "text": "なのにニオは、高くて小さい鐘の音を聞いた！　町が聞いた夜の鐘は、鐘楼の鐘ではないのである！",
+  "dir": "sharp deductive leap, passionate"
+ },
+ "10ekv74": {
+  "speaker": "ウィルナス",
+  "text": "高くて小さい鐘……。そして霜が降りたあとに鳴らされた、工房の試し鐘！",
+  "dir": "thoughtful murmur turning certain"
+ },
+ "1260h0s": {
+  "speaker": "ウィルナス",
+  "text": "町が聞いた夜の鐘は、工房の試し鐘であった！　中にいた者が鳴らして、夜の鐘が鳴ったと思わせたのである！",
+  "dir": "triumphant conclusion, pointing forward"
+ },
+ "xzho8p": {
+  "speaker": "ウィルナス",
+  "text": "ニオは、いつもより少し早かったと言っておった……。何者かが、刻をずらしたのか",
+  "dir": "pondering deeply, serious suspicion"
+ },
+ "1sdigvm": {
+  "speaker": "ウィルナス",
+  "text": "フェディエルは、夜の鐘よりずっと前に宿へ帰った。工房に残る甘い香りが古いのも、そのためだ！",
+  "dir": "firm, logical defense"
+ },
+ "1uwe6u6": {
+  "speaker": "ウィルナス",
+  "text": "鐘のあと工房を出たのは、戸口に新しい香りを残した者！　苦い花の香りの主なのである！",
+  "dir": "decisive accusation, booming voice"
+ },
+ "1lriamp": {
+  "speaker": "ウィルナス",
+  "text": "試し鐘を鳴らして夜の鐘と思わせ、鐘のあと工房から出ていった者……！",
+  "dir": "intense buildup, dramatic pause"
+ },
+ "1vlztdn": {
+  "speaker": "ウィルナス",
+  "text": "それこそがゲン爺を手にかけた犯人！　苦い花の香りの主であって、フェディエルではない！",
+  "dir": "righteous fury, climactic shout"
+ },
+ "13maroc": {
+  "speaker": "サンダルフォン",
+  "text": "――待て",
+  "dir": "cold, sharp interruption"
+ },
+ "sg9092": {
+  "speaker": "サンダルフォン",
+  "text": "お前の話は、香りと音だけだ。香りでは人を裁けん",
+  "dir": "calm, dry skepticism"
+ },
+ "qtxp22": {
+  "speaker": "サンダルフォン",
+  "text": "俺は、残っている物で考える。……フェディエルが犯人だという考えは、変わっていない",
+  "dir": "unyielding, composed intensity"
+ },
+ "1v5ahsp": {
+  "speaker": "ウィルナス",
+  "text": "面白い！　ならば、その推理、鼎が受けて立とうではないか！",
+  "dir": "boisterous laugh, accepting challenge"
+ },
+ "irg6zx": {
+  "speaker": "ウィルナス",
+  "text": "……いや、この2つはつながらんな。早計であった",
+  "dir_was": "abrupt pause, sheepish mutter"
+ },
+ "13lcc3e": {
+  "speaker": "ウィルナス",
+  "text": "その2つは、もうまとめ終わっておるな。別の組み合わせを考えるとしよう",
+  "dir": "composed, thoughtful murmur"
+ },
+ "nn4nrx": {
+  "speaker": "夜警",
+  "text": "自分は、見たままを申し上げるであります！",
+  "dir": "rigid salute, barking tone"
+ },
+ "1yzwztr": {
+  "speaker": "夜警",
+  "text": "夜の鐘が鳴って、すぐ工房で物音がしたであります。",
+  "dir": "deliberate testimony, rehearsed stiffness"
+ },
+ "10o7u6s": {
+  "speaker": "ウィルナス",
+  "text": "物音とは、どのような音であった？",
+  "dir": "probing, authoritative inquiry"
+ },
+ "1ovxtqf": {
+  "speaker": "夜警",
+  "text": "どさり、と何かが倒れるような……。それから戸の音であります",
+  "dir": "hesitant recollection, stiffly polite"
+ },
+ "1wvrt4n": {
+  "speaker": "夜警",
+  "text": "戸が開いて、あの方が出てきました。顔も、この目ではっきり見たであります。",
+  "dir": "confident assertion, slightly defensive"
+ },
+ "y7yfmb": {
+  "speaker": "ウィルナス",
+  "text": "顔をはっきり見た、と。間違いないのだな？",
+  "dir": "narrowed eyes, sharp pressuring"
+ },
+ "p5mz51": {
+  "speaker": "夜警",
+  "text": "間違いないであります！　自分は夜回りの役目で、目には自信があるであります！",
+  "dir": "flustered, overly defensive protest"
+ },
+ "4ro4kk": {
+  "speaker": "夜警",
+  "text": "宵に工房を訪ねた女も、あの方ひとりであります。",
+  "dir": "resolute testimony, pointing stubbornly"
+ },
+ "dybztj": {
+  "speaker": "ウィルナス",
+  "text": "宵に訪ねたところも、見ておったのか",
+  "dir": "calm scrutiny, catching detail"
+ },
+ "mz2osr": {
+  "speaker": "夜警",
+  "text": "はい。宵のうちは、まだ霧が薄かったので、よく見えたであります",
+  "dir": "earnest confirmation, upright stance"
+ },
+ "xhx8vx": {
+  "speaker": "ウィルナス",
+  "text": "（宵のうちは……か）",
+  "dir": "quiet murmur, internal deduction"
+ },
+ "1nec4t2": {
+  "speaker": "ウィルナス",
+  "text": "この日誌を見よ！　夜の鐘の欄に、お主自身の字で書いてある！",
+  "dir": "thunderous reveal, slamming evidence"
+ },
+ "17hr1a9": {
+  "speaker": "ウィルナス",
+  "text": "『霧深し。十歩先も見えず』！　十歩先も見えぬ霧の中で、どうして顔がはっきり見えるのだ！",
+  "dir_was": "overwhelming pursuit, righteous rebuke"
+ },
+ "7tncyl": {
+  "speaker": "夜警",
+  "text": "うっ……！　そ、それは……",
+  "dir": "cornered gasp, stammering panic"
+ },
+ "9hbq50": {
+  "speaker": "夜警",
+  "text": "……申し訳ないであります。顔は、見えておりませんでした",
+  "dir": "defeated confession, head bowed"
+ },
+ "fq6705": {
+  "speaker": "夜警",
+  "text": "ですが、戸の音のあとで、花の香りがしたであります。それで、宵に見たあの方だと……",
+  "dir": "timid excuse, desperately explaining"
+ },
+ "13s4tab": {
+  "speaker": "ウィルナス",
+  "text": "花の香り、か……。思い込みで人を指さしてはならんぞ、夜警殿",
+  "dir": "dignified admonishment, warm gravity"
+ },
+ "ua4ng2": {
+  "speaker": "夜警",
+  "text": "……肝に銘じるであります",
+  "dir": "chastened, humble salute"
+ },
+ "um871k": {
+  "speaker": "夜警",
+  "text": "……？　それが、自分の見たものと何の関係があるでありますか？",
+  "dir": "blunt confusion, cocking head"
+ },
+ "cftg73": {
+  "speaker": "ウィルナス",
+  "text": "ぐぬぬ……この証言にぶつける物ではなかったか",
+  "dir": "frustrated grunt, gritted teeth"
+ },
+ "1uauie8": {
+  "speaker": "ウィルナス",
+  "text": "（ゆうべの霧の中で、本当に顔まで見えたのか？　夜警自身の記録を思い出すのである）",
+  "dir": "muttering, deep in thought"
+ },
+ "1ogw4oj": {
+  "speaker": "ウィルナス",
+  "text": "（『夜警の日誌』を、2番目の証言につきつけるのである！）",
+  "dir": "whispering sharply, sudden realization"
+ },
+ "154u8t9": {
+  "speaker": "夜警",
+  "text": "自分の目に、狂いはないであります！",
+  "dir": "defensive, stiff military bark"
+ },
+ "vyt0t": {
+  "speaker": "ウィルナス",
+  "text": "（落ち着け、鼎……。もう一度、証言を最初から聞き直すのである）",
+  "dir": "deep breath, calming inner resolve"
+ },
+ "jcy39o": {
+  "speaker": "フェディエル",
+  "text": "何度でも言うぞえ。此方は、頼みに行っただけぞよ",
+  "dir": "composed, slightly annoyed aristocrat"
+ },
+ "1spvv29": {
+  "speaker": "フェディエル",
+  "text": "此方は宵の鐘のあと、ゲン爺の工房を訪ねた。",
+  "dir": "formal testimony, calm and dignified"
+ },
+ "f3ntxc": {
+  "speaker": "ウィルナス",
+  "text": "宵の鐘のあと、か。ゲン爺の様子はどうであった？",
+  "dir": "probing, firm and dignified"
+ },
+ "13lkiab": {
+  "speaker": "フェディエル",
+  "text": "いつもどおりの、無愛想な爺さまであったぞよ。……腕は確かな、な",
+  "dir": "nonchalant, subtle knowing smirk"
+ },
+ "1sq8ay6": {
+  "speaker": "フェディエル",
+  "text": "サンチラのために、恋の守り灯を頼みに行ったのよ。",
+  "dir": "composed testimony, slightly aloof"
+ },
+ "1mggwv5": {
+  "speaker": "ウィルナス",
+  "text": "頼んで、それでどうなった？",
+  "dir": "pressing forward, sharp inquiry"
+ },
+ "11o1zgi": {
+  "speaker": "フェディエル",
+  "text": "ど、どうもならぬ。頼んだ、それだけぞよ",
+  "dir": "flustered, hastily covering up"
+ },
+ "1m7i7bs": {
+  "speaker": "ウィルナス",
+  "text": "（今、目をそらした……？）　フェディエル、今のところを、もう少し詳しく聞かせてくれ",
+  "dir": "internal suspicion, then probing sharply"
+ },
+ "1hm59f2": {
+  "speaker": "フェディエル",
+  "text": "……しつこいのう。では、言い足しておこう",
+  "dir": "reluctant sigh, cold disdain"
+ },
+ "sc1a93": {
+  "speaker": "フェディエル",
+  "text": "頼み事をして、すぐ宿へ戻った。それだけぞえ。",
+  "dir": "curt testimony, deliberately detached"
+ },
+ "1yuvumw": {
+  "speaker": "ウィルナス",
+  "text": "宿へ戻ったのは、何刻ごろだ？",
+  "dir": "stern, authoritative demand"
+ },
+ "1hlqr78": {
+  "speaker": "フェディエル",
+  "text": "夜の鐘よりずっと前ぞえ。宿の者に聞くがよい",
+  "dir": "dismissive, haughty confidence"
+ },
+ "wyn9pn": {
+  "speaker": "フェディエル",
+  "text": "……ゲン爺からは、何も受け取ってはおらぬ。",
+  "dir": "guarded testimony, careful denial"
+ },
+ "h3f5x0": {
+  "speaker": "ウィルナス",
+  "text": "何も受け取っておらぬ、と。本当だな？",
+  "dir": "low, imposing, trapping tone"
+ },
+ "n656mb": {
+  "speaker": "フェディエル",
+  "text": "く、くどいぞえ！　此方が嘘をつくとでも申すか",
+  "dir": "defensive snap, indignant glare"
+ },
+ "1k6543n": {
+  "speaker": "ウィルナス",
+  "text": "この注文控えを見よ！　『恋の守り灯　一つ　フェディエル殿　宵の鐘のあと　渡し済み』！",
+  "dir": "triumphant shout, slamming evidence"
+ },
+ "4smzpz": {
+  "speaker": "ウィルナス",
+  "text": "ゲン爺は、守り灯を渡しておる！　フェディエル、お主はそれを受け取ったはずである！",
+  "dir": "roaring conviction, absolute certainty"
+ },
+ "175qq1u": {
+  "speaker": "フェディエル",
+  "text": "……其方、それを見たのかえ",
+  "dir": "stunned whisper, defeated sigh"
+ },
+ "1w14sus": {
+  "speaker": "フェディエル",
+  "text": "……ほれ。これぞ",
+  "dir": "reluctant murmur, pouty surrender"
+ },
+ "7vsoh5": {
+  "speaker": "ウィルナス",
+  "text": "小さな守り灯……！　札に『良き恋を』と添え書きがある",
+  "dir": "startled realization, softly awed"
+ },
+ "12nrleo": {
+  "speaker": "フェディエル",
+  "text": "受け取ったと言えば、ゲン爺に最後に会うたのが此方だと知れる。それに……",
+  "dir": "awkward explanation, trailing off"
+ },
+ "1q7wqdj": {
+  "speaker": "フェディエル",
+  "text": "此方が、恋の守り灯を大事に抱えておるなど……似合わぬであろう",
+  "dir_was": "embarrassed, looking away shyly"
+ },
+ "157513n": {
+  "speaker": "ウィルナス",
+  "text": "ぬはは！　照れておっただけであるか！",
+  "dir": "boisterous laugh, hearty amusement"
+ },
+ "rfuqbj": {
+  "speaker": "フェディエル",
+  "text": "笑うでない！",
+  "dir": "flustered shout, cheeks burning"
+ },
+ "f3y74d": {
+  "speaker": "ニオ",
+  "text": "……その人の音、覚えてる。宵の鐘のあと、弾んだ音で宿の方へ行った",
+  "dir": "quiet, serene, melodic recollection"
+ },
+ "1cf2ffy": {
+  "speaker": "ニオ",
+  "text": "夜の鐘より、ずっと前。……鼻歌が聞こえてた",
+  "dir": "soft whisper, subtle warmth"
+ },
+ "l57scv": {
+  "speaker": "フェディエル",
+  "text": "は、鼻歌など……！",
+  "dir": "completely mortified, choked gasp"
+ },
+ "gpepme": {
+  "speaker": "サンダルフォン",
+  "text": "……受け取ったことを、今まで隠していた。それだけで十分に怪しい",
+  "dir": "cool, severe, ruthless deduction"
+ },
+ "ag710l": {
+  "speaker": "ウィルナス",
+  "text": "むう……。まだ疑うか、サンダルフォン",
+  "dir": "groaning in exasperation, conflicted"
+ },
+ "birp9o": {
+  "speaker": "フェディエル",
+  "text": "其方、何を見せておる。此方の話と、何の関わりがあるのかえ？",
+  "dir": "baffled, icy condescension"
+ },
+ "169nftj": {
+  "speaker": "ウィルナス",
+  "text": "ぐぬぬ……見当違いであったか",
+  "dir_was": "groaning in frustration, gritting teeth"
+ },
+ "174gkvl": {
+  "speaker": "ウィルナス",
+  "text": "（フェディエルは、守り灯の話になると目をそらす……。頼んだあと、どうなったのか揺さぶってみるのである）",
+  "dir": "whispering strategist, calculating murmur"
+ },
+ "1pokeqp": {
+  "speaker": "ウィルナス",
+  "text": "（隠れた証言が出たら、『ゲン爺の注文控え』をつきつけるのである！）",
+  "dir": "intense internal whisper, determined"
+ },
+ "xo0j8a": {
+  "speaker": "フェディエル",
+  "text": "……もうよい。此方は、何も話すことはないぞよ",
+  "dir": "stony silence, dismissive rejection"
+ },
+ "vhj85t": {
+  "speaker": "サンダルフォン",
+  "text": "順に説明しよう。異論があるなら、証拠で言え",
+  "dir": "calm, steady, commanding authority"
+ },
+ "13ectcn": {
+  "speaker": "サンダルフォン",
+  "text": "フェディエルは宵の鐘のあと、工房で職人と会っていた。",
+  "dir": "crisp testimony, resolute and sharp"
+ },
+ "1zx8z4": {
+  "speaker": "ウィルナス",
+  "text": "会っていたのは、フェディエルも認めておる。それがどうした",
+  "dir": "defiant, standing firm"
+ },
+ "1rnf4f2": {
+  "speaker": "サンダルフォン",
+  "text": "最後に職人と会ったのが、フェディエルだということだ",
+  "dir": "calm, cold logic"
+ },
+ "yclavb": {
+  "speaker": "サンダルフォン",
+  "text": "守り灯をめぐって二人は言い争い、職人は突き飛ばされたんだ。",
+  "dir": "composed, deliberate testimony"
+ },
+ "1rbx6ez": {
+  "speaker": "ウィルナス",
+  "text": "言い争ったと、なぜ分かる？",
+  "dir": "sharp, demanding proof"
+ },
+ "k5tvkq": {
+  "speaker": "サンダルフォン",
+  "text": "受け取った守り灯を、今まで隠していた。後ろめたいことがある者は、物を隠す",
+  "dir": "chilly, unwavering deduction"
+ },
+ "1yx2m8i": {
+  "speaker": "フェディエル",
+  "text": "……其方、言うてくれるのう",
+  "dir": "deep, wryly amused"
+ },
+ "dbov6x": {
+  "speaker": "サンダルフォン",
+  "text": "傷を負った職人は、夜に自分で試し鐘を鳴らし、力尽きた。",
+  "dir": "solemn, steady testimony"
+ },
+ "gis8v9": {
+  "speaker": "ウィルナス",
+  "text": "ゲン爺が、自分で鐘を鳴らしたと？",
+  "dir": "incredulous, furrowing brow"
+ },
+ "1bjvdjq": {
+  "speaker": "サンダルフォン",
+  "text": "助けを呼ぼうとしたんだろう。だが霧で、誰も気づかなかった",
+  "dir": "quiet, detached reasoning"
+ },
+ "12n8gaa": {
+  "speaker": "ウィルナス",
+  "text": "この恋の守り灯の札を見よ！　『良き恋を』――ゲン爺が、自分の手で書き添えたものである！",
+  "dir": "triumphant, booming roar"
+ },
+ "ekmhfc": {
+  "speaker": "ウィルナス",
+  "text": "言い争った相手に、こんな札を添えて灯りを渡す職人がおるか！　フェディエルが隠しておったのは、ただ照れておったからである！",
+  "dir": "boisterous, passionate declaration"
+ },
+ "h2igug": {
+  "speaker": "フェディエル",
+  "text": "……其方、そう大声で言うでない",
+  "dir": "embarrassed murmur, mildly flustered"
+ },
+ "jee5xa": {
+  "speaker": "サンダルフォン",
+  "text": "……言い争いは無かった、か。いいだろう",
+  "dir": "composed, conceding quietly"
+ },
+ "hqbbuk": {
+  "speaker": "サンダルフォン",
+  "text": "だが、鐘のことは残る。職人が自分で鐘を鳴らしたなら、鐘のあと工房から出た者などいない",
+  "dir": "stern, pressing the advantage"
+ },
+ "ypibwb": {
+  "speaker": "サンダルフォン",
+  "text": "夜警の聞いた戸の音も、風だろう。……違うと言うなら",
+  "dir": "low, cool skepticism"
+ },
+ "a1nedb": {
+  "speaker": "サンダルフォン",
+  "text": "鐘のあと、工房に別の者がいた証拠を出せ",
+  "dir_was": "firm, issuing an ultimatum"
+ },
+ "f3qzh8": {
+  "speaker": "サンダルフォン",
+  "text": "それが、俺の推理のどこを崩す？",
+  "dir_was": "skeptical, unimpressed flat tone"
+ },
+ "sutlji": {
+  "speaker": "ウィルナス",
+  "text": "（二人は本当に言い争ったのか？　ゲン爺がフェディエルに渡した物を、よく見るのである）",
+  "dir": "whispering internally, deep thought"
+ },
+ "1qmj2gw": {
+  "speaker": "ウィルナス",
+  "text": "（『恋の守り灯』を、2番目の証言につきつけるのである！）",
+  "dir": "hushed realization, determined"
+ },
+ "ei904m": {
+  "speaker": "サンダルフォン",
+  "text": "推理は勢いでするものじゃない。出直してこい",
+  "dir_was": "dry dismissal, icy calm"
+ },
+ "bokhrt": {
+  "speaker": "ウィルナス",
+  "text": "（落ち着け、鼎……。もう一度、最初から聞き直すのである）",
+  "dir": "deep breath, centering himself"
+ },
+ "1yefl5v": {
+  "speaker": "カガチ",
+  "text": "わたくしの話は、何度お聞きになっても同じですわ",
+  "dir": "polite, faintly condescending"
+ },
+ "1ovzap8": {
+  "speaker": "カガチ",
+  "text": "夜の鐘のころ、わたくしはこの検品所で検品をしておりました。",
+  "dir": "graceful, measured testimony"
+ },
+ "akx85w": {
+  "speaker": "ウィルナス",
+  "text": "検品帳に、夜の鐘の刻の署名があったな",
+  "dir": "probing, firm inquiry"
+ },
+ "1hyon15": {
+  "speaker": "カガチ",
+  "text": "ええ。水時計で計った刻ですもの。狂いはございませんわ",
+  "dir": "smug, smooth confidence"
+ },
+ "xpznkx": {
+  "speaker": "カガチ",
+  "text": "町で鳴った鐘は、ここまでかすかに届きましたわ。",
+  "dir": "feigning innocence, delicate testimony"
+ },
+ "9g2gf5": {
+  "speaker": "ウィルナス",
+  "text": "かすかに……か。どのような音であった？",
+  "dir": "narrowing eyes, sharp questioning"
+ },
+ "1tye63g": {
+  "speaker": "カガチ",
+  "text": "さあ。鐘の音など、どれも同じでございましょう？",
+  "dir": "airy dismissiveness, subtle evasion"
+ },
+ "qwvl8f": {
+  "speaker": "ウィルナス",
+  "text": "（ニオなら、そうは言わんだろうな……）",
+  "dir": "whispering wryly to himself"
+ },
+ "1n6vh51": {
+  "speaker": "カガチ",
+  "text": "鐘楼の鐘が凍っていたなど、今朝はじめて伺いましたの。",
+  "dir": "haughty, rehearsed testimony"
+ },
+ "a49uh": {
+  "speaker": "ウィルナス",
+  "text": "今朝はじめて、か。誰から聞いた？",
+  "dir": "stern, pressing for details"
+ },
+ "nsudxc": {
+  "speaker": "カガチ",
+  "text": "町の噂ですわ。鐘楼のことは、わたくしの役目ではございませんもの",
+  "dir": "aloof, casually brushing off"
+ },
+ "1a52qg5": {
+  "speaker": "ウィルナス",
+  "text": "このマキラの届け出の控えを見よ！　『宵　今夜の鐘は鳴らせません』！",
+  "dir": "shouting triumphantly, slamming evidence"
+ },
+ "1ku9ize": {
+  "speaker": "ウィルナス",
+  "text": "受け取りの署名は、お主が見せた検品帳と同じ筆である！　お主は宵のうちに、鐘が鳴らぬと知っておった！",
+  "dir": "commanding, forceful indictment"
+ },
+ "1uuyfzk": {
+  "speaker": "ウィルナス",
+  "text": "だからこそ、試し鐘で偽の夜の鐘を鳴らせたのだ！　町が鐘を聞いたのは、本当の夜の鐘の刻よりずっと前！　お主が検品所に戻ったのは、そのあとである！",
+  "dir": "thunderous, delivering checkmate"
+ },
+ "18b9h23": {
+  "speaker": "カガチ",
+  "text": "…………",
+  "dir": "stunned silence, breath caught"
+ },
+ "1708f0o": {
+  "speaker": "カガチ",
+  "text": "……届け出は、受け取りましたわ。けれど、目を通す暇などございませんでしたの",
+  "dir": "tense composure, straining polite"
+ },
+ "1tmk9yg": {
+  "speaker": "カガチ",
+  "text": "それに、ウィルナス様。肝心なことをお忘れではなくて？",
+  "dir": "sharp, venomous recovery"
+ },
+ "nrwe0i": {
+  "speaker": "カガチ",
+  "text": "わたくしがあの職人と会っていた証拠でも、おありなのかしら？",
+  "dir": "shrill, desperate sneer"
+ },
+ "ao7rrl": {
+  "speaker": "ウィルナス",
+  "text": "ぐっ……！　（今の鼎には、出せる物が無い……！）",
+  "dir_was": "groaning, inner panic whispering"
+ },
+ "wymrgt": {
+  "speaker": "カガチ",
+  "text": "証拠もなく院の検品官を疑うなら、それなりの覚悟をなさってね",
+  "dir": "coldly threatening, elegant composure"
+ },
+ "72x9dz": {
+  "speaker": "カガチ",
+  "text": "霧が晴れたら、わたくしは星祭りの灯晶を運び出します。……お話は、それまでに",
+  "dir": "dismissive, cool deadline"
+ },
+ "g9qwlx": {
+  "speaker": "カガチ",
+  "text": "まあ。それがわたくしと、何の関わりがございますの？",
+  "dir": "feigned innocent amusement, smirk"
+ },
+ "1iqw53i": {
+  "speaker": "ウィルナス",
+  "text": "（鐘楼の鐘が鳴らぬことを、本当に今朝まで知らなかったのか？　鐘楼のマキラは、宵のうちに何をした？）",
+  "dir": "whispering thoughtfully, deep concentration"
+ },
+ "efua5d": {
+  "speaker": "ウィルナス",
+  "text": "（『マキラの届け出の控え』を、3番目の証言につきつけるのである！）",
+  "dir": "determined whisper, focused resolve"
+ },
+ "1ay23yv": {
+  "speaker": "カガチ",
+  "text": "お話はそれだけ？　では、仕事に戻らせていただきますわ",
+  "dir": "bored, utterly dismissive"
+ },
+ "4ycg3a": {
+  "speaker": "カガチ",
+  "text": "光で浮かぶ墨の文字……。ずいぶんと、都合のよいお話ですわね",
+  "dir": "mocking chuckle, condescending skepticism"
+ },
+ "1dgwk0t": {
+  "speaker": "カガチ",
+  "text": "その墨の文字、あなた方が今朝こしらえたのでしょう。",
+  "dir": "calm accusation, deliberate testimony"
+ },
+ "1hbzvex": {
+  "speaker": "ウィルナス",
+  "text": "鼎たちが書いた、と申すか",
+  "dir": "low growl, stern disbelief"
+ },
+ "qux7vp": {
+  "speaker": "カガチ",
+  "text": "ええ。墨など、誰にでも塗れますもの",
+  "dir": "airy shrug, cold indifference"
+ },
+ "17bs5k1": {
+  "speaker": "クラリス",
+  "text": "ちょい待ち！　あの墨、乾いて板の奥までしみ込んでたし。何日も前のもんだよ",
+  "dir": "impatient interjection, sharp protest"
+ },
+ "2e0c94": {
+  "speaker": "カガチ",
+  "text": "でしたら、別の誰かが何日も前に書いたのでしょう",
+  "dir": "smooth evasion, unbothered smirk"
+ },
+ "1s1mnvd": {
+  "speaker": "カガチ",
+  "text": "光で読む墨など、職人の作り話。わたくしは信じませんわ。",
+  "dir": "haughty denial, measured testimony"
+ },
+ "7vrfi": {
+  "speaker": "ウィルナス",
+  "text": "作り話と申すか。現に、鼎たちの前で浮かんだのだぞ",
+  "dir": "booming, dignified rebuttal"
+ },
+ "kh4beu": {
+  "speaker": "カガチ",
+  "text": "手品など、いくらでもございますわ",
+  "dir": "scoffing lightly, superior disdain"
+ },
+ "17h2tts": {
+  "speaker": "カリオストロ",
+  "text": "職人の墨は、職人にしか作れないよっ。カリオストロが保証してあげる",
+  "dir": "sugary sweet, playfully confident"
+ },
+ "1r1ve6n": {
+  "speaker": "カガチ",
+  "text": "錬金術師の保証など、院では何の値打ちもございませんわ",
+  "dir": "sharp contempt, haughty rejection"
+ },
+ "1j3zmd": {
+  "speaker": "カガチ",
+  "text": "仮に本物でも、わたくしの名を騙った誰かの仕業ですわ。",
+  "dir": "calculated poise, formal testimony"
+ },
+ "1dcqoqn": {
+  "speaker": "ウィルナス",
+  "text": "お主の名を騙った者がいる、と？",
+  "dir": "probing gaze, resonant challenge"
+ },
+ "1uuufbv": {
+  "speaker": "カガチ",
+  "text": "院の検品官を妬む者は、大勢おりますもの。わたくしは、恨まれやすい立場ですのよ",
+  "dir": "feigned sigh, delicate victimhood"
+ },
+ "15o01gu": {
+  "speaker": "カガチ",
+  "text": "本物の灯晶は、すべてこの棚の中。鍵はわたくしが預かっております。",
+  "dir": "firm certainty, crisp testimony"
+ },
+ "11i94x0": {
+  "speaker": "ウィルナス",
+  "text": "すべて、この棚の中……。一つ残らずか",
+  "dir": "low, measuring each word"
+ },
+ "15xjtq8": {
+  "speaker": "カガチ",
+  "text": "一つ残らず、ですわ。院の灯晶は、勝手に持ち出せる物ではございませんの",
+  "dir": "smug insistence, absolute confidence"
+ },
+ "peogkf": {
+  "speaker": "カガチ",
+  "text": "……ですから、言い切れますわ。よくお聞きになって",
+  "dir": "condescending purr, chilling emphasis"
+ },
+ "19trab5": {
+  "speaker": "カガチ",
+  "text": "棚の外の灯りで浮かぶ文字など、この町のどこにもございませんわ。",
+  "dir": "triumphant, icy definitive testimony"
+ },
+ "1n57dgs": {
+  "speaker": "ウィルナス",
+  "text": "どこにもない、と。言い切れるか？",
+  "dir": "intense whisper, building thunder"
+ },
+ "1j9x5st": {
+  "speaker": "カガチ",
+  "text": "言い切れますわ。本物の灯晶の灯りは、院の外には一つもございません",
+  "dir": "unflinching arrogance, definitive snap"
+ },
+ "1v4rl2o": {
+  "speaker": "ウィルナス",
+  "text": "ここにある！　ゲン爺がフェディエルのために作った、恋の守り灯！",
+  "dir": "thundering shout, triumphant accusation"
+ },
+ "dofd8r": {
+  "speaker": "ウィルナス",
+  "text": "お主の棚の外にあった、本物の灯り！　墨の伝言は、この灯りで浮かんだのである！",
+  "dir": "commanding roar, relentless pressure"
+ },
+ "ecawhy": {
+  "speaker": "ウィルナス",
+  "text": "偽物を作れと迫られ、それを断った職人が、最後に作った本物の灯り……！　それが、お主の名を照らしたのだ！",
+  "dir": "fierce righteous fury, booming"
+ },
+ "7a1uup": {
+  "speaker": "カガチ",
+  "text": "……ええ。伝言は、あの老人が書いたものでしょう。偽物を頼んだことも、認めて差し上げますわ",
+  "dir": "strained composure, venomous admission"
+ },
+ "1ke1qvp": {
+  "speaker": "カガチ",
+  "text": "けれど、それが何？　頼みを断られて、わたくしはそれきり。ゆうべ工房になど、近づいてもおりませんわ",
+  "dir": "defiant sneer, edge of panic"
+ },
+ "1hjq7ku": {
+  "speaker": "ウィルナス",
+  "text": "まだ粘るか……！　ならば最後まで、聞かせてもらおう！",
+  "dir": "bellowing battlecry, unyielding spirit"
+ },
+ "1c86lia": {
+  "speaker": "カガチ",
+  "text": "ふふ。焦っていらっしゃるのね、ウィルナス様",
+  "dir": "forced giggle, desperate mock"
+ },
+ "1mu6dah": {
+  "speaker": "ウィルナス",
+  "text": "ぐぬぬ……もう一押しが足りぬか",
+  "dir": "gritting teeth, frustrated groan"
+ },
+ "hrzyh2": {
+  "speaker": "ウィルナス",
+  "text": "（本物の灯晶の灯りは、本当に棚の中にしかないのか？　棚の話を、揺さぶってみるのである）",
+  "dir": "calculating mutter, intense focus"
+ },
+ "1k381oa": {
+  "speaker": "ウィルナス",
+  "text": "（棚の話を揺さぶって隠れた証言を出し、『恋の守り灯』をつきつけるのである！）",
+  "dir": "steely inner vow, fierce resolve"
+ },
+ "eluvx": {
+  "speaker": "カガチ",
+  "text": "霧が晴れましたわ。わたくしは、灯晶を運び出しに参ります",
+  "dir": "curt departure, thinly veiled haste"
+ },
+ "1c03hhe": {
+  "speaker": "カガチ",
+  "text": "偽物の件は、院のための極秘のお仕事。人を手にかける理由になど、なりませんわ",
+  "dir": "defensive rationalization, sharp tone"
+ },
+ "7zgh1f": {
+  "speaker": "カガチ",
+  "text": "断られたあとは、二度と工房を訪ねておりません。",
+  "dir": "brittle defiance, tense testimony"
+ },
+ "17cltmf": {
+  "speaker": "ウィルナス",
+  "text": "断られたあとは、一度も工房へ行っておらんと？",
+  "dir": "sharp interrogation, pressing"
+ },
+ "aieubd": {
+  "speaker": "カガチ",
+  "text": "ええ。断る者に、用はございませんもの",
+  "dir": "dismissive, icy indifference"
+ },
+ "1wklsx": {
+  "speaker": "カガチ",
+  "text": "ゆうべは宵から、ずっと検品所で書き物をしておりました。",
+  "dir": "formal testimony, feigned innocence"
+ },
+ "yyo6m8": {
+  "speaker": "ウィルナス",
+  "text": "宵から、ずっと検品所に？",
+  "dir": "skeptical, probing deeply"
+ },
+ "1rmccfb": {
+  "speaker": "カガチ",
+  "text": "マキラさんが届け出に来たときも、ここで受け取りましたわ。ご存じでしょう？",
+  "dir": "smugly composed, smooth"
+ },
+ "ad0fip": {
+  "speaker": "ウィルナス",
+  "text": "（宵には、確かにここにいた……。だが、そのあとは？）",
+  "dir": "muttering thoughtfully, calculating"
+ },
+ "1n7lm9": {
+  "speaker": "カガチ",
+  "text": "戸口に残る香りなど、風が運んだものでしょう。",
+  "dir": "airy, casual deflection"
+ },
+ "o45a1q": {
+  "speaker": "ウィルナス",
+  "text": "風が、戸口と鐘の紐にだけ香りを残すと申すか",
+  "dir": "stern disbelief, challenging"
+ },
+ "3zxk4y": {
+  "speaker": "カガチ",
+  "text": "……ええ。風のいたずらですわ",
+  "dir": "evasive, slight hesitation"
+ },
+ "1giem8o": {
+  "speaker": "カガチ",
+  "text": "それに、ひとつ申し上げておきますけれど",
+  "dir": "patronizing, taking control"
+ },
+ "uk4b2s": {
+  "speaker": "カガチ",
+  "text": "あの香りは、この町の女なら誰でもまとう香水ですわ。",
+  "dir": "confident testimony, assertive"
+ },
+ "1j8cuff": {
+  "speaker": "ウィルナス",
+  "text": "町の女なら誰でもまとう、と。間違いないな？",
+  "dir": "baiting, narrowing eyes"
+ },
+ "fdjqdf": {
+  "speaker": "カガチ",
+  "text": "ええ。珍しくもない香りですもの",
+  "dir": "condescending smile, relaxed"
+ },
+ "1ufc1u6": {
+  "speaker": "ウィルナス",
+  "text": "この香水を見よ！　お主は自分で言ったはずだ。『院の御用達の品』とな！",
+  "dir": "explosive slam, triumphant shouting"
+ },
+ "13scooo": {
+  "speaker": "ウィルナス",
+  "text": "町の女が誰でも持てる品ではない！　戸口と試し鐘の紐に残っておったのは、院の者の香り……お主の香りである！",
+  "dir": "roaring accusation, powerful conviction"
+ },
+ "17liaxi": {
+  "speaker": "カガチ",
+  "text": "……香りがわたくしの物だとして、それが何？　昼間に通りがかって、移っただけかもしれませんわ",
+  "dir": "cornered but defiant, tense"
+ },
+ "ft3dwg": {
+  "speaker": "カガチ",
+  "text": "それに、戸口の錠は外から掛かっていたのでしょう？　鍵を持つ者なら、誰にでも掛けられますわ",
+  "dir": "desperate pivot, sharp deflection"
+ },
+ "h7ba2l": {
+  "speaker": "ウィルナス",
+  "text": "どこまでも粘るか……！　ならば、これで終わりにしてやる！",
+  "dir": "fierce grit, decisive resolve"
+ },
+ "1v8e81o": {
+  "speaker": "ウィルナス",
+  "text": "（香りの話を揺さぶって、カガチの言い分を引き出すのである。カガチは自分の香水を、何と言って差し出した？）",
+  "dir": "internal monologue, focused contemplation"
+ },
+ "zulsnm": {
+  "speaker": "ウィルナス",
+  "text": "（香りの話を揺さぶって隠れた証言を出し、『カガチの香水』をつきつけるのである！）",
+  "dir": "determined whisper, psyching up"
+ },
+ "fo1ne9": {
+  "speaker": "カガチ",
+  "text": "錠を掛けた者を、わたくしだとおっしゃるの？　ずいぶんと乱暴なお話ですこと",
+  "dir": "scoffing, haughty sneer"
+ },
+ "1hg6e7e": {
+  "speaker": "カガチ",
+  "text": "工房の錠など、鍵を持つ誰かが昼のうちに掛けたのでしょう。",
+  "dir": "defensive testimony, feigned rationality"
+ },
+ "j5oyth": {
+  "speaker": "ウィルナス",
+  "text": "錠は、昼のうちに掛けられたと申すか",
+  "dir": "deliberate probe, locking in"
+ },
+ "1q2mrj4": {
+  "speaker": "カガチ",
+  "text": "ええ。鍵を持つ誰かが、昼に掛けたのでしょう",
+  "dir": "impatient, brushing off"
+ },
+ "1ke1py0": {
+  "speaker": "ウィルナス",
+  "text": "（ゆうべ宵に、フェディエルは中でゲン爺と会っておる……。昼に錠が掛かっておったはずはない）",
+  "dir": "quiet realization, sharp insight"
+ },
+ "8pplva": {
+  "speaker": "カガチ",
+  "text": "院の錠の鍵なら、職人はみな持っておりますもの。",
+  "dir": "rehearsed testimony, shifting blame"
+ },
+ "j55noa": {
+  "speaker": "ウィルナス",
+  "text": "職人なら、誰でも鍵を持っている、と？",
+  "dir": "leading question, steady pressure"
+ },
+ "4yv57z": {
+  "speaker": "カガチ",
+  "text": "ええ。院の錠の鍵は、職人にひとつずつ渡されておりますもの",
+  "dir": "assured, slightly condescending"
+ },
+ "q8x0g4": {
+  "speaker": "カガチ",
+  "text": "錠を掛けた者を探すなら、職人を当たるのが筋ですわ。",
+  "dir": "cold diversion, authoritative tone"
+ },
+ "1iq0x4m": {
+  "speaker": "ウィルナス",
+  "text": "職人を当たれ、と。お主は当たらずともよいと？",
+  "dir": "trap sprung, rising intensity"
+ },
+ "1dmndeb": {
+  "speaker": "カガチ",
+  "text": "わたくしは検品官。職人の工房の戸に用はございませんわ",
+  "dir": "aristocratic disdain, aloof"
+ },
+ "1yt1tp2": {
+  "speaker": "ウィルナス",
+  "text": "この工房の錠を見よ！　職人に渡される鍵は、自分の工房の鍵ひとつだけ！　そしてゲン爺の鍵は、帯に紐で結ばれたままであった！",
+  "dir": "thunderous rebuke, pointing dramatically"
+ },
+ "x6ck5j": {
+  "speaker": "ウィルナス",
+  "text": "ゲン爺の工房に外から錠を掛けられたのは、全部の工房を開けられる合い鍵……検品官の合い鍵だけである！",
+  "dir": "devastating revelation, authoritative shout"
+ },
+ "34x5": {
+  "speaker": "ウィルナス",
+  "text": "鐘が鳴らぬと知り、院の香水をまとい、合い鍵を持つ者……カガチ、お主しかおらん！",
+  "dir": "ultimate verdict, booming command"
+ },
+ "y9e3h2": {
+  "speaker": "カガチ",
+  "text": "……あの老いぼれ。最後の最後まで、わたくしの邪魔を",
+  "dir": "venomous murmur, mask slipping"
+ },
+ "q0scyy": {
+  "speaker": "カガチ",
+  "text": "ええ、そうよ。何日も前から、偽の灯晶を作れと頼んでいたの。星祭りに間に合わせるには、ゆうべが最後だった",
+  "dir": "shrill confession, breathless frustration"
+ },
+ "1f1k4ma": {
+  "speaker": "カガチ",
+  "text": "それでも断るから、少し押しただけ。……打ちどころが悪かったのね",
+  "dir": "chilling callousness, bitter shrug"
+ },
+ "zcfgwh": {
+  "speaker": "カガチ",
+  "text": "鐘楼が凍ったと聞いて、思いついたの。試し鐘を鳴らせば、町じゅうが夜の鐘だと思い込む",
+  "dir": "manic explanation, frantic rationalization"
+ },
+ "e0r5hw": {
+  "speaker": "フェディエル",
+  "text": "其方……ゲン爺を手にかけて、此方に罪を……！",
+  "dir": "cold fury, trembling outrage"
+ },
+ "1f4tsk5": {
+  "speaker": "ウィルナス",
+  "text": "トマもか。昇降籠の上から、トマを落としたのもお主か",
+  "dir": "heavy, grim accusation"
+ },
+ "83hvps": {
+  "speaker": "カガチ",
+  "text": "あの手代は、喋りすぎたのよ。明日ぜんぶ話す、ですって。……口の軽い道具は要らないわ",
+  "dir": "cold, dismissive cruelty"
+ },
+ "rtzf4e": {
+  "speaker": "ウィルナス",
+  "text": "偽の灯晶で、何をする気だ！　星祭りの夜に、何を起こすつもりである！",
+  "dir": "booming, righteous fury"
+ },
+ "1wlbyl2": {
+  "speaker": "カガチ",
+  "text": "院のためよ。……二十年前の夜を、また見たくなければ黙っていなさい",
+  "dir": "chilling whisper, ominous threat"
+ },
+ "195ndd9": {
+  "speaker": "ウィルナス",
+  "text": "（職人が持つ鍵は、どの工房の鍵だ？　ゲン爺の鍵は、どこにあった？）",
+  "dir": "whispering internally, deep contemplation"
+ },
+ "5nio1e": {
+  "speaker": "ウィルナス",
+  "text": "（『工房の錠』を、2番目の証言につきつけるのである！）",
+  "dir": "whispering fiercely, sudden realization"
+ },
+ "1d5s3uv": {
+  "speaker": "サンダルフォン",
+  "text": "カガチは議会が預かる。裁きの日まで、監獄船に入ってもらう",
+  "dir": "stoic, resolute authority"
+ },
+ "1uje0m5": {
+  "speaker": "カガチ",
+  "text": "ふふ。どうぞ、ご自由に",
+  "dir": "amused chuckle, condescending smirk"
+ },
+ "1v31hnz": {
+  "speaker": "カガチ",
+  "text": "……あら。その子、凪ノ桟橋の子ね",
+  "dir": "feigned surprise, sly curiosity"
+ },
+ "wp7shn": {
+  "speaker": "ワムデュス",
+  "text": "……？　ワムのこと、知ってるの？",
+  "dir": "clueless, sweet sleepy tilt"
+ },
+ "17x84e1": {
+  "speaker": "カガチ",
+  "text": "ええ。院では、ちょっとした有名人よ",
+  "dir": "mocking sweetness, sinister undertone"
+ },
+ "1v5wwm6": {
+  "speaker": "ルオー",
+  "text": "……待ちたまえ。今のは、どういう意味だ",
+  "dir": "sharp, tense interrogation"
+ },
+ "6jzuh": {
+  "speaker": "カガチ",
+  "text": "知りたければ、会いにいらっしゃいな。監獄船まで",
+  "dir": "taunting, sultry invitation"
+ },
+ "1ghdhbj": {
+  "speaker": "ワムデュス",
+  "text": "ルオー、こわい顔してる",
+  "dir": "pouting, innocently concerned"
+ },
+ "1yzkcbe": {
+  "speaker": "ルオー",
+  "text": "……なんでもないのだよ",
+  "dir": "stiffly composed, masking unease"
+ },
+ "1e8dm3o": {
+  "speaker": "サンダルフォン",
+  "text": "偽の灯晶と、星祭り。……議会でも、灯晶院を調べさせる",
+  "dir": "low, brooding analysis"
+ },
+ "am8eo7": {
+  "speaker": "サンダルフォン",
+  "text": "だが院は、議会にも顔が利く。簡単にはいかないだろう",
+  "dir": "grim, cautious warning"
+ },
+ "w3q3ve": {
+  "speaker": "フェディエル",
+  "text": "……ゲン爺の守り灯。此方が、サンチラに届けてやらねばの",
+  "dir": "tender, solemn warmth"
+ },
+ "4sza8t": {
+  "speaker": "フェディエル",
+  "text": "ゲン爺の、最後の灯りぞえ。良き恋になるよう、此方も見守ってやろう",
+  "dir": "gentle, fond big-sisterly smile"
+ },
+ "kjjgoc": {
+  "speaker": "サンダルフォン",
+  "text": "フェディエル。……約束のコーヒーだ",
+  "dir": "quietly considerate, soft delivery"
+ },
+ "12p0e1y": {
+  "speaker": "フェディエル",
+  "text": "ほう、天司長手ずからとは。……苦くしたら許さぬぞえ",
+  "dir": "playful smirk, teasing amusement"
+ },
+ "1tyoz7m": {
+  "speaker": "サンダルフォン",
+  "text": "コーヒーは、苦いものだ",
+  "dir": "deadpan, dry simplicity"
+ },
+ "15iveba": {
+  "speaker": "ウィルナス",
+  "text": "ぬはは！　そこは砂糖を入れてやれい！",
+  "dir": "boisterous laugh, jovial booming"
+ },
+ "1pe8axs": {
+  "speaker": "ウィルナス",
+  "text": "……ガレヲン。ロジャーのことだが",
+  "dir": "lowered voice, serious inquiry"
+ },
+ "aw1qv2": {
+  "speaker": "ガレヲン",
+  "text": "追憶（……二十年前、ロジャーは私たちの前から姿を消しました。何も告げずに）",
+  "dir": "soft, wistful remembrance"
+ },
+ "uau030": {
+  "speaker": "ガレヲン",
+  "text": "信頼（けれど、私は信じています。あの方の灯りは、いつも誰かを帰すためのものでしたから）",
+  "dir": "warm, heartfelt gentle devotion"
+ },
+ "dnaq1i": {
+  "speaker": "ウィルナス",
+  "text": "……うむ。鼎もだ",
+  "dir": "deep, quiet concurrence"
+ },
+ "13jmeo8": {
+  "speaker": "ルオー",
+  "text": "サンダルフォン。監獄船の面会を申し込みたい。……私ひとりでだ",
+  "dir": "stern, uncompromising request"
+ },
+ "78dbio": {
+  "speaker": "サンダルフォン",
+  "text": "……カガチの言葉が気になるのか",
+  "dir": "perceptive, calm observation"
+ },
+ "z6yv8b": {
+  "speaker": "ルオー",
+  "text": "ワムデュスには聞かせたくない話かもしれない。……だから、私ひとりで行く",
+  "dir": "resolute, quiet protective tension"
+ },
+ "1w64scg": {
+  "speaker": "サンダルフォン",
+  "text": "……いいだろう。ただし、手短にな",
+  "dir": "reluctant approval, firm brevity"
+ },
+ "1c02j5y": {
+  "speaker": "ウィルナス",
+  "text": "待った！",
+  "dir": "sudden explosive shout, commanding"
+ },
+ "17s2ue0": {
+  "speaker": "ウィルナス",
+  "text": "刮目せよ！",
+  "dir": "booming, dramatic finish"
+ },
+ "2h5ver": {
+  "speaker": "ウィルナス",
+  "text": "ルオーが、ゆうべ面会に来たきり戻らぬと聞いて来てみれば……ひどい嵐であったな",
+  "dir": "deep sigh, booming complaint"
+ },
+ "bcpvpm": {
+  "speaker": "フェディエル",
+  "text": "此方の髪が台無しぞえ。……して、あの堅物はどこにおる",
+  "dir": "annoyed, brushing her hair"
+ },
+ "1hduk8n": {
+  "speaker": "イルザ",
+  "text": "貴様らが、灯台番の連れか",
+  "dir": "sharp, barking question"
+ },
+ "7ptmjg": {
+  "speaker": "イルザ",
+  "text": "看守長のイルザだ。悪い知らせだ。……カガチが今朝、独房で死んでいた",
+  "dir": "grim, low and authoritative"
+ },
+ "gfu48y": {
+  "speaker": "ウィルナス",
+  "text": "なんと！？　カガチが……！",
+  "dir": "thunderous gasp, utterly shocked"
+ },
+ "f7qav8": {
+  "speaker": "イルザ",
+  "text": "ゆうべ最後にカガチと面会したのは、そこの堅物だ",
+  "dir": "cold, pointing an accusatory finger"
+ },
+ "1ku47dq": {
+  "speaker": "ルオー",
+  "text": "……来てしまったのかね、ウィルナス",
+  "dir": "composed, dry and aloof"
+ },
+ "1icln0a": {
+  "speaker": "ウィルナス",
+  "text": "ルオー！　まさか、お主が……",
+  "dir": "disbelieving, voice trembling with shock"
+ },
+ "19v7ybk": {
+  "speaker": "ルオー",
+  "text": "私が殺したと書いておきたまえ。それで終わる話なのだよ",
+  "dir_was": "coldly dismissive, eerily calm"
+ },
+ "oqb5tp": {
+  "speaker": "ワムデュス",
+  "text": "ルオー……？　なんで、そんなこと言うの",
+  "dir": "confused, gentle whimper"
+ },
+ "97kz2s": {
+  "speaker": "ルオー",
+  "text": "…………",
+  "dir": "stony silence, turning away"
+ },
+ "1sl95ab": {
+  "speaker": "サンダルフォン",
+  "text": "……議会は、カガチを裁くつもりだった。その前に死なれては困る",
+  "dir": "cool, measured mutter"
+ },
+ "109iduy": {
+  "speaker": "サンダルフォン",
+  "text": "本人が認めるなら、議会としては話が早い。……だが",
+  "dir": "skeptical, eyes narrowing thoughtfully"
+ },
+ "ogrpdp": {
+  "speaker": "サンダルフォン",
+  "text": "昼の便が出るまで待つ。ウィルナス、納得がいかないなら調べてみろ",
+  "dir": "firm, quiet authority"
+ },
+ "1v2g6vn": {
+  "speaker": "ウィルナス",
+  "text": "言われずとも！　ルオーが人を殺めるものか！",
+  "dir": "furious roar, full of conviction"
+ },
+ "1whinq6": {
+  "speaker": "イルザ",
+  "text": "勝手にしろ。……だが堅物、罪を認めた以上、貴様も独房だ。昼の便で議会へ引き渡す",
+  "dir": "barking curtly, strict command"
+ },
+ "94byl8": {
+  "speaker": "ルオー",
+  "text": "当然だな。……連れていきたまえ",
+  "dir": "resigned sigh, completely indifferent"
+ },
+ "1un5cgp": {
+  "speaker": "ウィルナス",
+  "text": "ルオー……",
+  "dir": "pained whisper, clenching fists"
+ },
+ "dmwle6": {
+  "speaker": "ウィルナス",
+  "text": "待っておれ！　監獄船の捜査、開始である！",
+  "dir": "booming shout, burning with resolve"
+ },
+ "1o9376x": {
+  "speaker": "ウィルナス",
+  "text": "この綱……どこまで垂れておる？",
+  "dir": "intrigued, peering down curiously"
+ },
+ "194sh": {
+  "speaker": "ユーステス",
+  "text": "……真下は、独房の並びだ",
+  "dir": "terse, low monotone"
+ },
+ "145toaw": {
+  "speaker": "ウィルナス",
+  "text": "独房の、外側か！",
+  "dir": "sharp realization, eyes wide"
+ },
+ "9spv5a": {
+  "speaker": "ウィルナス",
+  "text": "む？　綱のささくれに、紫の毛が絡んでおる。ふわふわとした、毛皮の毛であるな",
+  "dir": "observant, examining closely"
+ },
+ "1yl9b0b": {
+  "speaker": "ワムデュス",
+  "text": "……この結び",
+  "dir": "murmuring softly to herself"
+ },
+ "7zxl9e": {
+  "speaker": "ワムデュス",
+  "text": "ワム、この結び、知ってる。旅の人に教わった、古い釣りの結び",
+  "dir": "dreamy, soft recognition"
+ },
+ "4oj1ry": {
+  "speaker": "ウィルナス",
+  "text": "なんと……！　凪ノ桟橋でルオーが言っておった『今どき誰も知らない、古い釣り方』の結びか！",
+  "dir": "electrified shock, booming realization"
+ },
+ "u0dwt4": {
+  "speaker": "ワムデュス",
+  "text": "うん。ほどけないのに、引っぱるとすぐ外れる。旅の人しか、知らなかった",
+  "dir": "sleepy nod, gentle and airy"
+ },
+ "1ajncgc": {
+  "speaker": "ユーステス",
+  "text": "……ユーステスだ。甲板の見張りをしている",
+  "dir": "flat, dry introduction"
+ },
+ "1qbehv6": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべ、この船に近づいた者はおらんか？",
+  "dir": "urgent, pressing for details"
+ },
+ "j8l6a4": {
+  "speaker": "ユーステス",
+  "text": "いない。最終便が出たあと、すぐに嵐になった。……朝まで、一艘も近づけなかった",
+  "dir": "testimony, steady and objective"
+ },
+ "p8nf5a": {
+  "speaker": "ユーステス",
+  "text": "船から降りた者もいない。降りられる天気じゃなかった",
+  "dir": "testimony, blunt and unwavering"
+ },
+ "u7jsg9": {
+  "speaker": "ユーステス",
+  "text": "最終便のあとは、朝まで誰も乗り降りできなかった",
+  "dir": "testimony, definitive and conclusive"
+ },
+ "1ie6hrg": {
+  "speaker": "ゼタ",
+  "text": "なに？　アタシたち、見回りが終わって休んでたとこなんだけど",
+  "dir": "bored sigh, slightly irritated"
+ },
+ "11wkotf": {
+  "speaker": "ベアトリクス",
+  "text": "ゆうべは大変だったんだぞ！　嵐で船がぐらんぐらんでさ！",
+  "dir": "boisterous, loud complaint"
+ },
+ "1ng1jzs": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべ、船にいた者で、見慣れぬ者はおらんかったか",
+  "dir": "grave, demanding answers"
+ },
+ "169wqw4": {
+  "speaker": "ゼタ",
+  "text": "見慣れないって言えば……最終便で、院の使いが乗ってきたでしょ",
+  "dir": "thoughtful, casually recalling"
+ },
+ "1wfx9sx": {
+  "speaker": "ベアトリクス",
+  "text": "ああ、あの気取ったやつ！　紫の、ふわっふわの毛皮の襟をした男だろ！",
+  "dir": "blurted excitement, gestures exaggeratedly"
+ },
+ "165r5g5": {
+  "speaker": "ゼタ",
+  "text": "院の荷を届けに来たんだって。嵐で帰れなくなって、船倉で寝てたはずよ",
+  "dir": "shrugging, matter-of-fact tone"
+ },
+ "cq1ts3": {
+  "speaker": "ベアトリクス",
+  "text": "院の使いは、紫のふわっふわの襟の男だ！　船倉にいるぞ！",
+  "dir": "triumphant shout, energetic reveal"
+ },
+ "6dbk6p": {
+  "speaker": "ワムデュス",
+  "text": "ルオー、なんで自分がやったなんて言うの。ルオーは、そんなことしない",
+  "dir": "pleading softly, near tears"
+ },
+ "tvvuy2": {
+  "speaker": "ウィルナス",
+  "text": "うむ。鼎もそう思う。……ワムデュス、少し聞きたい。凪ノ桟橋で、灯晶の外し方を教えたという旅の人のことだ",
+  "dir": "gentle, earnest inquiry"
+ },
+ "mzv4lp": {
+  "speaker": "ワムデュス",
+  "text": "旅の人？　やさしい人だった。古い釣りの結びも、教えてくれた",
+  "dir": "innocent, fondly reminiscing"
+ },
+ "4rjjlp": {
+  "speaker": "ワムデュス",
+  "text": "首のところに、紫のふわふわがついてた。さわると、あったかいので",
+  "dir": "sleepy, cheerful recall"
+ },
+ "m0mouy": {
+  "speaker": "ワムデュス",
+  "text": "旅の人、首に紫のふわふわがついてた",
+  "dir": "nodding slowly, softly insisting"
+ },
+ "b3a3u5": {
+  "speaker": "ワムデュス",
+  "text": "ウィルナス。これ、旅の人がくれた浮き。ワムの宝物",
+  "dir": "proudly offering, sweet whisper"
+ },
+ "be3ewi": {
+  "speaker": "ワムデュス",
+  "text": "浮きの糸、旅の人の首のふわふわを、ちょっとほどいてくれたの",
+  "dir": "childlike, casual explanation"
+ },
+ "1t8xjb9": {
+  "speaker": "ウィルナス",
+  "text": "紫の毛皮の毛を撚った糸……！　ワムデュス、それを鼎に預けてくれるか",
+  "dir": "shocked revelation, urgent request"
+ },
+ "arlb0z": {
+  "speaker": "ワムデュス",
+  "text": "いいよ。ルオーのためなので",
+  "dir": "earnest nod, willing surrender"
+ },
+ "rml1p": {
+  "speaker": "ワムデュス",
+  "text": "ワムの浮き、だいじにしてね",
+  "dir": "soft, trusting plea"
+ },
+ "1q0bi29": {
+  "speaker": "フェディエル",
+  "text": "あの堅物が、人を殺めたなどと……。此方は信じぬぞえ",
+  "dir": "amused chuckle, confident disbelief"
+ },
+ "1b86fg0": {
+  "speaker": "フェディエル",
+  "text": "あれは、自分の得にならぬ嘘をつく男よ。誰かをかばっておるに違いないわいな",
+  "dir": "shrewdly smiling, knowing tone"
+ },
+ "zghsqv": {
+  "speaker": "イルザ",
+  "text": "今朝の見回りで見つけた。……首を絞められている",
+  "dir": "grim, strictly professional"
+ },
+ "1xevr2p": {
+  "speaker": "ウィルナス",
+  "text": "首に、ねじれた縄目の跡……。紐ではない、太い綱で絞められたようであるな",
+  "dir": "analytical, low solemn murmur"
+ },
+ "sazxlr": {
+  "speaker": "ウィルナス",
+  "text": "……星祭りのことも、二十年前のことも、何も話さぬまま、か",
+  "dir_was": "bitter, quiet lament"
+ },
+ "c8279b": {
+  "speaker": "ウィルナス",
+  "text": "格子は細かいな……。人はもちろん、腕一本がやっとであろう",
+  "dir": "inspecting closely, focused scrutiny"
+ },
+ "13prc0w": {
+  "speaker": "ウィルナス",
+  "text": "む？　格子の一本に、濡れた綱でこすれたような新しい跡がある！",
+  "dir": "sharp realization, sudden alert"
+ },
+ "1jt2w2l": {
+  "speaker": "イルザ",
+  "text": "……それに、寝台が窓の真下まで引きずられている。ゆうべの点検では、壁ぎわにあったはずだ",
+  "dir": "observant, suspicious and stern"
+ },
+ "1ltx4om": {
+  "speaker": "ウィルナス",
+  "text": "カガチは寝台に乗って、窓に顔を寄せた……？　窓の外は、甲板の真下か……",
+  "dir": "piecing clues together, brooding"
+ },
+ "kum1du": {
+  "speaker": "ウィルナス",
+  "text": "『夜の鐘のあと　独房のカガチ、歌を口ずさむ　ゼタ』……",
+  "dir": "reading aloud, intrigued cadence"
+ },
+ "12tjj2o": {
+  "speaker": "ウィルナス",
+  "text": "面会のあとも、カガチは生きておったのか！",
+  "dir": "astonished breakthrough, loud discovery"
+ },
+ "18cdslf": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべの欄は……『面会のあと、鍵の持ち出しなし』。看守長の署名もある",
+  "dir": "furrowed brow, pointing out"
+ },
+ "190pkng": {
+  "speaker": "イルザ",
+  "text": "独房の鍵は、私の目の前でしか持ち出せん。ゆうべは、面会のあと一度も出ていない",
+  "dir": "firm, unyielding assertion"
+ },
+ "m3llmr": {
+  "speaker": "イルザ",
+  "text": "堅物がやったと、本人が言っている。それで十分だろう",
+  "dir": "cold, curt dismissal"
+ },
+ "1be1lel": {
+  "speaker": "ウィルナス",
+  "text": "（決めつけおって……。ゆうべの見回りの記録が、どこかにあるはずである）",
+  "dir": "gritting teeth, inner frustration"
+ },
+ "jmz70i": {
+  "speaker": "イルザ",
+  "text": "面会のあとも、カガチは生きていた。……認めよう。だが、鍵は一度も出ていないぞ",
+  "dir": "grudging admission, defiant edge"
+ },
+ "f2lwu8": {
+  "speaker": "ウィルナス",
+  "text": "イルザ殿。ゆうべのことを、順を追って聞かせてもらおう",
+  "dir": "commanding, dignified pressing"
+ },
+ "1r3xfx4": {
+  "speaker": "イルザ",
+  "text": "いいだろう。時間の無駄だと思うがな",
+  "dir": "scoffing, impatient concession"
+ },
+ "1a3ntu0": {
+  "speaker": "ウィルナス",
+  "text": "面会したのは二人……『ルオー』と、『ミオ　検品見習い』",
+  "dir": "reading steadily, sharp focus"
+ },
+ "sb2vit": {
+  "speaker": "ウィルナス",
+  "text": "ルオーの欄の外に、ルオーの字で一行……『子どもに試させた』？",
+  "dir": "deeply puzzled, slow mutter"
+ },
+ "3daftc": {
+  "speaker": "ウィルナス",
+  "text": "どういう意味だ……？",
+  "dir": "whispering, suspicious contemplation"
+ },
+ "ty7l5h": {
+  "speaker": "ルオー",
+  "text": "何度聞かれても同じだ。私が殺した。それでいい",
+  "dir": "flat, cold and stubborn"
+ },
+ "rj2ufb": {
+  "speaker": "ウィルナス",
+  "text": "（ルオーは何を隠しておる……。ゆうべの面会のことを、もっと知らねば）",
+  "dir": "anxious whisper to himself"
+ },
+ "utaot7": {
+  "speaker": "ルオー",
+  "text": "……ウィルナス。私は、ワムデュスの耳に入れたくない話を聞いてしまったのだよ",
+  "dir": "heavy sigh, troubled solemnity"
+ },
+ "qz5nxb": {
+  "speaker": "ウィルナス",
+  "text": "ルオー。ゆうべのことを、お主の口から聞かせてもらう",
+  "dir": "forceful, unwavering confrontation"
+ },
+ "nr4f76": {
+  "speaker": "ルオー",
+  "text": "……よかろう。聞いたら、もう帰りたまえ",
+  "dir": "resigned, haughty coldness"
+ },
+ "rj1aeo": {
+  "speaker": "ミオ",
+  "text": "カガチ様が……どうして……",
+  "dir": "trembling, tearful shock"
+ },
+ "1i8c3kw": {
+  "speaker": "ウィルナス",
+  "text": "お主は、カガチの部下であったか",
+  "dir": "gentle, low sympathetic inquiry"
+ },
+ "1fya4mu": {
+  "speaker": "ミオ",
+  "text": "はい。検品見習いのミオです。……カガチ様は、厳しいけれど、わたしに仕事を教えてくださいました",
+  "dir": "sniffles, polite through grief"
+ },
+ "111wlu3": {
+  "speaker": "ミオ",
+  "text": "ゆうべも面会に来て、最終便で船を降りたんです。でも今朝の知らせを聞いて、急いで戻ってきました",
+  "dir": "breathy, anxious explanation"
+ },
+ "1l2e418": {
+  "speaker": "ミオ",
+  "text": "カガチ様は、院のために働く立派な方だったんです……",
+  "dir": "emotional breakdown, sobbing praise"
+ },
+ "eug0kf": {
+  "speaker": "ミオ",
+  "text": "最終便に、院のお使いの方が乗っていらしたなんて……。わたし、ちっとも知りませんでした",
+  "dir": "confused, slightly troubled whisper"
+ },
+ "cemhq1": {
+  "speaker": "ウィルナス",
+  "text": "ミオ。ゆうべの面会のことを、くわしく聞かせてくれ",
+  "dir": "gentle, encouraging tone"
+ },
+ "15l6blx": {
+  "speaker": "ミオ",
+  "text": "はい。……カガチ様のためなら、何でもお話しします",
+  "dir": "resolute, earnest dedication"
+ },
+ "yqblae": {
+  "speaker": "サンダルフォン",
+  "text": "昼の便までだ。……それまでに、ルオーの言葉を覆せるか",
+  "dir": "calm, stern warning"
+ },
+ "1bnx8zw": {
+  "speaker": "ウィルナス",
+  "text": "（サンダルフォンは、ルオーが夜更けに独房へ戻ったと見ておるようだ。覆すには、鍵と、別の道の手がかりが要る）",
+  "dir": "whispering thoughtfully to himself"
+ },
+ "1r624jc": {
+  "speaker": "サンダルフォン",
+  "text": "綱で窓から入った者がいる。……だとすれば、ゆうべ船にいた誰かだ",
+  "dir": "cool, methodical deduction"
+ },
+ "18qz55c": {
+  "speaker": "サンダルフォン",
+  "text": "面会のあとも、カガチは生きていた。それは認めよう",
+  "dir": "composed, reasonable concession"
+ },
+ "q0zq6q": {
+  "speaker": "サンダルフォン",
+  "text": "だが、それならルオーは夜更けに戻ったまでだ。順に説明しよう",
+  "dir": "steady, confident assertion"
+ },
+ "1bn9bsh": {
+  "speaker": "ウィルナス",
+  "text": "その推理、鼎が受けて立とうではないか！",
+  "dir": "booming, fiercely defiant shout"
+ },
+ "138gmkl": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべの最終便……『降りる者　ミオ』『積む荷　灯晶院の荷　一箱』『乗る者　院の使い　一名』",
+  "dir": "sharp, deliberate reading aloud"
+ },
+ "sk5uox": {
+  "speaker": "ウィルナス",
+  "text": "最終便で、院の使いが乗ってきておる！",
+  "dir": "triumphant, booming breakthrough"
+ },
+ "1k5oedu": {
+  "speaker": "ガレヲン",
+  "text": "違和（……ウィルナス。この炉から、焦げた紙の香りがいたします）",
+  "dir": "gentle, perceptive whisper"
+ },
+ "ta8wrj": {
+  "speaker": "ウィルナス",
+  "text": "灰の中に、燃え残りの紙が……！",
+  "dir": "startled, intense realization"
+ },
+ "smsv7n": {
+  "speaker": "ウィルナス",
+  "text": "『……の口を封じよ。星祭りまでに……』。端に、印の跡が半分だけ残っておる",
+  "dir": "grim, analyzing gravely"
+ },
+ "j4xw8i": {
+  "speaker": "ガレヲン",
+  "text": "推察（印の跡は、円の右下が欠けているように見えます）",
+  "dir": "soft, observant murmur"
+ },
+ "78f8fm": {
+  "speaker": "ウィルナス",
+  "text": "欠けた印……雲市場の封蝋と同じか？　……今は確かめようがないな。預かっておこう",
+  "dir": "contemplative, lowering his tone"
+ },
+ "1tut7zv": {
+  "speaker": "ウィルナス",
+  "text": "これが院の荷か……。中身は、検品の書類だったそうだが",
+  "dir": "suspicious, probing tone"
+ },
+ "1o04qn7": {
+  "speaker": "ガレヲン",
+  "text": "心配（ルオーさまは、昔から、ご自分のことは後回しになさる方です）",
+  "dir": "warm, sorrowful maternal sigh"
+ },
+ "uifu8e": {
+  "speaker": "ガレヲン",
+  "text": "懸念（……あの方が黙るのは、いつも、誰かを守るときでした）",
+  "dir": "poignant, quiet understanding"
+ },
+ "jzmp49": {
+  "speaker": "ベリアル",
+  "text": "やあ、どうも。灯晶院の使いのベリアルさ。院の荷を届けに来たら、嵐で帰れなくなってね",
+  "dir": "smooth, playfully dismissive greeting"
+ },
+ "hmp1gq": {
+  "speaker": "ベリアル",
+  "text": "人が死んだんだって？　物騒だねえ。俺は、ずっとこの船倉で荷の番をしていたよ",
+  "dir": "feigned shock, sly smirk"
+ },
+ "by9p66": {
+  "speaker": "ベリアル",
+  "text": "それより、あんたの相棒。自分がやったって言ってるんだろう？　認めてるなら、それでいいじゃないか",
+  "dir": "taunting, cynical amusement"
+ },
+ "60h5k3": {
+  "speaker": "ウィルナス",
+  "text": "（人を食ったような男であるな……）",
+  "dir": "growling quietly to himself"
+ },
+ "dgv40m": {
+  "speaker": "ベリアル",
+  "text": "俺はただの使いさ。院の書類を届けに来ただけだよ",
+  "dir": "casual, slippery nonchalance"
+ },
+ "16px15u": {
+  "speaker": "ウィルナス",
+  "text": "ベリアル！　ゆうべのことを、洗いざらい聞かせてもらうぞ！",
+  "dir": "commanding, booming interrogation"
+ },
+ "vz4y1s": {
+  "speaker": "ベリアル",
+  "text": "おお、怖い怖い。いいさ、何でも答えてあげよう",
+  "dir": "mock fright, chuckling smoothly"
+ },
+ "2nfc3n": {
+  "speaker": "ベリアル",
+  "text": "また来たのかい？　話すことなんて、何もないさ",
+  "dir": "bored, patronizing sneer"
+ },
+ "1m5vda6": {
+  "speaker": "ウィルナス",
+  "text": "（この男を崩すには、まだ足りぬ……。綱の結び目と旅の人のことをワムデュスに確かめ、推理をまとめ切るのである）",
+  "dir": "focused, resolute inner resolve"
+ },
+ "1nzz1nz": {
+  "speaker": "ウィルナス",
+  "text": "嵐の夜、外から船に近づけた者も、降りられた者もおらん。そして独房の換気窓は、甲板の真下……！",
+  "dir": "authoritative, dramatic exposition"
+ },
+ "15uxz63": {
+  "speaker": "ウィルナス",
+  "text": "犯人は、ゆうべ船の中におった者！　嵐の甲板から綱を下ろし、換気窓の格子越しにカガチを絞めたのである！",
+  "dir": "powerful, emphatic accusation"
+ },
+ "1c9d193": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべ船におった者の中で、見張りの看守でも、ルオーでもない者……",
+  "dir": "suspenseful, narrowing the focus"
+ },
+ "1dtvtp7": {
+  "speaker": "ウィルナス",
+  "text": "最終便で乗り、嵐で帰れなくなった院の使い！　ミオは同じ便で降りておる。綱を下ろしたのは、院の使いなのである！",
+  "dir": "thundering, climactic indictment"
+ },
+ "uvhonl": {
+  "speaker": "ウィルナス",
+  "text": "院の使いは、紫のふわふわの毛皮の襟……。そしてワムデュスに灯晶の外し方を教えた旅の人も、首に紫のふわふわ！",
+  "dir": "keen, revealing sudden connection"
+ },
+ "lnzifm": {
+  "speaker": "ウィルナス",
+  "text": "院の使いこそ、凪ノ桟橋の旅の人なのである！",
+  "dir": "triumphant, decisive pointing shout"
+ },
+ "1r03ttr": {
+  "speaker": "ウィルナス",
+  "text": "旅の人は院の使い。そしてルオーが書き残した『子どもに試させた』……！",
+  "dir": "grave, mounting shock"
+ },
+ "jpnocv": {
+  "speaker": "ウィルナス",
+  "text": "凪ノ桟橋の灯晶の外し方を、院の使いがワムデュスに教えた……。院が、子どもに試させたというのか",
+  "dir": "appalled, simmering righteous anger"
+ },
+ "10y5te2": {
+  "speaker": "ウィルナス",
+  "text": "ルオーは、ワムデュスをかばって黙っておったのだな！",
+  "dir": "emotional, impassioned revelation"
+ },
+ "k7ofoy": {
+  "speaker": "ルオー",
+  "text": "……そこまで、たどり着いたか",
+  "dir": "quietly resigned, subdued respect"
+ },
+ "ozo4n5": {
+  "speaker": "ルオー",
+  "text": "カガチは面会で言った。凪ノ桟橋の灯晶の外し方は、院の使いが子どもに教えて試させたものだ、と",
+  "dir": "solemn, lucid explanation"
+ },
+ "1e789x": {
+  "speaker": "ルオー",
+  "text": "古い灯晶を外せるかどうか、子どもの手で試したのだよ。……話せば、ワムデュスが院の手先だと疑われる",
+  "dir": "painfully honest, protective sorrow"
+ },
+ "1kabkdt": {
+  "speaker": "ルオー",
+  "text": "だから、私が罪をかぶれば済むと思った。……浅はかだったな",
+  "dir": "quietly bitter, self-deprecating sigh"
+ },
+ "1acq9d9": {
+  "speaker": "ウィルナス",
+  "text": "ぬはは！　まったくであるぞ、ルオー！",
+  "dir": "boisterous laugh, hearty encouragement"
+ },
+ "1kqfay1": {
+  "speaker": "ウィルナス",
+  "text": "ならば鼎が、その院の使いを捕まえる！　お主をここから出すのは、そのあとである！",
+  "dir": "heroic determination, booming voice"
+ },
+ "9hvdxb": {
+  "speaker": "ルオー",
+  "text": "……気をつけたまえ。カガチの口を封じた男だ。簡単には尻尾を出さないだろう",
+  "dir": "grave warning, stern whisper"
+ },
+ "i7q2ot": {
+  "speaker": "ウィルナス",
+  "text": "綱でカガチを絞めたのは、最終便で乗った院の使い。そして院の使いは、凪ノ桟橋の旅の人……！",
+  "dir": "sharp realization, intense focus"
+ },
+ "10w3mpb": {
+  "speaker": "ウィルナス",
+  "text": "ワムデュスに灯晶の外し方を教え、ゆうべカガチの口を封じた者は同じ男！　船倉におる、あの院の使いなのである！",
+  "dir": "triumphant shout, accusing roar"
+ },
+ "uqgmlr": {
+  "speaker": "イルザ",
+  "text": "よく聞け。二度は言わん",
+  "dir": "cold, commanding snap"
+ },
+ "urep92": {
+  "speaker": "イルザ",
+  "text": "堅物は夕方、鉄格子越しにカガチと面会した。",
+  "dir": "flat, strictly factual testimony"
+ },
+ "xucll4": {
+  "speaker": "ウィルナス",
+  "text": "面会は、独房の中で？",
+  "dir": "probing question, clear resonance"
+ },
+ "1y16cst": {
+  "speaker": "イルザ",
+  "text": "鉄格子越しだ。だが、腕を伸ばせば届く",
+  "dir": "curt, dismissive clarification"
+ },
+ "w4hx2f": {
+  "speaker": "イルザ",
+  "text": "面会が終わったとき、カガチはもう息をしていなかった。",
+  "dir": "grave, deliberate testimony"
+ },
+ "vk4pmg": {
+  "speaker": "ウィルナス",
+  "text": "面会が終わったとき、もう息がなかった……と？",
+  "dir": "deep, incredulous repetition"
+ },
+ "1fysz7o": {
+  "speaker": "イルザ",
+  "text": "堅物が出てきたあと、独房は静まり返っていた。そういうことだ",
+  "dir": "unshakable, cold finality"
+ },
+ "1chy83y": {
+  "speaker": "ウィルナス",
+  "text": "（静まり返っていた、だけか……？）",
+  "dir": "internal whisper, suspicious doubt"
+ },
+ "leozwz": {
+  "speaker": "イルザ",
+  "text": "それから朝まで、独房に近づいた者はいない。",
+  "dir": "firm, unyielding testimony"
+ },
+ "17v3bb3": {
+  "speaker": "ウィルナス",
+  "text": "朝まで誰も近づいておらん、と",
+  "dir": "low, measuring echo"
+ },
+ "yam7bf": {
+  "speaker": "イルザ",
+  "text": "独房の鍵は、私の目の前でしか持ち出せん",
+  "dir": "proud, steely certainty"
+ },
+ "dcds2y": {
+  "speaker": "ウィルナス",
+  "text": "この見回りの記録を見よ！　『夜の鐘のあと　独房のカガチ、歌を口ずさむ』！",
+  "dir": "powerful slam, triumphant shout"
+ },
+ "1xvjjjh": {
+  "speaker": "ウィルナス",
+  "text": "面会が終わったのは夕方。カガチは、そのあとも生きておった！　ルオーが面会のときに殺したはずがないのである！",
+  "dir": "commanding roar, decisive logic"
+ },
+ "1kagyd0": {
+  "speaker": "イルザ",
+  "text": "……ゼタの字か。あいつ、こんなことまで書いていたのか",
+  "dir": "startled murmur, irritated sigh"
+ },
+ "algk5": {
+  "speaker": "イルザ",
+  "text": "認めよう。面会のあとも、カガチは生きていた",
+  "dir": "grudging admission, composed"
+ },
+ "1cifl0e": {
+  "speaker": "イルザ",
+  "text": "だが、独房の鍵は一度も持ち出されていない。中に入れた者など、いないぞ",
+  "dir": "sharp counter, defiant glare"
+ },
+ "19z6j3w": {
+  "speaker": "イルザ",
+  "text": "それがどうした。話をそらすな",
+  "dir": "harsh, impatient dismissiveness"
+ },
+ "1rdl897": {
+  "speaker": "ウィルナス",
+  "text": "（面会が終わったとき、カガチは本当に死んでおったのか？　夜の見回りの記録を思い出すのである）",
+  "dir": "inner contemplation, focused mutter"
+ },
+ "px7gkx": {
+  "speaker": "ウィルナス",
+  "text": "（『見回りの記録』を、2番目の証言につきつけるのである！）",
+  "dir": "eager inner resolve, fierce whisper"
+ },
+ "6ulfh2": {
+  "speaker": "イルザ",
+  "text": "時間の無駄だと言っただろう。下がれ",
+  "dir": "scornful, icy dismissal"
+ },
+ "u6gda3": {
+  "speaker": "サンダルフォン",
+  "text": "異論があるなら、証拠で言え",
+  "dir": "cool, detached challenge"
+ },
+ "1gl5gpo": {
+  "speaker": "サンダルフォン",
+  "text": "面会のあとも、カガチが生きていたのは認めよう。",
+  "dir": "measured, steady testimony"
+ },
+ "6so76u": {
+  "speaker": "ウィルナス",
+  "text": "生きておったことは、認めるのだな",
+  "dir": "firm, deliberate probe"
+ },
+ "1mrah0v": {
+  "speaker": "サンダルフォン",
+  "text": "記録がある以上はな。俺は、残っている物で考える",
+  "dir": "pragmatic, indifferent tone"
+ },
+ "n6al98": {
+  "speaker": "サンダルフォン",
+  "text": "だがルオーは夜更けに、看守室の鍵で独房へ戻ったんだ。",
+  "dir": "pointed, quiet accusation"
+ },
+ "16hr7vg": {
+  "speaker": "ウィルナス",
+  "text": "看守室の鍵で、戻ったと？",
+  "dir": "skeptical, resounding interrogation"
+ },
+ "10cxr60": {
+  "speaker": "サンダルフォン",
+  "text": "看守の目を盗めば、できなくはない。灯台番は鍵の扱いに慣れている",
+  "dir": "calm, logical deduction"
+ },
+ "1lnsg45": {
+  "speaker": "サンダルフォン",
+  "text": "船の中で動機があるのは、ルオーだけだ。",
+  "dir": "cold, definitive testimony"
+ },
+ "1rpvjiu": {
+  "speaker": "ウィルナス",
+  "text": "船の中で、動機があるのはルオーだけ、と？",
+  "dir": "grave, deliberate echo"
+ },
+ "uk8p41": {
+  "speaker": "サンダルフォン",
+  "text": "カガチは、灯台の灯晶のことで何かを知っていた。ルオーは灯台番だ",
+  "dir": "low, chilling finality"
+ },
+ "pmbe5k": {
+  "speaker": "ウィルナス",
+  "text": "この鍵の記録を見よ！　『面会のあと、鍵の持ち出しなし』。看守長の署名もある！",
+  "dir": "confident slam, powerful declaration"
+ },
+ "1funtsi": {
+  "speaker": "ウィルナス",
+  "text": "独房の鍵は、イルザ殿の目の前でしか持ち出せぬ。ルオーが鍵で戻れたはずがないのである！",
+  "dir": "triumphant, booming conviction"
+ },
+ "rs2fjb": {
+  "speaker": "サンダルフォン",
+  "text": "……鍵では戻れない、か",
+  "dir": "low mutter, composed reflection"
+ },
+ "c48qsr": {
+  "speaker": "サンダルフォン",
+  "text": "ならば、誰も独房には入れなかったことになる。カガチは、ひとりでに死んだとでも言うのか",
+  "dir": "cold, sharp cross-examination"
+ },
+ "11zd7lh": {
+  "speaker": "サンダルフォン",
+  "text": "違うと言うなら……独房に入らずに、カガチに手が届いた道があるという証拠を出せ",
+  "dir": "stoic challenge, quiet authority"
+ },
+ "1pkbmou": {
+  "speaker": "ウィルナス",
+  "text": "（ルオーは、本当に鍵で独房へ戻れたのか？　看守室で見た物を思い出すのである）",
+  "dir": "whispering thoughtfully to himself"
+ },
+ "srgil8": {
+  "speaker": "ウィルナス",
+  "text": "（『独房の鍵の記録』を、2番目の証言につきつけるのである！）",
+  "dir": "focused inner determination, murmuring"
+ },
+ "10ipsdx": {
+  "speaker": "ミオ",
+  "text": "カガチ様のためなら……わたし、何でもお話しします",
+  "dir": "timid yet earnest, gentle"
+ },
+ "6mu142": {
+  "speaker": "ミオ",
+  "text": "カガチ様は、面会のときもいつもどおり凛としていました。",
+  "dir": "careful testimony, slightly trembling"
+ },
+ "10sglez": {
+  "speaker": "ウィルナス",
+  "text": "カガチは、面会で何か言っておったか",
+  "dir": "firm, probing inquiry"
+ },
+ "39nml8": {
+  "speaker": "ミオ",
+  "text": "『院のために、少し休むだけ』と……。いつもの、凛としたカガチ様でした",
+  "dir": "softly remembering, fragile emotion"
+ },
+ "loagt1": {
+  "speaker": "ミオ",
+  "text": "わたしは面会のあと、最終便で船を降りました。",
+  "dir": "formal testimony, quiet conviction"
+ },
+ "706hn8": {
+  "speaker": "ウィルナス",
+  "text": "最終便で降りた、と。それは何刻ごろだ",
+  "dir": "attentive, pressing for details"
+ },
+ "hv0gm2": {
+  "speaker": "ミオ",
+  "text": "夜の鐘より前です。そのすぐあとに、嵐が来ました",
+  "dir": "polite, clear recollection"
+ },
+ "udkils": {
+  "speaker": "ミオ",
+  "text": "最終便のあと、この船に乗った人はいないはずです。",
+  "dir": "steady testimony, earnest certainty"
+ },
+ "pydb09": {
+  "speaker": "ウィルナス",
+  "text": "最終便のあと、乗った者はおらん、と？",
+  "dir": "probing repetition, keen focus"
+ },
+ "95cflb": {
+  "speaker": "ミオ",
+  "text": "はい。わたしが降りた便が、最後でしたから。……だから、船の中にいたのは、看守の方とルオーさんだけで……",
+  "dir": "hesitant explanation, trailing off nervously"
+ },
+ "1jp5kbr": {
+  "speaker": "ウィルナス",
+  "text": "この積荷の帳面を見よ！　最終便で降りたのはミオ。そして同じ便で、院の荷と、院の使いが一名乗っておる！",
+  "dir": "dramatic shout, exposing contradiction"
+ },
+ "1btclqu": {
+  "speaker": "ウィルナス",
+  "text": "嵐で帰れなくなった院の使いが、ゆうべ一晩、この船にいたのである！",
+  "dir": "thunderous declaration, triumphant roar"
+ },
+ "sfw2x9": {
+  "speaker": "ミオ",
+  "text": "えっ……。院の、お使いの方が……？",
+  "dir": "shocked gasp, bewildered realization"
+ },
+ "1h4gxri": {
+  "speaker": "ミオ",
+  "text": "わたし、降りるのに夢中で、ちっとも気づきませんでした……",
+  "dir": "flustered, apologetic and confused"
+ },
+ "1203or1": {
+  "speaker": "ミオ",
+  "text": "……カガチ様を、院の方が……？　そんなはず、ありません……",
+  "dir": "hushed disbelief, growing horror"
+ },
+ "whxr7l": {
+  "speaker": "ミオ",
+  "text": "え、えっと……それは、カガチ様と関係があるのでしょうか……？",
+  "dir": "nervous stammer, overwhelmed timidness"
+ },
+ "wviei4": {
+  "speaker": "ウィルナス",
+  "text": "（最終便のあと、本当に誰も乗っておらんのか？　最終便で積まれた物を思い出すのである）",
+  "dir": "intense inner thought, murmuring"
+ },
+ "ujh6x0": {
+  "speaker": "ウィルナス",
+  "text": "（『積荷の帳面』を、3番目の証言につきつけるのである！）",
+  "dir_was": "confident inner whisper, resolved"
+ },
+ "sgtk66": {
+  "speaker": "ミオ",
+  "text": "……もう、わたし、何がなんだか……",
+  "dir": "overwhelmed sigh, tearful confusion"
+ },
+ "7gxl3i": {
+  "speaker": "ルオー",
+  "text": "私が殺した。……それ以上、何を聞きたいのだね",
+  "dir_was": "detached confession, coldly dismissive"
+ },
+ "1s2p5xd": {
+  "speaker": "ルオー",
+  "text": "面会で、カガチと灯晶院のことを少し話した。",
+  "dir": "stiff testimony, monotone and aloof"
+ },
+ "1k2m41": {
+  "speaker": "ウィルナス",
+  "text": "面会で、カガチと何を話した？",
+  "dir": "sharp demand, unwavering intensity"
+ },
+ "1xs3s6j": {
+  "speaker": "ルオー",
+  "text": "……灯晶院のことを、少し。それだけだ",
+  "dir": "blunt curt response, defensive"
+ },
+ "174sa1w": {
+  "speaker": "ルオー",
+  "text": "夜更けに、私がカガチを殺したのだよ。",
+  "dir": "chillingly calm confession, rigid poise"
+ },
+ "fnfd9o": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべ、どうやって殺したというのだ",
+  "dir": "commanding interrogation, pressing hard"
+ },
+ "1nxna8s": {
+  "speaker": "ルオー",
+  "text": "……どうでもよかろう。殺したと言っているのだよ",
+  "dir": "impatient murmur, tightly suppressed irritation"
+ },
+ "5fluqm": {
+  "speaker": "ルオー",
+  "text": "私が殺したと書いておきたまえ。それで終わる話なのだよ。",
+  "dir": "arrogant indifference, aloof testimony"
+ },
+ "2rumhq": {
+  "speaker": "ウィルナス",
+  "text": "それで終わる話だと？　誰にとって、終わる話なのだ",
+  "dir": "booming objection, fierce righteous indignation"
+ },
+ "1jn07lg": {
+  "speaker": "ルオー",
+  "text": "……私にとって、だ",
+  "dir_was": "dark, heavy whisper with finality"
+ },
+ "1swr2jc": {
+  "speaker": "ルオー",
+  "text": "……ひとつだけ、言っておこう",
+  "dir": "quietly, cold and solemn"
+ },
+ "123q0v3": {
+  "speaker": "ルオー",
+  "text": "面会では、たいした話はしていない。",
+  "dir": "rigid, deliberately composed testimony"
+ },
+ "mir1os": {
+  "speaker": "ウィルナス",
+  "text": "たいした話はしておらん、と。本当だな、ルオー",
+  "dir": "piercing, stern cross-examination"
+ },
+ "cagw3x": {
+  "speaker": "ルオー",
+  "text": "……本当だとも",
+  "dir_was": "unshaken, coldly defiant"
+ },
+ "15exeos": {
+  "speaker": "ウィルナス",
+  "text": "この面会の記録を見よ！　お主の欄の外に、お主の字で一行……『子どもに試させた』！",
+  "dir": "powerful shout, slamming evidence"
+ },
+ "1k4aalx": {
+  "speaker": "ウィルナス",
+  "text": "たいした話をしておらぬ者が、こんなことを書き残すものか！　ルオー、お主は面会で何かを聞いたのである！",
+  "dir": "fierce, thunderous conviction"
+ },
+ "26xobb": {
+  "speaker": "ルオー",
+  "text": "……それでも、言えない。言えば、困る者がいる",
+  "dir": "tight-lipped, guarded hesitation"
+ },
+ "1b56low": {
+  "speaker": "ウィルナス",
+  "text": "終わらせぬ！　甘い推理で人を疑うなと言ったのは、お主であろう！",
+  "dir": "impassioned, booming rebuke"
+ },
+ "ixi0iv": {
+  "speaker": "ウィルナス",
+  "text": "お主を疑う甘い推理など、鼎は決して認めぬ！",
+  "dir": "resolute, unwavering declaration"
+ },
+ "18yr07m": {
+  "speaker": "ルオー",
+  "text": "……まったく。君という男は",
+  "dir": "exasperated sigh, faint smirk"
+ },
+ "bnvreh": {
+  "speaker": "ルオー",
+  "text": "……それが何だというのだね",
+  "dir": "aloof, defensively dismissive"
+ },
+ "1oe28di": {
+  "speaker": "ウィルナス",
+  "text": "（ルオーは、何かを隠しておる……。『それで終わる』と言うところを、揺さぶってみるのである）",
+  "dir": "whispering to himself, focused"
+ },
+ "b0hrji": {
+  "speaker": "ウィルナス",
+  "text": "（隠れた証言が出たら、『面会の記録』をつきつけるのである！）",
+  "dir": "intense whisper, determined inner-monologue"
+ },
+ "1vsagth": {
+  "speaker": "ルオー",
+  "text": "もう帰りたまえ、ウィルナス",
+  "dir": "coldly detached, dismissive command"
+ },
+ "j5nt49": {
+  "speaker": "ベリアル",
+  "text": "さあ、何でも聞いてくれよ。俺は嘘はつかない主義でね",
+  "dir": "smooth, teasing charm"
+ },
+ "8rbjw8": {
+  "speaker": "ベリアル",
+  "text": "俺は院の書類を届けに来た、ただの使いさ。",
+  "dir": "feigning innocence, breezy testimony"
+ },
+ "3npqcz": {
+  "speaker": "ウィルナス",
+  "text": "院の書類を届けに来た、と。誰に届けた？",
+  "dir": "suspicious, sharp questioning"
+ },
+ "ffdc92": {
+  "speaker": "ベリアル",
+  "text": "看守長さんにさ。受け取りの署名もある。疑うなら見てごらん",
+  "dir": "smug chuckle, playful nonchalance"
+ },
+ "5960yh": {
+  "speaker": "ベリアル",
+  "text": "ゆうべは嵐が去るまで、船倉で荷の番をしていた。",
+  "dir": "calm, casually rehearsed testimony"
+ },
+ "1702fx4": {
+  "speaker": "ウィルナス",
+  "text": "ゆうべは船倉で荷の番を？　ひと晩じゅうか",
+  "dir": "probing, skeptical tone"
+ },
+ "dmuh1g": {
+  "speaker": "ベリアル",
+  "text": "ああ。嵐の音がうるさくて、眠れやしなかったよ",
+  "dir": "feigned annoyance, exaggerated sigh"
+ },
+ "zno9mu": {
+  "speaker": "ベリアル",
+  "text": "あんな嵐の甲板になんか、一歩も出ていないよ。",
+  "dir": "emphatic yet mocking testimony"
+ },
+ "g93vs": {
+  "speaker": "ウィルナス",
+  "text": "甲板には一歩も出ておらん、と。言い切れるか",
+  "dir": "stern, pressing for confirmation"
+ },
+ "cyc7vx": {
+  "speaker": "ベリアル",
+  "text": "言い切れるさ。あんな嵐の甲板に出るなんて、正気じゃないだろう？",
+  "dir": "derisive chuckle, condescending smirk"
+ },
+ "2jm6m3": {
+  "speaker": "ウィルナス",
+  "text": "この紫の毛を見よ！　甲板の手すりから独房の外へ垂れた綱に、絡んでおった！",
+  "dir": "commanding shout, slamming contradiction"
+ },
+ "1q6kwwh": {
+  "speaker": "ウィルナス",
+  "text": "ふわふわとした紫の毛皮の毛……お主の襟と同じである！　お主は嵐の甲板に出て、あの綱に触れたのだ！",
+  "dir": "triumphant, fierce accusation"
+ },
+ "gfc2d5": {
+  "speaker": "ベリアル",
+  "text": "……へえ。よく見てるねえ",
+  "dir": "impressed purr, dangerous whisper"
+ },
+ "1g3i59d": {
+  "speaker": "ベリアル",
+  "text": "でも残念。紫の毛皮の襟は、院の使いの決まりの身なりなのさ。院の使いなら、誰だって同じ襟を巻いてる",
+  "dir": "mock pity, sly explanation"
+ },
+ "ekm2ys": {
+  "speaker": "ベリアル",
+  "text": "その毛が俺のだって、どうして言い切れる？",
+  "dir": "gloating, provoking challenge"
+ },
+ "11x3yfo": {
+  "speaker": "ベリアル",
+  "text": "はは、それが何だい？　見当違いもいいところだ",
+  "dir": "burst of mockery, arrogant laugh"
+ },
+ "irwpdz": {
+  "speaker": "ウィルナス",
+  "text": "（本当に甲板へ出ておらんのか？　甲板の綱で見つけた物を思い出すのである）",
+  "dir": "muttering inwardly, tense contemplation"
+ },
+ "1b7k7wz": {
+  "speaker": "ウィルナス",
+  "text": "（『紫の毛』を、3番目の証言につきつけるのである！）",
+  "dir": "firm whisper, strategic resolve"
+ },
+ "16j6xt5": {
+  "speaker": "ベリアル",
+  "text": "もうおしまいかい？　つまらないなあ",
+  "dir": "bored, condescending taunt"
+ },
+ "1bklghw": {
+  "speaker": "ベリアル",
+  "text": "綱なんて、船乗りなら誰でも結べるだろう？",
+  "dir": "shrugging, airily dismissive"
+ },
+ "1f49x0d": {
+  "speaker": "ベリアル",
+  "text": "あの綱を結んだのは、船乗りの誰かだろう。",
+  "dir": "devious, feigned indifference testimony"
+ },
+ "k6ysp2": {
+  "speaker": "ウィルナス",
+  "text": "船乗りの誰かが結んだ、と？",
+  "dir": "deep, heavily skeptical query"
+ },
+ "vgidaz": {
+  "speaker": "ベリアル",
+  "text": "監獄船だよ？　綱を扱う船乗りなんて、いくらでもいるさ",
+  "dir": "smirking, dripping with sarcasm"
+ },
+ "f7yl4v": {
+  "speaker": "ベリアル",
+  "text": "船乗りなら、どんな結びでもお手のものさ。",
+  "dir": "slick, deceptively confident testimony"
+ },
+ "5fhysz": {
+  "speaker": "ウィルナス",
+  "text": "どんな結びでもお手のもの、か",
+  "dir": "low growl, carefully probing"
+ },
+ "mlxq4a": {
+  "speaker": "ベリアル",
+  "text": "ああ。船乗りってのは、結びの名人ばかりさ",
+  "dir": "grinning, delightfully smug conclusion"
+ },
+ "b20euv": {
+  "speaker": "ベリアル",
+  "text": "……それに、あの結びだってね",
+  "dir": "sly, trailing off teasingly"
+ },
+ "1jy0oqt": {
+  "speaker": "ベリアル",
+  "text": "俺は書類を運ぶだけの、しがない使いだよ。",
+  "dir": "feigning innocence, breezy shrug"
+ },
+ "1p3cgi0": {
+  "speaker": "ウィルナス",
+  "text": "お主は、ただの使いだと？",
+  "dir": "suspicious, sharp questioning"
+ },
+ "1vglrjg": {
+  "speaker": "ベリアル",
+  "text": "そうさ。院の書類を運ぶだけの、しがない使いだよ",
+  "dir": "casual, smoothly dismissive"
+ },
+ "112e07d": {
+  "speaker": "ベリアル",
+  "text": "だいいち、同じ院のカガチを俺が殺す理由がないだろう？",
+  "dir": "reasoning, deceptively calm smile"
+ },
+ "15in11t": {
+  "speaker": "ウィルナス",
+  "text": "同じ院の者だからこそ、口を封じる理由があったのではないか",
+  "dir": "stern, pressing hard"
+ },
+ "989yzd": {
+  "speaker": "ベリアル",
+  "text": "怖いこと言うねえ。カガチは院の大事な仲間だよ。泣けてくるじゃないか",
+  "dir": "mock distress, theatrical smirk"
+ },
+ "22vj3l": {
+  "speaker": "ウィルナス",
+  "text": "（……少しも悲しそうに見えぬ）",
+  "dir": "muttering darkly to himself"
+ },
+ "97l4ho": {
+  "speaker": "ベリアル",
+  "text": "あの結びだって、船乗りのよく使うありふれた結びさ。",
+  "dir": "nonchalant, smooth lie"
+ },
+ "4pozre": {
+  "speaker": "ウィルナス",
+  "text": "あの結びが、船乗りのよく使う結びだと？",
+  "dir": "probing sharply, catching slip"
+ },
+ "1ov61sv": {
+  "speaker": "ベリアル",
+  "text": "見ればわかるだろう？　ありふれた結びさ",
+  "dir": "condescending, easy chuckle"
+ },
+ "1cv2eww": {
+  "speaker": "ウィルナス",
+  "text": "この結び目を見よ！　これは今どき誰も知らぬ、古い釣りの結びである！",
+  "dir": "booming slam, triumphant shout"
+ },
+ "1efdi34": {
+  "speaker": "ウィルナス",
+  "text": "この結びを知っておるのは、ワムデュスと……凪ノ桟橋で、ワムデュスにこれを教えた旅の人だけなのだ！",
+  "dir": "forceful, passionate accusation"
+ },
+ "x1he7c": {
+  "speaker": "ベリアル",
+  "text": "……古い結び、ねえ",
+  "dir": "cool pause, subtle menace"
+ },
+ "16cc9sl": {
+  "speaker": "ベリアル",
+  "text": "で？　その旅の人とやらが、この俺だっていう証拠でもあるのかい？",
+  "dir": "smug sneer, leaning in"
+ },
+ "1p9vhbe": {
+  "speaker": "ベリアル",
+  "text": "はは、焦ってるねえ。それじゃ俺には届かないよ",
+  "dir": "arrogant, mocking laughter"
+ },
+ "tpqvnw": {
+  "speaker": "ウィルナス",
+  "text": "（あの結びは、本当にありふれた結びか？　結びの話を、揺さぶってみるのである）",
+  "dir": "whispering internally, strategic focus"
+ },
+ "10m6m4y": {
+  "speaker": "ウィルナス",
+  "text": "（結びの話を揺さぶって隠れた証言を出し、『古い結び目』をつきつけるのである！）",
+  "dir": "quietly fired up, determined"
+ },
+ "wfxq7e": {
+  "speaker": "ベリアル",
+  "text": "そろそろ昼の便だ。俺は帰らせてもらうよ",
+  "dir": "dismissive, checking time casually"
+ },
+ "13qktfz": {
+  "speaker": "イルザ",
+  "text": "ベリアルは、私が責任を持って独房に入れる。……今度は窓も塞いでな",
+  "dir": "ironclad authority, grim resolve"
+ },
+ "111i2l7": {
+  "speaker": "イルザ",
+  "text": "堅物、貴様は釈放だ。……疑って悪かった",
+  "dir": "curt, grudging apology"
+ },
+ "1fw18zm": {
+  "speaker": "ルオー",
+  "text": "いや。黙っていた私が悪い",
+  "dir_was": "stiff, quiet acknowledgment"
+ },
+ "1x2w6dr": {
+  "speaker": "ワムデュス",
+  "text": "ルオー。……ワムのせいで、ごめんなさい",
+  "dir": "contrite, timid pout"
+ },
+ "1weimmj": {
+  "speaker": "ルオー",
+  "text": "違う。君は何も悪くない",
+  "dir": "gentle, firm reassurance"
+ },
+ "np5hyn": {
+  "speaker": "ルオー",
+  "text": "悪いのは、子どもに試させた大人のほうなのだよ。……君は、教わったことを素直にやっただけだ",
+  "dir": "cold anger softening to warmth"
+ },
+ "16athrz": {
+  "speaker": "ワムデュス",
+  "text": "……うん。ルオー、帰ってきてくれて、よかった",
+  "dir": "soft, sleepy relief"
+ },
+ "vkvzdp": {
+  "speaker": "ルオー",
+  "text": "……ああ。心配をかけたな",
+  "dir": "faint sigh, awkward affection"
+ },
+ "14su2om": {
+  "speaker": "フェディエル",
+  "text": "ほほ。堅物が、ずいぶんと柔らかい顔をしておるのう",
+  "dir": "amused chuckle, teasing purr"
+ },
+ "l76wm1": {
+  "speaker": "ルオー",
+  "text": "……からかわないでくれたまえ",
+  "dir": "flustered, huffy protest"
+ },
+ "bez0xq": {
+  "speaker": "サンダルフォン",
+  "text": "……ウィルナス。議会から、急ぎの命令が届いた",
+  "dir": "grave, heavy interruption"
+ },
+ "z5lh2y": {
+  "speaker": "サンダルフォン",
+  "text": "灯晶院が、議会に申し立てた。院の使いを捕らえたのは、捜査の行き過ぎだと",
+  "dir": "bitter, controlled tension"
+ },
+ "1ilhubc": {
+  "speaker": "サンダルフォン",
+  "text": "……お前たちの捜査権を、取り上げる",
+  "dir": "painful pause, cold decree"
+ },
+ "fam69i": {
+  "speaker": "ウィルナス",
+  "text": "なんと！？　犯人を捕らえたのにか！",
+  "dir": "shocked fury, roaring indignation"
+ },
+ "1r6qxiw": {
+  "speaker": "サンダルフォン",
+  "text": "俺は反対した。だが、議会の多くは灯晶院の言いなりだ。……命令は命令だ",
+  "dir": "clenched teeth, suppressed agony"
+ },
+ "jrslib": {
+  "speaker": "ガレヲン",
+  "text": "懸念（……星祭りは、明日の夜です）",
+  "dir_was": "sorrowful, quiet maternal whisper"
+ },
+ "k4klky": {
+  "speaker": "フェディエル",
+  "text": "船倉の燃え残りの命令書……『口を封じよ。星祭りまでに』。欠けた印の跡まで、残っておったのにのう",
+  "dir": "dark murmur, sinister elegance"
+ },
+ "qizf3j": {
+  "speaker": "ウィルナス",
+  "text": "……星祭りの夜、すべてを照らすお方、か",
+  "dir": "deep, brooding contemplation"
+ },
+ "1gewaio": {
+  "speaker": "ウィルナス",
+  "text": "捜査権が無くとも、鼎たちは止まらぬ。……空じゅうの灯りを、消させはせん！",
+  "dir": "heroic roar, unbreakable will"
+ },
+ "gdnn74": {
+  "speaker": "シエテ",
+  "text": "議長！　報告だよ。雲市場も、霧の町も、港という港の灯りが消えてる",
+  "dir": "casual yet urgent, reporting"
+ },
+ "f1bkmu": {
+  "speaker": "シエテ",
+  "text": "空にいる船は、帰る目印をなくしちゃった。……まずいね、これは",
+  "dir": "grave concern, lowering tone"
+ },
+ "1cop4xe": {
+  "speaker": "バイシュラ",
+  "text": "あらまあ。星祭りの夜に、真っ暗とは。……困りましたねえ",
+  "dir": "gentle, mildly troubled sigh"
+ },
+ "fh8r": {
+  "speaker": "ベルゼバブ",
+  "text": "――困るどころではない",
+  "dir": "cold, sharp interruption"
+ },
+ "aem0eu": {
+  "speaker": "ベルゼバブ",
+  "text": "二十年前と同じ災厄だ。灯晶を盗み、灯りを奪った大罪人オロロジャイアの夜と、同じことが起きている",
+  "dir": "imposing, dark theatrical warning"
+ },
+ "1a9gehg": {
+  "speaker": "ベルゼバブ",
+  "text": "空の灯りを守れるのは、灯晶院だけだ。議長、灯晶院に全権を預けよ。どの船を、どこへ帰すか。すべて院が決める",
+  "dir": "haughty, demanding absolute authority"
+ },
+ "1jf76r7": {
+  "speaker": "バイシュラ",
+  "text": "全権、ですか。……ずいぶんと大きなお願いですねえ",
+  "dir": "calm, playfully skeptical"
+ },
+ "1t0p3zz": {
+  "speaker": "ウィルナス",
+  "text": "待てい！　その全権、渡してはならん！",
+  "dir": "powerful roar, bursting in"
+ },
+ "zu846v": {
+  "speaker": "ベルゼバブ",
+  "text": "……捜査権を取り上げられた者が、議場に何の用だ",
+  "dir": "cold sneer, utter contempt"
+ },
+ "1aq5z2v": {
+  "speaker": "ウィルナス",
+  "text": "灯りを消したのは災厄ではない！　灯晶院が配った偽物の灯晶が、今夜いっせいに消えたのである！",
+  "dir": "heroic conviction, booming accusation"
+ },
+ "1pp4h4b": {
+  "speaker": "ベルゼバブ",
+  "text": "偽物？　証拠でもあるのか",
+  "dir": "smug scoff, mocking disbelief"
+ },
+ "1o73vpo": {
+  "speaker": "ウィルナス",
+  "text": "ぐっ……。証拠は、いま集めておる！",
+  "dir": "choked frustration, stubbornly defensive"
+ },
+ "9jz8tq": {
+  "speaker": "ベルゼバブ",
+  "text": "話にならんな。……それに議長、この者たちこそ疑うべきだ",
+  "dir": "dismissive sigh, sinister deflection"
+ },
+ "l5ngyc": {
+  "speaker": "ベルゼバブ",
+  "text": "二十年前、大罪人オロロジャイアと共にいたのは誰だ？　この五竜であろう",
+  "dir": "chillingly calculated, accusing glare"
+ },
+ "1xw1xj3": {
+  "speaker": "ベルゼバブ",
+  "text": "大罪人の仲間が、大罪人と同じ夜に、院の灯りを悪しざまに言う。……偶然であろうかな",
+  "dir": "mocking whisper, dripping sarcasm"
+ },
+ "fkesg4": {
+  "speaker": "ウィルナス",
+  "text": "なっ……！　鼎たちが、灯りを消したと申すか！",
+  "dir": "outraged, fiercely indignant"
+ },
+ "pyyful": {
+  "speaker": "バイシュラ",
+  "text": "あらまあ。……ウィルナスさん、ロジャーさんとお仲間だったのは、本当ですか？",
+  "dir": "gentle, quietly piercing question"
+ },
+ "1q0f9cl": {
+  "speaker": "ウィルナス",
+  "text": "……それは、本当である。だが……！",
+  "dir": "hesitant confession, desperate urgency"
+ },
+ "ythxse": {
+  "speaker": "シエテ",
+  "text": "議長、また報告だよ。……北の航路で、灯りを見失った船が一隻、雲の下へ消えた",
+  "dir": "somber, subdued grim report"
+ },
+ "ml7eli": {
+  "speaker": "ベルゼバブ",
+  "text": "聞いたか。こうして話している間にも、船は落ちていく",
+  "dir": "coldly triumphant, pressing pressure"
+ },
+ "1p1qzca": {
+  "speaker": "ベルゼバブ",
+  "text": "一刻を争うのだ。議長、ご決断を",
+  "dir": "firm, relentless command"
+ },
+ "dr03vz": {
+  "speaker": "バイシュラ",
+  "text": "……そうですねえ。では、こうしましょう",
+  "dir": "measured pause, composed decision"
+ },
+ "quf14c": {
+  "speaker": "バイシュラ",
+  "text": "夜明けまで、待って差し上げます。それまでに証拠を持ってきなさい",
+  "dir": "graceful, unyielding ultimatum"
+ },
+ "1i47qze": {
+  "speaker": "バイシュラ",
+  "text": "持ってこられなければ、院のお願いを聞きます。……そして五竜の皆さんには、大罪人の仲間として、議会で取り調べを受けてもらいます",
+  "dir": "smiling yet chilling decree"
+ },
+ "1sjimh": {
+  "speaker": "ウィルナス",
+  "text": "……！",
+  "dir": "sharp gasp, tense silence"
+ },
+ "1wzsikx": {
+  "speaker": "サンダルフォン",
+  "text": "……議長。俺は、ウィルナスの話を聞く価値はあると思う",
+  "dir": "low, calm, resolute defense"
+ },
+ "ru8di7": {
+  "speaker": "ベルゼバブ",
+  "text": "ふん。夜明けまでに、何が変わるものか。……せいぜい、仲間の罪の証でも探してくるがいい",
+  "dir": "arrogant sneer, taunting exit"
+ },
+ "1ah7e44": {
+  "speaker": "ワムデュス",
+  "text": "……空、まっくら。船の人たち、こわいだろうな",
+  "dir": "sleepy, soft, childlike worry"
+ },
+ "1nxb952": {
+  "speaker": "ウィルナス",
+  "text": "捜査権もない。証人のカガチは死に、ベリアルは口を割らぬ。……おまけに鼎たちは、大罪人の仲間呼ばわりである",
+  "dir": "bitter mutter, clenching teeth"
+ },
+ "1sgnmnk": {
+  "speaker": "フェディエル",
+  "text": "……此方らが動けば動くほど、院長の言うとおりに見えるやもしれぬのう",
+  "dir": "composed, deep aristocratic murmur"
+ },
+ "92v0g5": {
+  "speaker": "ウィルナス",
+  "text": "それでも、夜明けまでに、院長の嘘を崩す証拠を集め直さねばならん",
+  "dir": "rallying spirit, resolute determination"
+ },
+ "if9xaw": {
+  "speaker": "サンダルフォン",
+  "text": "俺も手を貸す。……これを見ろ。監獄船の船倉で、お前たちが拾った燃え残りの命令書だ",
+  "dir": "steady, conspiratorial whisper"
+ },
+ "1siimrx": {
+  "speaker": "サンダルフォン",
+  "text": "議会で預かっていたものを、持ち出してきた。『……の口を封じよ。星祭りまでに』。印の跡は、円の右下が欠けている",
+  "dir": "cool, methodical observation"
+ },
+ "zbivvb": {
+  "speaker": "フェディエル",
+  "text": "此方の手元には、雲市場の封蝋のかけらがあるぞえ。あれも、紋の右下が欠けておった",
+  "dir": "intrigued, elegant revelation"
+ },
+ "1unx5xx": {
+  "speaker": "ウィルナス",
+  "text": "欠けた印……。それが院長の印だと示せれば、院長を追いつめられる",
+  "dir": "sudden realization, building hope"
+ },
+ "yx8vtx": {
+  "speaker": "フェディエル",
+  "text": "ならば此方は雲市場ぞ。シェロカルテなら、院長の印の押された書き付けを持っておるやもしれぬ",
+  "dir": "decisive, stately proposition"
+ },
+ "1aio184": {
+  "speaker": "ルオー",
+  "text": "私とワムデュスは、凪ノ桟橋だ。あの灯台が今夜どうなっているか、確かめねばならん",
+  "dir": "stiff, intellectual clarity"
+ },
+ "1aie32x": {
+  "speaker": "ワムデュス",
+  "text": "ワム、ルオーと行く。夜の桟橋、ちょっとこわいけど、平気なので",
+  "dir": "toddler-like bravery, cute determination"
+ },
+ "cf2ng": {
+  "speaker": "ウィルナス",
+  "text": "……正直に申せば、鼎にも、勝ち筋はまだ見えておらん",
+  "dir": "quiet warrior humility, candidly"
+ },
+ "4iyzub": {
+  "speaker": "ルオー",
+  "text": "見えなくとも、行くしかあるまい。……今夜ここで折れれば、ロジャーの名も、二度と戻らないのだよ",
+  "dir": "firm, resolute and intellectual"
+ },
+ "68gd23": {
+  "speaker": "ウィルナス",
+  "text": "……うむ。鼎は議場に残る！　院長に好き勝手はさせん。……皆、夜明けまでに戻ってこい！",
+  "dir": "commanding, powerful and heroic"
+ },
+ "1ot2vyk": {
+  "speaker": "シエテ",
+  "text": "やあ、ウィルナスくん。お兄さん、各地の報告をまとめてたんだけどさ",
+  "dir": "cheerful, breezy and casual"
+ },
+ "dkf3a4": {
+  "speaker": "シエテ",
+  "text": "消えた灯晶は、どれも灯晶院が配った物なんだよね。古い灯りや、院を通さず手で作った灯りは……まだ確かめきれてない",
+  "dir": "conversational, subtly analytical"
+ },
+ "4egi6s": {
+  "speaker": "ウィルナス",
+  "text": "院が配った灯晶だけが、消えた……！",
+  "dir": "struck, grave realization"
+ },
+ "9ndh2k": {
+  "speaker": "シエテ",
+  "text": "そう。偶然にしちゃ、ちょっと出来すぎだよね",
+  "dir": "wry smile, knowing tone"
+ },
+ "12zeg7": {
+  "speaker": "シエテ",
+  "text": "消えたのは、どれも灯晶院が配った灯晶だよ",
+  "dir": "clear, steady assertion"
+ },
+ "abtubw": {
+  "speaker": "サンダルフォン",
+  "text": "……悪い知らせだ。監獄船のベリアルが、院の者に連れ出された",
+  "dir": "low, tense and grim"
+ },
+ "q85pzd": {
+  "speaker": "ウィルナス",
+  "text": "なんと！？　イルザ殿が、渡したのか！",
+  "dir": "shocked, fiercely bewildered"
+ },
+ "12xjlhj": {
+  "speaker": "サンダルフォン",
+  "text": "議会の印のある引き渡しの書状を持っていたそうだ。……院長の手は、議会の中にまで回っている",
+  "dir": "bitter, quiet gravity"
+ },
+ "ya9qiu": {
+  "speaker": "サンダルフォン",
+  "text": "議長は、ああ見えて公平な方だ。だが、人の言葉はもう当てにならん。残るのは、物の証拠だけだ",
+  "dir": "cool, realistic determination"
+ },
+ "1s0ftc0": {
+  "speaker": "ウィルナス",
+  "text": "（……証人まで、奪われたか）",
+  "dir": "whispering inwardly, gritting teeth"
+ },
+ "zqv8cf": {
+  "speaker": "ベルゼバブ",
+  "text": "まだいたのか。夜明けは、すぐそこだぞ",
+  "dir": "cold, haughty sneer"
+ },
+ "qi0b8p": {
+  "speaker": "ベルゼバブ",
+  "text": "灯りを持たぬ者に、空の船は救えん。……院に任せておけばよいのだ",
+  "dir": "arrogant, contemptuous authority"
+ },
+ "81ey65": {
+  "speaker": "ベルゼバブ",
+  "text": "ああ、監獄船の使いのことなら、院で預かった。院の不始末は、院が片づける。……お前たちの出る幕はない",
+  "dir": "dismissive, icy superiority"
+ },
+ "twptvv": {
+  "speaker": "ウィルナス",
+  "text": "（この男の嘘を崩す証拠……。皆が持ち帰るのを待つのである）",
+  "dir": "suppressed anger, inner resolve"
+ },
+ "b45fjx": {
+  "speaker": "バイシュラ",
+  "text": "夜明けまで、まだ少しありますよ。……ふわあ。あら、失礼",
+  "dir": "sleepy yawn, gracefully polite"
+ },
+ "1b92stu": {
+  "speaker": "バイシュラ",
+  "text": "……さっき、また一隻、行方が知れなくなったそうです。急いでくださいね、ウィルナスさん",
+  "dir": "gentle, quietly serious warning"
+ },
+ "17p6nlh": {
+  "speaker": "ウィルナス",
+  "text": "（院長を問いただすには、まだ証拠が足りぬ……。持ち場の皆の調べと、推理をまとめ切るのである）",
+  "dir": "focused, intense inner deliberation"
+ },
+ "pxpv47": {
+  "speaker": "フェディエル",
+  "text": "待たせたのう、ウィルナス。……院の番兵が、市場の書き付けを根こそぎ持っていきおった。残ったのは、控えが一枚きりぞえ",
+  "dir": "composed, wry sisterly tone"
+ },
+ "u4zmnh": {
+  "speaker": "ガレヲン",
+  "text": "報告（ゲン爺さまの伝言、最後まで読めました）",
+  "dir": "soft, warm and reassuring"
+ },
+ "4qfza0": {
+  "speaker": "ワムデュス",
+  "text": "ワムとルオーも、掘ってきた。……でも、ほかの灯り、まだ、ぜんぶ消えたまま",
+  "dir": "sleepy, cute and sluggish"
+ },
+ "2j3l3s": {
+  "speaker": "ウィルナス",
+  "text": "……うむ。皆、よくぞ戻った。手札は少ないが、これで挑むしかあるまい",
+  "dir": "grateful, solemn and resolute"
+ },
+ "1hztni0": {
+  "speaker": "ウィルナス",
+  "text": "議長！　院長ベルゼバブ、お主の嘘、ここで崩させてもらう！",
+  "dir": "commanding, thunderous accusation"
+ },
+ "18qkinv": {
+  "speaker": "バイシュラ",
+  "text": "ふふ。夜明けには、間に合いましたね。……では、どうぞ",
+  "dir": "amused chuckle, graceful permission"
+ },
+ "12uq90p": {
+  "speaker": "ベルゼバブ",
+  "text": "……よかろう。何を持ってこようと、院の灯りは揺るがぬ",
+  "dir": "unshaken, deeply chilling arrogance"
+ },
+ "1f3k2ce": {
+  "speaker": "シェロカルテ",
+  "text": "フェディエルさん！　市場灯まで消えちゃって、もう商売あがったりですよ〜",
+  "dir": "playfully whining, bubbly merchant"
+ },
+ "o8fu8j": {
+  "speaker": "フェディエル",
+  "text": "シェロカルテ。院長の印が押された書き付けを、持っておらぬか",
+  "dir": "calm, inquiries with dignity"
+ },
+ "7uqx5i": {
+  "speaker": "シェロカルテ",
+  "text": "院長様の印……あ、市場灯の納品書ですね〜。大きな灯晶の納品書には、院長様ご自身が印を押す決まりなんです〜",
+  "dir": "breezy, informative and sweet"
+ },
+ "1tjhtzv": {
+  "speaker": "シェロカルテ",
+  "text": "さっき院の番兵さんが来て、全部持っていっちゃいましたけど……",
+  "dir": "feigning dismay, teasingly relaxed"
+ },
+ "1ip4xrv": {
+  "speaker": "シェロカルテ",
+  "text": "ふふ〜。でも、商人は控えを残すものですよ〜。はい、どうぞ〜",
+  "dir": "proud chuckle, playfully triumphant"
+ },
+ "1uxs7aw": {
+  "speaker": "フェディエル",
+  "text": "さすがは全空一の商人ぞえ。……控えを、ひかえめに隠しておったとはのう",
+  "dir": "impressed, dry humorous chuckle"
+ },
+ "y8xoq7": {
+  "speaker": "シェロカルテ",
+  "text": "あ〜、それ私のセリフですよ〜",
+  "dir": "playful pout, giggling protest"
+ },
+ "1my1yth": {
+  "speaker": "シェロカルテ",
+  "text": "商人は、控えを残すものですよ〜",
+  "dir": "chipper, confident merchant testimony"
+ },
+ "1qbjzlm": {
+  "speaker": "サンチラ",
+  "text": "フェディエルさん！　あの……ゲン爺さんの守り灯、届けてくださってありがとうございました",
+  "dir": "earnest, timid and respectful"
+ },
+ "1u88qa2": {
+  "speaker": "サンチラ",
+  "text": "今夜、ほかの灯りはみんな消えちゃったのに……守り灯だけは、ちゃんと灯ってるんです",
+  "dir": "dreamy, touched with wonder"
+ },
+ "hr2xbl": {
+  "speaker": "フェディエル",
+  "text": "……ゲン爺の、手作りの本物の灯りだからのう",
+  "dir": "gentle, deep affectionate warmth"
+ },
+ "1m88cxb": {
+  "speaker": "フェディエル",
+  "text": "ほれ、其方の恋も、まだ消えておらぬということぞえ",
+  "dir": "teasing, sly sisterly whisper"
+ },
+ "15rqmwe": {
+  "speaker": "サンチラ",
+  "text": "も、もう！　フェディエルさんったら……！",
+  "dir": "flustered, blushingly embarrassed"
+ },
+ "drm49t": {
+  "speaker": "サンチラ",
+  "text": "守り灯だけは、今夜も灯ってるんです",
+  "dir": "sincere, delicate yet clear"
+ },
+ "1hoswil": {
+  "speaker": "フェディエル",
+  "text": "院から仕入れた市場灯も、やはり偽物にすり替えられておったか……",
+  "dir": "deep, somber realization"
+ },
+ "1vsixl9": {
+  "speaker": "院の番兵",
+  "text": "院の命により、院長様の印のある書き付けは、すべて回収する。邪魔をするな",
+  "dir": "gruff, authoritative barking"
+ },
+ "opqzfr": {
+  "speaker": "フェディエル",
+  "text": "（書き付けを消して回っておるのか……。此方の手に、何か崩せる物があればのう）",
+  "dir": "whispering, thoughtful calculation"
+ },
+ "1d2jtqi": {
+  "speaker": "フェディエル",
+  "text": "其方。院の命令とやらを、くわしく聞かせてもらおうかの",
+  "dir": "calm, dangerously probing"
+ },
+ "h0nujx": {
+  "speaker": "院の番兵",
+  "text": "ふん。何度聞いても同じだ",
+  "dir": "dismissive scoff, stiff"
+ },
+ "90488w": {
+  "speaker": "クラリス",
+  "text": "ガレヲンさん！　この続き、院ができる前の古い灯晶じゃないと読めないんだよ",
+  "dir": "urgent, bright appeal"
+ },
+ "11r9ne8": {
+  "speaker": "カリオストロ",
+  "text": "凪ノ桟橋の灯晶は持ち出せないし……。どうするつもり？",
+  "dir": "cute pout, shrewdly questioning"
+ },
+ "125xqos": {
+  "speaker": "ガレヲン",
+  "text": "告白（……これを、使います）",
+  "dir": "gentle, soft resolution"
+ },
+ "1go3gxj": {
+  "speaker": "ガレヲン",
+  "text": "追憶（二十年前、ロジャーが私にくれた、小さな灯晶です。灯晶院ができるより前に、あの方が手で作ったもの）",
+  "dir": "nostalgic warmth, gentle wistfulness"
+ },
+ "oy22mi": {
+  "speaker": "カリオストロ",
+  "text": "……へえ。オロロジャイアの、手作りの灯晶か。こんな物、今どき残ってないよっ",
+  "dir": "theatrical surprise, playful admiration"
+ },
+ "wact9x": {
+  "speaker": "ガレヲン",
+  "text": "読解（『最初の灯りは、古き灯りの下に眠る』……）",
+  "dir": "slow, solemn recitation"
+ },
+ "yois6v": {
+  "speaker": "クラリス",
+  "text": "最初の灯り？　それって……最初に作られた灯晶ってこと？",
+  "dir": "curious, piecing clues together"
+ },
+ "1t8uov7": {
+  "speaker": "カリオストロ",
+  "text": "ゲン爺の師匠……オロロジャイアと一緒に、最初の灯晶を作った職人の物だね。ゲン爺は、それをどこかに隠してたんだ",
+  "dir": "smug exposition, confident analysis"
+ },
+ "1057e7": {
+  "speaker": "ガレヲン",
+  "text": "確信（古き灯りの下……。ルオーさまの灯台の灯晶は、灯晶院より古い灯りです）",
+  "dir": "quiet revelation, serene certainty"
+ },
+ "1azcrrs": {
+  "speaker": "ガレヲン",
+  "text": "祈念（ゲン爺さま。あなたの灯りは、ちゃんと届きました）",
+  "dir": "tender, heartfelt prayer"
+ },
+ "3mdle3": {
+  "speaker": "カリオストロ",
+  "text": "……オロロジャイアってさ、悪い奴じゃなかったよ。カリオストロ、昔ちょっとだけ会ったことあるんだ",
+  "dir": "rare sincerity, subdued nostalgia"
+ },
+ "grwoa9": {
+  "speaker": "カリオストロ",
+  "text": "灯りの話になると、子どもみたいに目を輝かせてた。師匠殺しなんて、するもんか",
+  "dir": "passionate defense, firm conviction"
+ },
+ "d8hzt4": {
+  "speaker": "クラリス",
+  "text": "師匠がそこまで言うの、めずらしいじゃん",
+  "dir": "playfully surprised, teasing grin"
+ },
+ "jl31gh": {
+  "speaker": "ガレヲン",
+  "text": "感謝（……ありがとうございます、カリオストロさま）",
+  "dir": "warm, gentle gratitude"
+ },
+ "199dy1p": {
+  "speaker": "ルオー",
+  "text": "ワムデュス。私の灯台日誌を持ってきた。この灯台の灯晶のことは、すべてここに書いてある",
+  "dir": "formal, precise and composed"
+ },
+ "16y1xp7": {
+  "speaker": "ルオー",
+  "text": "『この灯晶は、灯晶院ができるより前から、この桟橋を照らしてきた。院の灯晶ではない』……私の先代の字だ",
+  "dir": "solemnly reading, intellectual pride"
+ },
+ "i9pr": {
+  "speaker": "ワムデュス",
+  "text": "じゃあ、この灯台の灯晶は、院の物じゃないの？",
+  "dir": "sleepy, innocently puzzled"
+ },
+ "1ar6tvk": {
+  "speaker": "ルオー",
+  "text": "そうだ。誰が作ったのかは書いていないが……院より古い、手作りの灯晶なのだよ",
+  "dir": "patient, slightly haughty clarity"
+ },
+ "1t2z78r": {
+  "speaker": "ルオー",
+  "text": "この灯台の灯晶は、灯晶院より古い。院の灯晶ではないのだよ",
+  "dir": "firm, emphatic reiteration"
+ },
+ "19hdv2q": {
+  "speaker": "ワムデュス",
+  "text": "灯台、ついてる……！　ほかの灯り、ぜんぶ消えてるのに",
+  "dir": "soft awe, quiet wonder"
+ },
+ "8vffwd": {
+  "speaker": "ワムデュス",
+  "text": "ここの灯りだけ、まだ空を照らしてる。船が、ちゃんと帰ってこられる",
+  "dir": "relieved, sleepy warmth"
+ },
+ "zxs5bk": {
+  "speaker": "ワムデュス",
+  "text": "古い灯りの下……。この灯台の、下？",
+  "dir": "slow realization, tilted head"
+ },
+ "9l3puz": {
+  "speaker": "ルオー",
+  "text": "灯台柱の台座の石は、外せる作りになっている。……ワムデュス、手伝いたまえ",
+  "dir": "brisk command, methodical focus"
+ },
+ "1kqe0rh": {
+  "speaker": "ワムデュス",
+  "text": "うん。重いのは、まかせて",
+  "dir": "casual agreement, relaxed confidence"
+ },
+ "1hzmsra": {
+  "speaker": "ルオー",
+  "text": "これが……最初の灯晶か",
+  "dir_was": "breathless awe, reverent discovery"
+ },
+ "hqtieo": {
+  "speaker": "ルオー",
+  "text": "中に、細かい字が刻まれている。……『あの夜、師を』……先は、本物の灯りに透かさねば読めんな",
+  "dir": "scrutinizing closely, analytical murmur"
+ },
+ "1xh7a7h": {
+  "speaker": "ワムデュス",
+  "text": "ガレヲンの古い灯晶なら、読めるかも",
+  "dir": "gentle suggestion, mild optimism"
+ },
+ "16ra2rr": {
+  "speaker": "ルオー",
+  "text": "ああ。議場へ持ち帰ろう",
+  "dir_was": "crisp, decisive nod"
+ },
+ "7nsxx0": {
+  "speaker": "ワムデュス",
+  "text": "見張りの人、帰った。灯台、ちゃんとついてる",
+  "dir": "matter-of-fact, laid-back observation"
+ },
+ "19p7mbk": {
+  "speaker": "ルオー",
+  "text": "院が手を出せない、すり替えられていない灯りだ。……空じゅうで、今夜ここだけが灯っている",
+  "dir": "quiet pride, resolute reassurance"
+ },
+ "icb8m3": {
+  "speaker": "院の見張り",
+  "text": "おい、子ども。院の命令で、この灯台の灯りも消しに来た。どいていろ",
+  "dir": "gruff intimidation, barking order"
+ },
+ "525uc9": {
+  "speaker": "ワムデュス",
+  "text": "だめ。ここの灯りは、消しちゃだめ",
+  "dir": "stubborn refusal, childish resolve"
+ },
+ "1bv7jsl": {
+  "speaker": "ワムデュス",
+  "text": "（ルオーなら、この灯台のこと、くわしく知ってるので）",
+  "dir": "whispering, sleepy scheme"
+ },
+ "pxgbds": {
+  "speaker": "ワムデュス",
+  "text": "見張りの人。ワム、ききたいことがある",
+  "dir": "clumsily stalling, sweet innocence"
+ },
+ "16dbnqo": {
+  "speaker": "院の見張り",
+  "text": "なんだ、子どもが。……まあいい、言ってみろ",
+  "dir": "impatient scoff, begrudging tolerance"
+ },
+ "180u0od": {
+  "speaker": "ウィルナス",
+  "text": "消えた灯晶は、どれも灯晶院が配った物。そして院より古い凪ノ桟橋の灯りだけが、今夜も灯っておる……！",
+  "dir": "bold, dramatic revelation"
+ },
+ "aonmx7": {
+  "speaker": "ウィルナス",
+  "text": "災厄などではない！　院が配った灯晶が偽物にすり替えられておったから、今夜いっせいに消えたのである！",
+  "dir": "booming, triumphant conviction"
+ },
+ "y4fu84": {
+  "speaker": "ガレヲン",
+  "text": "推理（『最初の灯りは、古き灯りの下に眠る』。そして凪ノ桟橋の灯晶は、灯晶院より古い灯り……）",
+  "dir": "soft whisper, deep contemplation"
+ },
+ "pg8049": {
+  "speaker": "ガレヲン",
+  "text": "確信（ゲン爺さまは、最初の灯晶を、凪ノ桟橋の灯台の下に隠したのです。ワムデュスさま、ルオーさま、灯台の下を）",
+  "dir": "breathless, urgent realization"
+ },
+ "1k05dk1": {
+  "speaker": "ルオー",
+  "text": "……聞こえたぞ、ガレヲン。台座の下を、掘ってみよう",
+  "dir": "calm, focused resolve"
+ },
+ "i7ayyq": {
+  "speaker": "フェディエル",
+  "text": "雲市場の符丁の手紙の封蝋も、院長の印も、円の右下が同じ形に欠けておる……！",
+  "dir": "sharp, piercing insight"
+ },
+ "yt85ff": {
+  "speaker": "フェディエル",
+  "text": "トマに偽物の取引を持ちかけた手紙の封は、院長の印で押されたものぞえ！",
+  "dir": "victorious accusation, powerful projection"
+ },
+ "hm04dd": {
+  "speaker": "ウィルナス",
+  "text": "燃え残りの命令書の印も、右下が欠けておった。そして欠けておるのは、院長の印……！",
+  "dir": "fiercely connecting the dots"
+ },
+ "1kg3sg3": {
+  "speaker": "ウィルナス",
+  "text": "『口を封じよ』と命じたのは、院長ベルゼバブなのである！",
+  "dir": "thunderous, righteous roar"
+ },
+ "1vcng3l": {
+  "speaker": "ウィルナス",
+  "text": "院の灯晶を偽物にすり替え、星祭りの夜にいっせいに消し……それを知る者の口を封じさせた",
+  "dir": "solemn, grim indignation"
+ },
+ "565yfo": {
+  "speaker": "ウィルナス",
+  "text": "すべてを仕組んだのは院長ベルゼバブ！　空の灯りを奪って、全権を握るつもりだったのである！",
+  "dir": "passionate, sweeping denunciation"
+ },
+ "7j987r": {
+  "speaker": "ウィルナス",
+  "text": "皆の証拠がそろったら、議場で議長に申し出るのである！",
+  "dir": "rallying, heroic command"
+ },
+ "cyw4us": {
+  "speaker": "院の番兵",
+  "text": "院の命令は絶対だ。よく聞け",
+  "dir": "gruff, intimidating bark"
+ },
+ "1eiqlf9": {
+  "speaker": "院の番兵",
+  "text": "院の命で、院長様の印のある書き付けを回収しに来た。",
+  "dir": "stiff, dutiful recitation"
+ },
+ "1dq2fz2": {
+  "speaker": "フェディエル",
+  "text": "院長の印の書き付けを集めて、どうするつもりぞえ",
+  "dir": "cool, probing curiosity"
+ },
+ "16cj718": {
+  "speaker": "院の番兵",
+  "text": "院で大切に保管する。……それ以上は知らん",
+  "dir": "defensive, curt evasion"
+ },
+ "ec1ljd": {
+  "speaker": "院の番兵",
+  "text": "この市場に、院長様の印の書き付けはもう一枚も残っておらん。",
+  "dir": "stubborn, emphatic testimony"
+ },
+ "t2fd7g": {
+  "speaker": "フェディエル",
+  "text": "一枚残らず、と申すか",
+  "dir": "amused, baiting murmur"
+ },
+ "1boqukm": {
+  "speaker": "院の番兵",
+  "text": "そうだ。この市場の書き付けは、すべて回収した",
+  "dir": "impatient, blunt insistence"
+ },
+ "14ewrz1": {
+  "speaker": "院の番兵",
+  "text": "印を見られて困ることなど、院には何もない。",
+  "dir": "rigid, faintly defensive claim"
+ },
+ "u8d89j": {
+  "speaker": "フェディエル",
+  "text": "印など、見られて困るものかえ？",
+  "dir": "playful skepticism, sly grin"
+ },
+ "1hlzn13": {
+  "speaker": "院の番兵",
+  "text": "こ、困りはせん。だが、院の命令なのだ",
+  "dir": "flustered, stumbling defense"
+ },
+ "bh94xe": {
+  "speaker": "フェディエル",
+  "text": "この納品書の控えを見よ。商人は、控えを残すものぞえ",
+  "dir": "triumphant, sharp reveal"
+ },
+ "1mpcqc7": {
+  "speaker": "フェディエル",
+  "text": "院長の印は、ここにくっきりと残っておるわいな。……一枚残らず回収した、などと。ほほ、詰めが甘いのう",
+  "dir": "haughty chuckle, mocking superiority"
+ },
+ "8rnxj3": {
+  "speaker": "院の番兵",
+  "text": "な、なにっ……！？",
+  "dir": "stunned, gasping in shock"
+ },
+ "13xqavm": {
+  "speaker": "院の番兵",
+  "text": "くっ……。控えなど、聞いておらんぞ……！",
+  "dir": "panicked, teeth-gritting frustration"
+ },
+ "1ug59fy": {
+  "speaker": "フェディエル",
+  "text": "さて、院長の印を、よう見てみるとしよう",
+  "dir": "composed, deliberate scrutiny"
+ },
+ "szsmfb": {
+  "speaker": "フェディエル",
+  "text": "……円の右下が、小さく欠けておる。院長の印そのものが、欠けておるのぞえ",
+  "dir": "dramatic, decisive emphasis"
+ },
+ "1avppo": {
+  "speaker": "院の番兵",
+  "text": "なんだそれは。邪魔をするなと言っただろう",
+  "dir": "irritated, rattled deflection"
+ },
+ "9eywv4": {
+  "speaker": "フェディエル",
+  "text": "むう……これではないか",
+  "dir": "thoughtful frown, disappointed sigh"
+ },
+ "1x6bs1x": {
+  "speaker": "フェディエル",
+  "text": "（この市場に、院長の印の書き付けは本当に一枚も残っておらぬのか？　商人は、何を残すものだったかのう）",
+  "dir": "quiet self-reflection, searching mind"
+ },
+ "d6xrbg": {
+  "speaker": "フェディエル",
+  "text": "（『納品書の控え』を、2番目の証言につきつけるのぞえ）",
+  "dir": "determined, inner revelation"
+ },
+ "1b24dwe": {
+  "speaker": "フェディエル",
+  "text": "（落ち着くのぞえ、此方。もう一度、最初から聞き直そう）",
+  "dir": "calm, steadying whisper"
+ },
+ "1rb5e5a": {
+  "speaker": "院の見張り",
+  "text": "いいか、子ども。院の命令は、絶対なんだ",
+  "dir": "condescending, harsh warning"
+ },
+ "1aq9x1w": {
+  "speaker": "院の見張り",
+  "text": "院の命令で、星祭りの灯りを消して回っている。",
+  "dir": "flat, official testimony"
+ },
+ "1abhscg": {
+  "speaker": "ワムデュス",
+  "text": "灯り、ぜんぶ消して回ってるの？",
+  "dir": "innocent, sleepy tilt"
+ },
+ "gz2pe8": {
+  "speaker": "院の見張り",
+  "text": "そうだ。星祭りの夜は、院が灯りを決める。院の命令だ",
+  "dir": "haughty, self-important declaration"
+ },
+ "ki9jbo": {
+  "speaker": "院の見張り",
+  "text": "この灯台の灯晶も、灯晶院が配った物だ。",
+  "dir": "confident, rehearsed testimony"
+ },
+ "9ud61i": {
+  "speaker": "ワムデュス",
+  "text": "この灯晶、院が配ったの？　ほんとに？",
+  "dir": "wide-eyed, skeptical purr"
+ },
+ "7tykj9": {
+  "speaker": "院の見張り",
+  "text": "当たり前だ。灯晶は、みんな灯晶院が作って配った物だ",
+  "dir": "gruff, impatient and blunt"
+ },
+ "ik1hf7": {
+  "speaker": "院の見張り",
+  "text": "院の物を院が消して、何が悪い。",
+  "dir": "formal, rigid and self-righteous"
+ },
+ "1k80f7o": {
+  "speaker": "ワムデュス",
+  "text": "院の物なら、消していいの？",
+  "dir": "innocent, tilted head, slow"
+ },
+ "1mgzac1": {
+  "speaker": "院の見張り",
+  "text": "院の物を院が消して、何が悪い",
+  "dir": "stern, defensive and annoyed"
+ },
+ "78s21d": {
+  "speaker": "ワムデュス",
+  "text": "これ、ルオーの灯台日誌。『この灯晶は、灯晶院ができるより前から、この桟橋を照らしてきた』って書いてある",
+  "dir": "matter-of-fact, reading aloud cheerfully"
+ },
+ "dzbpjy": {
+  "speaker": "ワムデュス",
+  "text": "ここの灯晶、院の物じゃない。だから、院の命令で消しちゃだめ",
+  "dir": "pouting, firm yet childish"
+ },
+ "grzwy9": {
+  "speaker": "院の見張り",
+  "text": "なっ……院より古い灯晶だと……！？",
+  "dir": "shocked, taken aback, gasping"
+ },
+ "gcsid9": {
+  "speaker": "院の見張り",
+  "text": "……院の灯晶じゃないなら、院の命令は関係ないか。……くそっ",
+  "dir": "reluctant mutter, bitter frustration"
+ },
+ "j023ll": {
+  "speaker": "ルオー",
+  "text": "よくやった、ワムデュス。……君は、立派にこの灯りを守ったのだよ",
+  "dir": "composed, approving and gently proud"
+ },
+ "1p207rx": {
+  "speaker": "ワムデュス",
+  "text": "えへへ。ワム、えらいので",
+  "dir": "giggling, sleepy and smug"
+ },
+ "5qjn64": {
+  "speaker": "院の見張り",
+  "text": "なんだそれは。子どもの遊びに付き合っている暇はないぞ",
+  "dir": "dismissive, gruff and irritated"
+ },
+ "1xxzo11": {
+  "speaker": "ワムデュス",
+  "text": "むう……ちがったので",
+  "dir": "disappointed pout, soft whimper"
+ },
+ "9yk47m": {
+  "speaker": "ワムデュス",
+  "text": "（この灯晶、ほんとに院が配った物？　ルオーが持ってきた日誌に、何か書いてあったので）",
+  "dir": "whispering thoughtfully, curious and sleepy"
+ },
+ "9igd1y": {
+  "speaker": "ワムデュス",
+  "text": "（『灯台日誌』を、2番目の証言につきつける）",
+  "dir": "murmuring determinedly to herself"
+ },
+ "1xsujxz": {
+  "speaker": "院の見張り",
+  "text": "さあ、どいていろ。灯りを消すぞ",
+  "dir": "cold, forceful and commanding"
+ },
+ "12puf8x": {
+  "speaker": "ワムデュス",
+  "text": "（だめ……。もう一回、ちゃんときく）",
+  "dir": "soft whisper, quietly focused"
+ },
+ "csbkws": {
+  "speaker": "ベルゼバブ",
+  "text": "申してみよ。院の灯りに、何の偽りがあるというのだ",
+  "dir": "deep, haughty and condescending"
+ },
+ "1atday0": {
+  "speaker": "ベルゼバブ",
+  "text": "院は二十年このかた、本物の灯晶だけを配ってきた。",
+  "dir": "measured, imposing and resolute"
+ },
+ "1rgb904": {
+  "speaker": "ウィルナス",
+  "text": "二十年、本物だけを配ってきた、と？",
+  "dir": "sharp, probing with dignity"
+ },
+ "9dvyim": {
+  "speaker": "ベルゼバブ",
+  "text": "院の職人が作り、院の検品官が確かめた灯晶だ。偽物など、混じる余地はない",
+  "dir": "coldly confident, absolute certainty"
+ },
+ "1peyov5": {
+  "speaker": "ベルゼバブ",
+  "text": "雲市場の手代の件も、院とは何の関わりもない。",
+  "dir": "aloof, dismissive and steady"
+ },
+ "1tfba91": {
+  "speaker": "ウィルナス",
+  "text": "雲市場の手代トマの件も、院は知らぬと？",
+  "dir": "pressing forward, commanding and stern"
+ },
+ "dkpjr4": {
+  "speaker": "ベルゼバブ",
+  "text": "市場の手代が勝手に灯晶をすり替えたのであろう。院の知ったことではない",
+  "dir": "sneering, contemptuous indifference"
+ },
+ "1d4d97s": {
+  "speaker": "ベルゼバブ",
+  "text": "偽の取引の手紙に、院の印など押されておらぬ。",
+  "dir": "firm, unyielding and haughty"
+ },
+ "dil0hg": {
+  "speaker": "ウィルナス",
+  "text": "偽の取引の手紙に、院の印は押されておらん、と。言い切れるか",
+  "dir": "booming, fierce cross-examination"
+ },
+ "ev3leu": {
+  "speaker": "ベルゼバブ",
+  "text": "言い切れる。院の印は、院の書状にしか使わぬ",
+  "dir": "ironclad, cold and unflinching"
+ },
+ "1m2ifxd": {
+  "speaker": "ベルゼバブ",
+  "text": "院の名を騙る者が、いるのであろう。",
+  "dir": "smooth, deceitful and theatrical"
+ },
+ "3wrivt": {
+  "speaker": "ウィルナス",
+  "text": "院の名を騙る者がいる、と？",
+  "dir": "incredulous, sharp and watchful"
+ },
+ "bopbl8": {
+  "speaker": "ベルゼバブ",
+  "text": "院の名は重い。騙りたがる者は、いくらでもいる",
+  "dir": "arrogant chuckle, supremely confident"
+ },
+ "1saiv2k": {
+  "speaker": "ウィルナス",
+  "text": "この封蝋のかけらを見よ！　雲市場でトマに偽物の取引を持ちかけた手紙の封……押されておるのは、灯晶院の紋である！",
+  "dir": "thundering shout, triumphant reveal"
+ },
+ "5ge4dy": {
+  "speaker": "ウィルナス",
+  "text": "院の印は、院の書状にしか使わぬのであろう！　偽の取引の手紙は、院から出たものなのだ！",
+  "dir": "fierce, righteous and piercing"
+ },
+ "orm22f": {
+  "speaker": "ベルゼバブ",
+  "text": "……ふん。院の紋など、院の者なら誰でも押せる",
+  "dir": "mocking sneer, masking agitation"
+ },
+ "1p9pnsi": {
+  "speaker": "ベルゼバブ",
+  "text": "下っ端の誰かが、勝手に押したのであろう。……それが私の印だという証拠でもあるのか",
+  "dir": "venomous, chillingly defensive"
+ },
+ "1ag3vuk": {
+  "speaker": "ベルゼバブ",
+  "text": "くだらん。それが何だというのだ",
+  "dir": "harsh scowl, disdainful snort"
+ },
+ "7jd244": {
+  "speaker": "ウィルナス",
+  "text": "（偽の取引の手紙に、本当に院の印は押されておらんのか？　雲市場の手紙の封を思い出すのである）",
+  "dir": "muttering inwardly, deep contemplation"
+ },
+ "huvkm2": {
+  "speaker": "ウィルナス",
+  "text": "（『封蝋のかけら』を、3番目の証言につきつけるのである！）",
+  "dir": "tense internal resolve, fierce whisper"
+ },
+ "cnv851": {
+  "speaker": "ベルゼバブ",
+  "text": "議長、もうよかろう。夜が明けてしまうぞ",
+  "dir": "bored, imperious and dismissive"
+ },
+ "17ntveu": {
+  "speaker": "ベルゼバブ",
+  "text": "部下の不始末は、院長として詫びよう。……それで十分であろう",
+  "dir": "insincere apology, patronizing smirk"
+ },
+ "12wce1n": {
+  "speaker": "ベルゼバブ",
+  "text": "カガチもベリアルも、私の知らぬところで勝手に動いた。",
+  "dir": "cold, dismissive testimony"
+ },
+ "136sodn": {
+  "speaker": "ウィルナス",
+  "text": "カガチもベリアルも、勝手に動いたと？",
+  "dir": "sharp, probing question"
+ },
+ "4reh13": {
+  "speaker": "ベルゼバブ",
+  "text": "功を焦ったのだろう。愚かな者たちだ",
+  "dir": "sneering, utter contempt"
+ },
+ "nw9mvs": {
+  "speaker": "ベルゼバブ",
+  "text": "院長たる私が、口封じなど命じるはずがなかろう。",
+  "dir": "haughty, measured testimony"
+ },
+ "jj3xns": {
+  "speaker": "ウィルナス",
+  "text": "院長たる者が、口封じなど命じぬ、と",
+  "dir": "deliberate, testing his words"
+ },
+ "c6v1m5": {
+  "speaker": "ベルゼバブ",
+  "text": "当然だ。院長が人の口を封じよなどと、書き残すはずがなかろう",
+  "dir": "condescending and dismissive"
+ },
+ "1bwjlgi": {
+  "speaker": "ベルゼバブ",
+  "text": "……そもそも、だ",
+  "dir": "dark pause, commanding"
+ },
+ "zvxqbn": {
+  "speaker": "ベルゼバブ",
+  "text": "私の印の押された命令書など、この世に一枚もない。",
+  "dir": "arrogant, unyielding declaration"
+ },
+ "wxn8ci": {
+  "speaker": "ウィルナス",
+  "text": "お主の印の押された命令書など、一枚もない、と。言い切れるか",
+  "dir": "intense, pressing hard"
+ },
+ "o5xxf1": {
+  "speaker": "ベルゼバブ",
+  "text": "言い切れる。ありもしない物を、出せるものなら出してみよ",
+  "dir": "smug, mocking challenge"
+ },
+ "y4d5rx": {
+  "speaker": "ベルゼバブ",
+  "text": "部下の罪は、院として償おう。それで十分であろう。",
+  "dir": "feigned magnanimity, cold poise"
+ },
+ "1kp2yk": {
+  "speaker": "ウィルナス",
+  "text": "院として償えば、それで済むと？",
+  "dir": "low growl, indignant"
+ },
+ "sy6le2": {
+  "speaker": "ベルゼバブ",
+  "text": "院の灯りは、空に要る。院長の首をすげ替えて、困るのは空の船だ",
+  "dir": "chillingly pragmatic, authoritative"
+ },
+ "1o2vvbd": {
+  "speaker": "ウィルナス",
+  "text": "この燃え残りの命令書を見よ！　監獄船の炉の灰から出てきた物である！",
+  "dir": "thundering, triumphant roar"
+ },
+ "1lxwpyh": {
+  "speaker": "ウィルナス",
+  "text": "『……の口を封じよ。星祭りまでに』！　そして端に残る印の跡は、円の右下が欠けておる……お主の印なのだ！",
+  "dir": "fierce conviction, undeniable accusation"
+ },
+ "19ejzuv": {
+  "speaker": "サンダルフォン",
+  "text": "議会で預かっていた物だ。ベリアルが燃やしきれなかったのだろう",
+  "dir": "calm, cool and decisive"
+ },
+ "10pgayc": {
+  "speaker": "ベルゼバブ",
+  "text": "……っ",
+  "dir": "sharp gasp, momentarily stunned"
+ },
+ "1evmbqb": {
+  "speaker": "ベルゼバブ",
+  "text": "……だから何だというのだ。灯りを守るためなら、多少の犠牲はつきものだ",
+  "dir": "recovering, cold defiance"
+ },
+ "da5kgw": {
+  "speaker": "ベルゼバブ",
+  "text": "それより思い出せ。そもそも二十年前、灯晶の作り方を盗み、師を殺めたのは誰だ？　大罪人オロロジャイアであろう！",
+  "dir": "sharp diversion, venomous accusation"
+ },
+ "kfgo1b": {
+  "speaker": "ベルゼバブ",
+  "text": "ガレヲン。お前が今夜持ち歩いている古い灯晶……それこそ、オロロジャイアが師の工房から盗み出した灯晶ではないのか？",
+  "dir": "sinister, cornering with malice"
+ },
+ "qlghyp": {
+  "speaker": "ガレヲン",
+  "text": "動揺（……これは、ロジャーが私に……）",
+  "dir": "shaken murmur, distressed whisper"
+ },
+ "1xo25vr": {
+  "speaker": "ベルゼバブ",
+  "text": "大罪人の盗品を後生大事に抱えた竜どもが、院を裁くと？　笑わせる。議長、取り調べるべきはこやつらだ",
+  "dir": "mocking sneer, commanding demand"
+ },
+ "1sf5cea": {
+  "speaker": "バイシュラ",
+  "text": "……ガレヲンさん。その灯晶、どこで手に入れたのか、議会に示せますか？",
+  "dir": "gentle yet firm, solemn"
+ },
+ "1vutmji": {
+  "speaker": "ガレヲン",
+  "text": "…………",
+  "dir": "silent, heavy with sorrow"
+ },
+ "shwjgo": {
+  "speaker": "ウィルナス",
+  "text": "（まずい……。このままでは、ガレヲンまで罪人にされてしまう）",
+  "dir": "tense, urgent whisper"
+ },
+ "1tktyxs": {
+  "speaker": "ウィルナス",
+  "text": "……ならば、二十年前のことを、ここではっきりさせようではないか！",
+  "dir": "bold, rallied and resolute"
+ },
+ "xneauj": {
+  "speaker": "ウィルナス",
+  "text": "（院長は、口封じなど命じておらんと言う……。命令書の話を、揺さぶってみるのである）",
+  "dir": "focused inner monologue, calculating"
+ },
+ "a6d014": {
+  "speaker": "ウィルナス",
+  "text": "（命令書の話を揺さぶって隠れた証言を出し、『燃え残りの命令書』をつきつけるのである！）",
+  "dir": "determined, psyching himself up"
+ },
+ "1jfrrt3": {
+  "speaker": "ベルゼバブ",
+  "text": "二十年前の罪は、オロロジャイアのものだ。記録にもそう残っている",
+  "dir": "rigid, cold and immovable"
+ },
+ "lo7fer": {
+  "speaker": "ベルゼバブ",
+  "text": "二十年前、オロロジャイアは師を殺め、灯晶の作り方を盗まんとした。",
+  "dir": "formal, deceitful testimony"
+ },
+ "1sm5fn3": {
+  "speaker": "ウィルナス",
+  "text": "師を殺め、灯晶の作り方を盗もうとした、と",
+  "dir": "deliberate, watching for cracks"
+ },
+ "1hr18wu": {
+  "speaker": "ベルゼバブ",
+  "text": "そうだ。あの者は灯りに取りつかれていた。……だから師を手にかけたのだ",
+  "dir": "dark satisfaction masked as pity"
+ },
+ "fwo5nl": {
+  "speaker": "ベルゼバブ",
+  "text": "私は、その場に駆けつけたのだからな",
+  "dir": "smug assertion, unshakeable confidence"
+ },
+ "kdx6o6": {
+  "speaker": "ベルゼバブ",
+  "text": "記録にもそう残っている。院の記録に誤りはない。",
+  "dir": "stern, authoritative testimony"
+ },
+ "1oce4ws": {
+  "speaker": "ウィルナス",
+  "text": "院の記録に、誤りはないと？",
+  "dir": "skeptical, pressing on contradiction"
+ },
+ "12d6296": {
+  "speaker": "ベルゼバブ",
+  "text": "院の記録は、院長たる私が記した。誤りなどあるはずがない",
+  "dir": "infinitely arrogant, sheer vanity"
+ },
+ "18qlpbc": {
+  "speaker": "ベルゼバブ",
+  "text": "今夜の災厄も、あの者が遺した呪いのようなものだ。",
+  "dir": "ominous, venomous testimony"
+ },
+ "izlir5": {
+  "speaker": "ウィルナス",
+  "text": "今夜の災厄も、ロジャーの呪いだと申すか",
+  "dir": "suppressed fury, demanding answers"
+ },
+ "19jiok7": {
+  "speaker": "ベルゼバブ",
+  "text": "ロジャー？　……ああ、仲間内ではそう呼んでいたのか。大罪人には過ぎた名だ",
+  "dir": "scoffing chuckle, cruel mockery"
+ },
+ "1tnogqh": {
+  "speaker": "ベルゼバブ",
+  "text": "あの夜、工房にいたのはオロロジャイアただひとりだ。",
+  "dir": "cold, decisive testimony"
+ },
+ "ggrxrj": {
+  "speaker": "ウィルナス",
+  "text": "あの夜、工房にいたのはロジャーひとり、と。間違いないな",
+  "dir": "sharp, probing tone"
+ },
+ "1dax26o": {
+  "speaker": "ベルゼバブ",
+  "text": "間違いない。私が駆けつけたとき、師の亡骸のそばにいたのは、あの者だけだった",
+  "dir": "smug, dismissive confidence"
+ },
+ "xn7kjv": {
+  "speaker": "ウィルナス",
+  "text": "この最初の灯晶を見よ！　ゲン爺が、凪ノ桟橋の古い灯りの下に隠しておった物である！",
+  "dir": "bold, triumphant shout"
+ },
+ "rt31d1": {
+  "speaker": "ウィルナス",
+  "text": "ガレヲン！　お主の古い灯晶で、透かしてくれ！",
+  "dir": "urgent, resolute command"
+ },
+ "3c4tlc": {
+  "speaker": "ガレヲン",
+  "text": "承知（……はい）",
+  "dir": "gentle, obedient whisper"
+ },
+ "w4bbow": {
+  "speaker": "ガレヲン",
+  "text": "朗読（『あの夜、師を殺めたのは白燈なり。灯りの作り方を独り占めせんとして』）",
+  "dir": "solemn, clear recitation"
+ },
+ "19n84ha": {
+  "speaker": "ガレヲン",
+  "text": "朗読（『オロロジャイア、師を守らんとして間に合わず。白燈、その罪をオロロジャイアに着せる。……弟子ゲン、これを見たり』）",
+  "dir": "sorrowful, articulate recitation"
+ },
+ "88axl0": {
+  "speaker": "ルオー",
+  "text": "白燈……。院長ベルゼバブが、院を開く前に名乗っていた名なのだよ",
+  "dir": "cool, analytical revelation"
+ },
+ "14dt48r": {
+  "speaker": "ウィルナス",
+  "text": "あの夜、工房におったのはロジャーひとりではない！　お主もおった！　師を殺めたのは、お主である！",
+  "dir": "fierce, condemning roar"
+ },
+ "l2qbao": {
+  "speaker": "ウィルナス",
+  "text": "記録が何と書こうが知らぬ！　ロジャーは、仲間の灯りを奪う奴ではない！",
+  "dir": "impassioned, righteous fury"
+ },
+ "hqx1yv": {
+  "speaker": "ベルゼバブ",
+  "text": "…………っ！",
+  "dir": "choked gasp, momentary shock"
+ },
+ "l1od31": {
+  "speaker": "ベルゼバブ",
+  "text": "……二十年も前の、職人の落書きか。ふん……だが、それが何だ",
+  "dir": "sneering, regaining cold composure"
+ },
+ "189xv6x": {
+  "speaker": "ベルゼバブ",
+  "text": "刻んだのが本当にゲンかどうか、誰に確かめられる？　大罪人の仲間が、今夜のために刻んだのかもしれんな",
+  "dir": "arrogant, dismissive mockery"
+ },
+ "nqbqlf": {
+  "speaker": "バイシュラ",
+  "text": "……そうですねえ。議会としては、その刻みが本物かどうか、すぐには確かめられません",
+  "dir": "calm, troubled neutrality"
+ },
+ "kxzz6d": {
+  "speaker": "シエテ",
+  "text": "議長、また報告だよ。……北の航路で、灯りを見失った船が、もう二隻、雲の下へ消えた",
+  "dir": "serious, grim report"
+ },
+ "d4026n": {
+  "speaker": "ベルゼバブ",
+  "text": "聞いたか。お前たちが昔話をしている間にも、船は落ちていく",
+  "dir": "cold, cruel pressure"
+ },
+ "18ypt7v": {
+  "speaker": "ベルゼバブ",
+  "text": "今夜、空じゅうの灯りは消えたのだ。院の灯晶であろうとなかろうと、灯りという灯りが、な",
+  "dir": "imposing, grim finality"
+ },
+ "1kodb6i": {
+  "speaker": "ベルゼバブ",
+  "text": "夜明けまで、あとわずか。院に全権を渡さねば、次に落ちるのはどの船であろうな",
+  "dir": "sinister, coercive demand"
+ },
+ "16sa50u": {
+  "speaker": "ウィルナス",
+  "text": "…………",
+  "dir": "tense, frustrated silence"
+ },
+ "ki8pc9": {
+  "speaker": "ウィルナス",
+  "text": "（証拠を並べても、消えた灯りは戻らぬ……。鼎たちが勝ったところで、空の船は……）",
+  "dir": "bitter, agonizing murmur"
+ },
+ "1659fyw": {
+  "speaker": "フェディエル",
+  "text": "ウィルナス……？",
+  "dir": "gentle, concerned inquiry"
+ },
+ "9535k0": {
+  "speaker": "ワムデュス",
+  "text": "ウィルナス。下、向いちゃだめ",
+  "dir": "soft, sleepy encouragement"
+ },
+ "1qh300w": {
+  "speaker": "ワムデュス",
+  "text": "下を向いたら、灯り、見えないので",
+  "dir": "innocent, quiet wisdom"
+ },
+ "yrofch": {
+  "speaker": "ルオー",
+  "text": "……顔を上げたまえ、ウィルナス。君が折れたら、誰がロジャーの名を取り戻すのだね",
+  "dir": "stern, inspiring reprimand"
+ },
+ "p0q4nf": {
+  "speaker": "ウィルナス",
+  "text": "……灯り、か",
+  "dir": "quiet, sudden realization"
+ },
+ "1safyg7": {
+  "speaker": "ウィルナス",
+  "text": "……すまぬ。院長、まだ終わっておらぬぞ！",
+  "dir": "renewed vigor, roaring defiance"
+ },
+ "1vfsqp9": {
+  "speaker": "ウィルナス",
+  "text": "（あの夜、工房にいたのは本当にロジャーひとりか？　院長が駆けつけた話を、揺さぶってみるのである）",
+  "dir": "calculating, focused inner voice"
+ },
+ "12n0nx4": {
+  "speaker": "ウィルナス",
+  "text": "（隠れた証言が出たら、『最初の灯晶』をつきつけるのである！）",
+  "dir": "determined, eager inner conviction"
+ },
+ "109ifqn": {
+  "speaker": "ベルゼバブ",
+  "text": "見よ、この闇を。空の船を救えるのは、もはや灯晶院だけだ",
+  "dir": "grandiose, absolute authority"
+ },
+ "1x7qceb": {
+  "speaker": "ベルゼバブ",
+  "text": "空じゅうの灯りが消えたのは、二十年前と同じ災厄だ。",
+  "dir": "dark, solemn declaration"
+ },
+ "k1kxvb": {
+  "speaker": "ウィルナス",
+  "text": "二十年前と同じ災厄、か",
+  "dir": "measured, skeptical press"
+ },
+ "1j2we7w": {
+  "speaker": "ベルゼバブ",
+  "text": "そうだ。灯りが消えれば、船は迷う。迷う船に道を示せるのは、院だけだ",
+  "dir": "pompous, supreme arrogance"
+ },
+ "24m7s4": {
+  "speaker": "ベルゼバブ",
+  "text": "院の灯晶でなくとも、灯りという灯りが消えたのだ。",
+  "dir": "emphatic, assertive testimony"
+ },
+ "1903ru4": {
+  "speaker": "ウィルナス",
+  "text": "灯りという灯りが、ひとつ残らず消えた、と？",
+  "dir": "sharp, trap-setting question"
+ },
+ "ai5apy": {
+  "speaker": "ベルゼバブ",
+  "text": "ひとつ残らずだ。窓の外を見るがいい",
+  "dir": "haughty, impatient sneer"
+ },
+ "1jiltbe": {
+  "speaker": "ベルゼバブ",
+  "text": "だからこそ、灯晶院に全権を預けよ。",
+  "dir": "commanding, uncompromising proclamation"
+ },
+ "ur5e10": {
+  "speaker": "ウィルナス",
+  "text": "だから、院に全権を、と",
+  "dir": "low, provoking confirmation"
+ },
+ "1026ua5": {
+  "speaker": "ベルゼバブ",
+  "text": "どの船を帰し、どの船を見捨てるか。決める者が要るのだ",
+  "dir": "chilling, ruthless superiority"
+ },
+ "r6okwm": {
+  "speaker": "ウィルナス",
+  "text": "凪ノ桟橋の灯りを見よ！　すり替えられていない、院より古い灯晶が、今夜も空を照らしておる！",
+  "dir": "explosive, triumphant contradiction"
+ },
+ "egtof0": {
+  "speaker": "ウィルナス",
+  "text": "お主が消せなかった灯りが、ここに一つだけ残っておる！　ロジャーが作った、凪ノ桟橋の灯りがな！",
+  "dir": "triumphant, powerful declaration"
+ },
+ "10qy7yz": {
+  "speaker": "ワムデュス",
+  "text": "ワムとルオーが、守った。院の見張りの人、帰っていったので",
+  "dir": "sleepy, casually proud"
+ },
+ "1lcy1yf": {
+  "speaker": "ベルゼバブ",
+  "text": "…………",
+  "dir": "speechless, trembling with rage"
+ },
+ "eau5b": {
+  "speaker": "ベルゼバブ",
+  "text": "……は、ははは。灯りが一つ、残ったところで何になる",
+  "dir": "hollow laugh, desperate defiance"
+ },
+ "z60z6a": {
+  "speaker": "ベルゼバブ",
+  "text": "灯りなど、院が認めた船だけを照らせばよい。迷う船は、はじめから飛ばねばよいのだ",
+  "dir": "cold arrogance, sneering harshly"
+ },
+ "1m5zkgi": {
+  "speaker": "ウィルナス",
+  "text": "灯りは、帰ってくる者のためにある。誰を帰すか、お主が選ぶためのものではない！",
+  "dir": "righteous fury, resounding shout"
+ },
+ "10x0dw5": {
+  "speaker": "ベルゼバブ",
+  "text": "ぐ……あああっ……！",
+  "dir": "frustrated groan, breaking down"
+ },
+ "knt8zw": {
+  "speaker": "バイシュラ",
+  "text": "……十分ですね。院長ベルゼバブ、あなたの身柄は議会で預かります",
+  "dir": "calm, authoritative condemnation"
+ },
+ "1hozwd3": {
+  "speaker": "バイシュラ",
+  "text": "全権のお願いは、もちろんお断りしますよ。……ふふ、夜明けに間に合いましたね、ウィルナス",
+  "dir": "playful chuckle, gentle warmth"
+ },
+ "una59l": {
+  "speaker": "サンダルフォン",
+  "text": "灯晶院の偽物は、議会の名で回収させる。……ウィルナス、捜査権も戻そう。お前たちは、よくやった",
+  "dir": "cool, composed praise"
+ },
+ "1ph714p": {
+  "speaker": "ウィルナス",
+  "text": "ぬはは！　痛快痛快！　……だが、まだ終わっておらん。空には、帰り道をなくした船が残っておる！",
+  "dir": "boisterous laugh, turning serious"
+ },
+ "mz1zt5": {
+  "speaker": "ウィルナス",
+  "text": "（灯りという灯りが、本当にひとつ残らず消えたのか？　ワムデュスとルオーが守った灯りを思い出すのである）",
+  "dir": "whispering thoughtfully to himself"
+ },
+ "1wg8eaj": {
+  "speaker": "ウィルナス",
+  "text": "（『凪ノ桟橋の灯り』を、2番目の証言につきつけるのである！）",
+  "dir": "inner resolve, determined whisper"
+ },
+ "4a2ljs": {
+  "speaker": "フェディエル",
+  "text": "雲市場の市場灯には、ゲン爺の守り灯の光を分けてきたぞえ。サンチラが、灯りの番をしておる",
+  "dir": "dignified, calm sisterly tone"
+ },
+ "gts96o": {
+  "speaker": "ガレヲン",
+  "text": "報告（霧の町には、カリオストロさまたちが、手作りの灯りをともしてくださいました）",
+  "dir": "gentle, serene motherly report"
+ },
+ "uyoyq5": {
+  "speaker": "ルオー",
+  "text": "議会の命で、院の倉の本物の灯晶も、各地へ運ばれ始めている",
+  "dir_was": "intellectual, crisp and articulate"
+ },
+ "1ih3f2p": {
+  "speaker": "ワムデュス",
+  "text": "みんなの灯り、ついた。……あと、ここ",
+  "dir": "soft, sleepy murmur"
+ },
+ "1oa6olf": {
+  "speaker": "ウィルナス",
+  "text": "五竜が持ち場でともした灯りが、五つ。そして……",
+  "dir": "solemn, deeply moved"
+ },
+ "1o6w4xr": {
+  "speaker": "ガレヲン",
+  "text": "追憶（……ロジャーの灯りが、六つ目です）",
+  "dir": "tender nostalgia, soft whisper"
+ },
+ "1r1ydkk": {
+  "speaker": "ウィルナス",
+  "text": "……六つ、そろったな",
+  "dir": "quiet awe, heartfelt relief"
+ },
+ "1c3r2ik": {
+  "speaker": "ワムデュス",
+  "text": "夜が、明けた……",
+  "dir": "drowsy wonder, gentle sigh"
+ },
+ "ds9dtr": {
+  "speaker": "ルオー",
+  "text": "夕暮れに始まった騒ぎが、夜明けに終わる、か。……悪くない",
+  "dir": "composed, slightly amused"
+ },
+ "afodj6": {
+  "speaker": "フェディエル",
+  "text": "ほほ。ロジャーにも、見せてやりたかったのう",
+  "dir": "fond chuckle, nostalgic warmth"
+ },
+ "jfg7qo": {
+  "speaker": "ガレヲン",
+  "text": "祈念（……きっと、どこかで見ています。あの方の灯りは、いつも誰かを帰すためのものでしたから）",
+  "dir": "loving prayer, gentle embrace"
+ },
+ "17zled2": {
+  "speaker": "サンダルフォン",
+  "text": "……コーヒーを淹れてきた。全員分だ",
+  "dir": "quietly considerate, calm"
+ },
+ "6ayf1i": {
+  "speaker": "ウィルナス",
+  "text": "ぬはは！　では夜明けに乾杯である！　……苦いのは、ちと苦手であるがな！",
+  "dir_was": "hearty laughter, playful embarrassment"
+ },
+ "1crasfy": {
+  "speaker": "ウィルナス",
+  "text": "灯りは、帰ってくる者のためにある。……六竜の灯り、これにて一件落着である！",
+  "dir": "resounding, heroic proclamation"
+ },
+ "8mg1g8": {
+  "speaker": "ワムデュス",
+  "text": "ウィルナス、約束。昼間の釣り",
+  "dir": "clumsy enthusiasm, cute reminder"
+ },
+ "6erat1": {
+  "speaker": "ウィルナス",
+  "text": "ぬはは！　もちろんである！　今日こそは、鼎が大物を釣り上げてやろう！",
+  "dir": "boastful roar, cheerful confidence"
+ },
+ "ozwxi1": {
+  "speaker": "フェディエル",
+  "text": "ほれ、雲蜜だんごを持ってきたぞえ。今日は、全員分あるわいな",
+  "dir": "playful elder sister, teasing"
+ },
+ "uv9k5v": {
+  "speaker": "ワムデュス",
+  "text": "全員分……！　ワムの分も？",
+  "dir": "sparkling wonder, delightfully surprised"
+ },
+ "1xjbfwv": {
+  "speaker": "フェディエル",
+  "text": "当たり前ぞよ。……餌にするでないぞえ",
+  "dir_was": "affectionate scolding, amused smile"
+ },
+ "v6tjik": {
+  "speaker": "ルオー",
+  "text": "……まったく。にぎやかな桟橋になったものだ",
+  "dir": "dry remark, subtle fondness"
+ },
+ "1s968ok": {
+  "speaker": "ガレヲン",
+  "text": "歓喜（ふふ。とても良い眺めです）",
+  "dir": "peaceful joy, warm smile"
+ }
+}

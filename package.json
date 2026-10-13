@@ -1,0 +1,25 @@
+{
+  "name": "paper-stage-engine",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "PaperStage — 紙の舞台×HD-2D表現の多ジャンル対応ブラウザエンジン",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "verify": "npm run typecheck && npm run test && npm run build"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.4",
+    "@types/three": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.1",
+    "vitest": "5.0.2"
+  }
+}
