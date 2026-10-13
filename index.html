@@ -27,14 +27,21 @@
     <div id="writerHost"></div>
     <div id="wrap">
       <canvas id="board"></canvas>
-      <!-- 最初の小節に入るまでの待ち表示 -->
-      <div id="waiting" hidden><div class="w-title">まもなく始まります</div><div class="w-count"><b id="waitSec">0</b><span>秒</span></div></div>
+      <!-- 書き返しの直前の 3・2・1 -->
+      <div id="count" aria-hidden="true"></div>
     </div>
   </div>
 </div>
 
 <!-- 墨しぶき（盤面より手前） -->
 <canvas id="splash"></canvas>
+
+<!-- 拍の脈動（画面全体のほのかな明滅） / 押した瞬間の判定表示 -->
+<div id="pulse"></div>
+<div id="popups"></div>
+
+<!-- 練習をやめる -->
+<button id="quit" type="button" hidden>やめる</button>
 
 <!-- 終幕: 暗転と落款 -->
 <div id="fade"></div>
@@ -44,7 +51,11 @@
 <section id="title" class="screen">
   <h1>漢字リズム</h1>
   <p class="sub">筆の拍に乗って、書き返せ</p>
-  <p class="tap">タップでスタート</p>
+  <p class="tap" id="titleTap">タップでスタート</p>
+  <div class="practice">
+    <div class="practice-label">練習（1字だけ繰り返す）</div>
+    <div id="practiceList"></div>
+  </div>
   <button id="openSettings" class="menu-btn" type="button">設定</button>
   <p class="credit">
     字の画データ: <a href="https://kanjivg.tagaini.net/" target="_blank" rel="noopener">KanjiVG</a> (CC BY-SA 3.0, Ulrich Apel) をもとに改変<br />
@@ -57,7 +68,8 @@
   <h2>遊び方</h2>
   <ol>
     <li><b>お手本を見る</b><span>筆の動きと画の順番を覚えます。</span></li>
-    <li><b>拍に合わせてなぞる</b><span>赤い輪が縮んで小さくなる瞬間に、同じ順番・同じ向きで書き出します。</span></li>
+    <li><b>3・2・1で構える</b><span>お手本は1拍に1画、「トン」の音と同時に書かれます。お手本の最後の小節の「3・2・1」のあと、次の小節の頭から書き返しです。</span></li>
+    <li><b>拍に合わせてなぞる</b><span>赤い輪が縮んで小さくなる瞬間に、点線の向き（矢印の先）へ書き出します。触れた瞬間に PERFECT / GOOD / MISS が出ます。</span></li>
     <li><b>最後は大書き</b><span>「天」を一画ずつ大きく。Miss しても曲は止まりません。</span></li>
   </ol>
   <p class="tap">タップではじめる</p>

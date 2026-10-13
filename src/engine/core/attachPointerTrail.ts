@@ -3,6 +3,8 @@ import type { PointerTrail, TracePoint } from './PointerTrail';
 export interface AttachOptions {
   /** 現在時刻（秒）。音と合わせたいときは AudioContext.currentTime を返す */
   now: () => number;
+  /** ペンを下ろした瞬間（x, y は 0..1、t は now() の時刻。PointerTrail に記録される始点の時刻と同じ値） */
+  onBegin?: (x: number, y: number, t: number) => void;
   /** 一画が終わったとき */
   onStroke?: (stroke: TracePoint[] | null) => void;
 }
@@ -23,7 +25,9 @@ export function attachPointerTrail(el: HTMLElement, trail: PointerTrail, opts: A
       // 合成した PointerEvent（自動テスト）など、実在しないポインターは捕まえられない。記録は続ける
     }
     const [x, y] = norm(e);
-    trail.begin(x, y, opts.now());
+    const t = opts.now();
+    trail.begin(x, y, t);
+    opts.onBegin?.(x, y, t);
   };
   const move = (e: PointerEvent): void => {
     if (!trail.active) return;

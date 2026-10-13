@@ -122,6 +122,52 @@ export function buildChart(
   return out;
 }
 
+/**
+ * 曲の頭出し: 最初のお手本の 1 小節前（17 小節目の頭）から鳴らす。40 秒ほどの前奏は飛ばす。
+ * 頭出しの小節の頭から最初の画までは 1 小節（約 2.45 秒）。
+ */
+export const START_LEAD_BARS = 1;
+export const GAME_START_BAR = FIRST_CHAR_BAR - START_LEAD_BARS;
+/** 開始のタップから曲が鳴り出すまでの余裕（秒）。最初の画は、これに頭出しの 1 小節（約 2.45 秒）を足した後（約 2.75 秒） */
+export const START_LEAD_SEC = 0.3;
+
+/** 練習できる字（天を含む 9 字） */
+export const PRACTICE_CHARS: readonly string[] = [...CHARS, FINALE_CHAR];
+/** 練習 1 周 = お手本 2 小節 + 書き返し 2 小節 */
+export const PRACTICE_BARS = BARS_PER_PHASE * 2;
+/** 練習の譜面を何周ぶん作るか（約 65 分。曲は繰り返すので、実質いつまでも続けられる） */
+export const PRACTICE_LOOPS = 400;
+
+/** 曲の中で、その字のお手本が始まる小節（1 始まり）。練習ではこの小節から 4 小節を繰り返す */
+export function practiceHeadBar(char: string): number | null {
+  if (char === FINALE_CHAR) return FINALE_START_BAR;
+  const k = (CHARS as readonly string[]).indexOf(char);
+  return k < 0 ? null : FIRST_CHAR_BAR + BARS_PER_PHASE * 2 * k;
+}
+
+/**
+ * 練習用の譜面: その字だけを「お手本 2 小節 → 書き返し 2 小節」で loops 周ぶん並べる。
+ * 周回ごとに時刻を PRACTICE_BARS 小節ずつ進める（曲は同じ 4 小節を繰り返し再生するので、この時刻は曲の再生位置ではなく
+ * 経過時間）。2 周目以降の startBar / endBar も、この経過時間に合わせた通し番号（曲の小節番号ではない）。
+ * 天は本編と違い 1 画 = 1 拍で並べる（本編の終幕は 1 画 = 2 小節）。
+ */
+export function buildPracticeChart(
+  char: string,
+  strokeCount: number,
+  loops = PRACTICE_LOOPS,
+  cfg: Pick<BeatConfig, 'bpm' | 'offset' | 'beatsPerBar'> = RHYTHM_BEAT_CONFIG,
+): ChartSection[] {
+  const head = practiceHeadBar(char);
+  if (head === null) return [];
+  const out: ChartSection[] = [];
+  for (let j = 0; j < loops; j++) {
+    const bar = head + PRACTICE_BARS * j;
+    out.push(makeSection(char, 'example', bar, BARS_PER_PHASE, strokeCount, cfg));
+    out.push(makeSection(char, 'write', bar + BARS_PER_PHASE, BARS_PER_PHASE, strokeCount, cfg));
+  }
+  return out;
+}
+
 /** 区間と字の画の点列から、判定に渡す「期待する画」を作る */
 export function expectedStrokes(section: ChartSection, strokePoints: readonly (readonly Pt[])[]): ExpectedStroke[] {
   return section.strokes.map((s) => ({ points: strokePoints[s.index] ?? [], startTime: s.sec }));

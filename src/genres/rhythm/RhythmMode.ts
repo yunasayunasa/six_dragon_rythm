@@ -1,7 +1,9 @@
 import {
   DEFAULT_JUDGE_CONFIG,
   StrokeJudge,
+  timingGrade,
   type ExpectedStroke,
+  type Grade,
   type JudgeConfig,
   type Pt,
   type StrokeResult,
@@ -42,6 +44,16 @@ export interface JudgeEvent {
   result: StrokeResult;
   /** 書かれた画。書かれずに Miss になったときは null */
   drawn: readonly TimedPt[] | null;
+}
+
+/** ペンを下ろした瞬間の判定（時刻だけ） */
+export interface StartJudgement {
+  sectionIndex: number;
+  /** 何画目か */
+  index: number;
+  /** 下ろした時刻 - 書き出しの時刻（秒）。正なら遅い */
+  delta: number;
+  timing: Grade;
 }
 
 export interface RhythmHandlers {
@@ -101,7 +113,8 @@ export class RhythmMode {
   /** いまの区間の番号（区間の外なら -1） */
   get sectionIndex(): number {
     const s = this.sections[this.cursor];
-    return s && this.now >= s.startSec ? this.cursor : -1;
+    // 区間の頭の直前に下ろされて先に入った区間（touchDown）も、入った扱い
+    return s && (this.now >= s.startSec || this.judgeSection === this.cursor) ? this.cursor : -1;
   }
 
   get section(): RhythmSectionDef | null {
@@ -162,6 +175,36 @@ export class RhythmMode {
       }
     }
     this.setPhase(this.computePhase());
+  }
+
+  /**
+   * ペンを下ろした瞬間の、書き出しの時刻だけの判定（形は離したときに submitStroke が見る）。
+   * 点数には数えない（数えるのは離したときの1回だけ）。画面の即時フィードバック用。
+   * 書き返しの区間の頭より許容（goodSec）内で早く下ろした場合も、その区間の最初の画として扱う。
+   * 判定する画が無い（お手本中・全部書き終えた・許容より早すぎる）ときは null。
+   */
+  touchDown(downAt: number): StartJudgement | null {
+    this.penAt = null;
+    this.update(downAt);
+    const s = this.sections[this.cursor];
+    const next = this.sections[this.cursor + 1];
+    const early = this.cfg.goodSec;
+    if (s && this.judgeSection !== this.cursor) {
+      // 区間の頭の直前に下ろした（update はまだ区間に入れていない）
+      if (s.phase === 'write' && downAt >= s.startSec - early) this.enter(this.cursor);
+    } else if (s && s.phase === 'example' && next?.phase === 'write' && downAt >= next.startSec - early) {
+      // お手本の最後の瞬間に、次の書き返しの最初の画を下ろした
+      this.finish(this.cursor);
+      this.cursor++;
+      this.enter(this.cursor);
+    }
+    this.setPhase(this.computePhase());
+    const judge = this.judge;
+    if (!judge || this.judgeSection !== this.cursor || judge.finished) return null;
+    const exp = judge.nextExpected!;
+    this.penAt = downAt;
+    const delta = downAt - exp.startTime;
+    return { sectionIndex: this.cursor, index: judge.index, delta, timing: timingGrade(delta, this.cfg) };
   }
 
   /** 書き終えた1画を判定する。書き返し中でなければ null（無視する） */

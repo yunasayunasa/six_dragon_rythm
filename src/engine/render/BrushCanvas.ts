@@ -50,6 +50,24 @@ export function partialPolyline(points: readonly BrushPoint[], progress: number)
   return out;
 }
 
+/**
+ * 線の終わりの向き（単位ベクトル）。終点から minLen さかのぼった点→終点で見る（細かい揺れを拾わない）。
+ * 点が足りない・長さが 0 のときは null。
+ */
+export function endDirection(points: readonly BrushPoint[], minLen = 0.04): { x: number; y: number; dx: number; dy: number } | null {
+  if (points.length < 2) return null;
+  const end = points[points.length - 1];
+  let from = points[0];
+  for (let i = points.length - 2; i >= 0; i--) {
+    from = points[i];
+    if (Math.hypot(end.x - from.x, end.y - from.y) >= minLen) break;
+  }
+  const dx = end.x - from.x;
+  const dy = end.y - from.y;
+  const len = Math.hypot(dx, dy);
+  return len === 0 ? null : { x: end.x, y: end.y, dx: dx / len, dy: dy / len };
+}
+
 export class BrushCanvas {
   private readonly ctx: CanvasRenderingContext2D;
   /** キャンバスの一辺（デバイスピクセル） */
@@ -130,6 +148,56 @@ export class BrushCanvas {
     ctx.beginPath();
     ctx.arc(x * side, y * side, Math.max(0, radius * side), 0, Math.PI * 2);
     ctx.stroke();
+    ctx.globalAlpha = 1;
+  }
+
+  /** 細い折れ線（案内線）。dash を渡すと破線（キャンバスの辺に対する割合） */
+  drawGuide(points: readonly BrushPoint[], color: string, width = 0.006, alpha = 0.5, dash = 0.02): void {
+    if (points.length < 2) return;
+    const { ctx, side } = this;
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = Math.max(1, width * side);
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.setLineDash(dash > 0 ? [dash * side, dash * 0.8 * side] : []);
+    ctx.beginPath();
+    ctx.moveTo(points[0].x * side, points[0].y * side);
+    for (let i = 1; i < points.length; i++) ctx.lineTo(points[i].x * side, points[i].y * side);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.globalAlpha = 1;
+  }
+
+  /** 矢じり。(x, y) が先端で、(dx, dy) の向き（単位ベクトル）を指す。size は辺に対する割合 */
+  drawArrowHead(x: number, y: number, dx: number, dy: number, color: string, size = 0.045, alpha = 0.85): void {
+    const { ctx, side } = this;
+    const s = size * side;
+    const tx = x * side;
+    const ty = y * side;
+    const bx = tx - dx * s;
+    const by = ty - dy * s;
+    const px = -dy * s * 0.55;
+    const py = dx * s * 0.55;
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = color;
+    ctx.beginPath();
+    ctx.moveTo(tx, ty);
+    ctx.lineTo(bx + px, by + py);
+    ctx.lineTo(bx - px, by - py);
+    ctx.closePath();
+    ctx.fill();
+    ctx.globalAlpha = 1;
+  }
+
+  /** 塗りの丸（書き出しの点など）。座標・半径は 0..1 */
+  drawDot(x: number, y: number, radius: number, color: string, alpha = 1): void {
+    const { ctx, side } = this;
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = color;
+    ctx.beginPath();
+    ctx.arc(x * side, y * side, Math.max(0, radius * side), 0, Math.PI * 2);
+    ctx.fill();
     ctx.globalAlpha = 1;
   }
 

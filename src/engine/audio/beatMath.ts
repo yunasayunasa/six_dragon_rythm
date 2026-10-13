@@ -37,6 +37,25 @@ export function songTimeAt(now: number, startAt: number, cfg: Pick<BeatConfig, '
   return now - startAt - cfg.calibrationMs / 1000;
 }
 
+/**
+ * 曲の再生と AudioContext の時計の対応。曲を offsetSec の位置から startCtx（ctx 時刻）に鳴らし始めた、という意味。
+ *   songTime = ctx - startCtx + offsetSec   /   ctx = startCtx + songTime - offsetSec
+ * 音ズレ補正（calibrationMs）は入れない。補正は「聞こえた拍に表示・判定を合わせる」ための表示側の遅れで、
+ * 曲も効果音も同じ出力経路を通るので、予約の時刻（when）は補正なしの時刻でそろう。
+ */
+export interface SongClock {
+  startCtx: number;
+  offsetSec: number;
+}
+
+export function songToCtx(songSec: number, clock: SongClock): number {
+  return clock.startCtx + songSec - clock.offsetSec;
+}
+
+export function ctxToSong(ctxSec: number, clock: SongClock): number {
+  return ctxSec - clock.startCtx + clock.offsetSec;
+}
+
 const mod = (a: number, n: number): number => ((a % n) + n) % n;
 
 export function beatState(songTime: number, cfg: BeatConfig): BeatState {
