@@ -1,0 +1,503 @@
+/* 漢字リズム。縦持ちのスマホ（390x844 想定）を基準にして、横長の画面では盤面を左右に並べる */
+:root {
+  --ink: #16120e;
+  --paper: #f4ecd8;
+  --red: #c4452f;
+  --hud: 96px;
+  --pad: 12px;
+  --writer-min: 110px;
+  --vh100: 100vh;
+  --serif: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', serif;
+  --sans: 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif;
+  /* 書く盤面の一辺。幅いっぱいにしつつ、手本役の分の高さを残す */
+  --board: min(calc(100vw - var(--pad) * 2), calc(var(--vh100) - var(--hud) - var(--writer-min) - var(--pad) * 2 - env(safe-area-inset-top) - env(safe-area-inset-bottom)));
+}
+@supports (height: 100dvh) {
+  :root {
+    --vh100: 100dvh;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #e9e4d6;
+  color: var(--ink);
+  font-family: var(--sans);
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+[hidden] {
+  display: none !important;
+}
+
+#stage3d {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+#stage3d canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- プレイ画面 ---- */
+#ui {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  padding: env(safe-area-inset-top) var(--pad) 0;
+  overflow: hidden;
+}
+body[data-screen='title'] #ui,
+body[data-screen='howto'] #ui {
+  visibility: hidden;
+}
+
+#hud {
+  flex: none;
+  height: var(--hud);
+  padding: 8px 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr auto;
+  column-gap: 12px;
+  align-items: center;
+}
+#char {
+  font-family: var(--serif);
+  font-size: 54px;
+  line-height: 1;
+  min-width: 1.1em;
+  text-align: center;
+}
+#mid {
+  min-width: 0;
+}
+#phase {
+  font-size: 14px;
+  opacity: 0.75;
+}
+#judge {
+  font-size: 24px;
+  font-weight: bold;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#judge.perfect {
+  color: #b8322a;
+}
+#judge.good {
+  color: #2f6f4a;
+}
+#judge.miss {
+  color: #7a746a;
+}
+#judge.pop {
+  animation: pop 0.28s ease-out;
+}
+@keyframes pop {
+  0% {
+    transform: scale(1.5);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+#stats {
+  text-align: right;
+  font-size: 15px;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+#gauge {
+  grid-column: 1 / 4;
+  height: 10px;
+  border-radius: 5px;
+  background: rgba(22, 18, 14, 0.15);
+  overflow: hidden;
+}
+#gaugeFill {
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(90deg, #3a342c, var(--red));
+  transition: width 0.2s;
+}
+
+#field {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: calc(var(--pad) + env(safe-area-inset-bottom));
+}
+#writerHost {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+#wrap {
+  flex: none;
+  position: relative;
+  width: var(--board);
+  height: var(--board);
+  margin-top: 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 6px 22px rgba(22, 18, 14, 0.28);
+  will-change: transform;
+}
+#board {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+/* 横長の画面: 手本役を左、盤面を右に */
+@media (orientation: landscape) {
+  :root {
+    --board: min(calc(var(--vh100) - var(--hud) - var(--pad) * 2 - env(safe-area-inset-top) - env(safe-area-inset-bottom)), 62vw);
+  }
+  #field {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  #writerHost {
+    flex: 0 1 38%;
+    height: 100%;
+  }
+  #wrap {
+    margin-top: 0;
+  }
+}
+
+/* ---- 手本役 ---- */
+.writer {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-end;
+  transition:
+    filter 0.5s,
+    opacity 0.5s;
+  filter: drop-shadow(0 4px 8px rgba(22, 18, 14, 0.25));
+}
+.writer[data-mood='dim'] {
+  filter: brightness(0.5) saturate(0.4) drop-shadow(0 4px 8px rgba(22, 18, 14, 0.25));
+  opacity: 0.85;
+}
+.writer[data-mood='hidden'] {
+  opacity: 0;
+}
+.writer-inner {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+}
+.writer-base {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.writer-part {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* ---- 画面（タイトル・遊び方・リザルト） ---- */
+.screen {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: calc(24px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom));
+  text-align: center;
+  font-family: var(--serif);
+}
+body[data-screen='title'] #title,
+body[data-screen='howto'] #howto,
+body[data-screen='result'] #result {
+  display: flex;
+}
+.screen h1 {
+  margin: 0;
+  font-size: clamp(44px, 17vw, 88px);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  padding-left: 0.12em;
+  text-shadow: 0 2px 0 rgba(22, 18, 14, 0.12);
+}
+.screen h2 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+}
+.screen .sub {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  opacity: 0.8;
+}
+.screen .tap {
+  margin: 12px 0 0;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  color: var(--red);
+  animation: blink 1.6s ease-in-out infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+.screen .credit {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(10px + env(safe-area-inset-bottom));
+  margin: 0;
+  font-size: 11px;
+  opacity: 0.6;
+  font-family: var(--sans);
+}
+
+#howto ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  counter-reset: step;
+}
+#howto li {
+  counter-increment: step;
+  text-align: left;
+  padding: 12px 14px 12px 52px;
+  position: relative;
+  background: rgba(244, 236, 216, 0.88);
+  border-left: 4px solid var(--red);
+  box-shadow: 0 2px 8px rgba(22, 18, 14, 0.15);
+}
+#howto li::before {
+  content: counter(step);
+  position: absolute;
+  left: 14px;
+  top: 8px;
+  font-size: 30px;
+  color: var(--red);
+  font-weight: 900;
+}
+#howto li b {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+#howto li span {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: var(--sans);
+}
+
+/* リザルト */
+#result {
+  z-index: 40;
+  justify-content: flex-start;
+  overflow-y: auto;
+  touch-action: pan-y;
+  background: rgba(244, 236, 216, 0.94);
+  gap: 14px;
+}
+#result > :first-child {
+  margin-top: auto;
+}
+#result > :last-child {
+  margin-bottom: auto;
+}
+.rank-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#rank {
+  font-size: 112px;
+  font-weight: 900;
+  line-height: 1;
+  width: 1.1em;
+}
+#rank[data-rank='S'] {
+  color: var(--red);
+}
+#rank[data-rank='C'] {
+  color: #7a746a;
+}
+.rank-side {
+  text-align: left;
+}
+#resScore {
+  font-size: 36px;
+  font-variant-numeric: tabular-nums;
+}
+#resAcc {
+  font-size: 15px;
+  opacity: 0.75;
+  font-family: var(--sans);
+}
+.counts {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 6px 16px;
+  font-family: var(--sans);
+}
+.counts div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.counts dt {
+  font-size: 11px;
+  opacity: 0.7;
+}
+.counts dd {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+.counts .perfect dd {
+  color: #b8322a;
+}
+.counts .good dd {
+  color: #2f6f4a;
+}
+.counts .miss dd {
+  color: #7a746a;
+}
+#thumbs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  width: 100%;
+  max-width: 360px;
+}
+#thumbs canvas {
+  width: 100%;
+  aspect-ratio: 1;
+  display: block;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(22, 18, 14, 0.3);
+}
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 6px;
+}
+.buttons button {
+  font: inherit;
+  font-size: 18px;
+  padding: 12px 28px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--ink);
+  color: var(--paper);
+  touch-action: manipulation;
+}
+.buttons button.quiet {
+  background: transparent;
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px rgba(22, 18, 14, 0.5);
+}
+
+/* ---- 終幕: 暗転と落款 ---- */
+#fade {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.9s ease-in;
+}
+#fade.on {
+  opacity: 1;
+}
+#seal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 31;
+  width: 132px;
+  height: 132px;
+  margin: -66px 0 0 -66px;
+  display: grid;
+  place-items: center;
+  writing-mode: vertical-rl;
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.05;
+  letter-spacing: 0.06em;
+  color: #f6e9d2;
+  background: #c4301f;
+  border-radius: 8px;
+  /* 朱の縁の内側に細い白線を一周させた落款の形 */
+  box-shadow:
+    inset 0 0 0 6px #c4301f,
+    inset 0 0 0 9px rgba(246, 233, 210, 0.9);
+  opacity: 0;
+  transform: rotate(-5deg) scale(1.8);
+  pointer-events: none;
+}
+#seal.on {
+  animation: stamp 0.5s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+}
+@keyframes stamp {
+  0% {
+    opacity: 0;
+    transform: rotate(-5deg) scale(1.8);
+  }
+  55% {
+    opacity: 1;
+    transform: rotate(-5deg) scale(0.93);
+  }
+  75% {
+    transform: rotate(-5deg) scale(1.04);
+  }
+  100% {
+    opacity: 0.96;
+    transform: rotate(-5deg) scale(1);
+  }
+}

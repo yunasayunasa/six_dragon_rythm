@@ -17,7 +17,11 @@ export function attachPointerTrail(el: HTMLElement, trail: PointerTrail, opts: A
     return [(e.clientX - r.left) / (r.width || 1), (e.clientY - r.top) / (r.height || 1)];
   };
   const down = (e: PointerEvent): void => {
-    el.setPointerCapture?.(e.pointerId);
+    try {
+      el.setPointerCapture?.(e.pointerId);
+    } catch {
+      // 合成した PointerEvent（自動テスト）など、実在しないポインターは捕まえられない。記録は続ける
+    }
     const [x, y] = norm(e);
     trail.begin(x, y, opts.now());
   };
