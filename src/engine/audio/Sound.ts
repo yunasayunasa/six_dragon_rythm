@@ -49,6 +49,11 @@ export class Sound {
     else if (this.bgmEl) this.bgmEl.volume = this.bgmVolume * (this.bgmFileVolume.get(this.bgmEl.src) ?? 1);
   }
 
+  /** 共有の AudioContext（unlock() 前は null）。Conductor など同じ時計を使う部品用 */
+  get context(): AudioContext | null {
+    return this.ctx;
+  }
+
   unlock(): void {
     if (!this.ctx) {
       const AC = window.AudioContext ?? (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
